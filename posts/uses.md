@@ -1,3 +1,9 @@
+---
+tags: post
+layout: layout.njk
+title: uses
+---
+
 Computer stuff
 
 - 2014 15 inch base model MBP. Awesome machine, no stupid gimmicks like a touchbar. Still does a great job but does runs a bit hot when watching fullscreen Youtube videos or meetings. I'd love to upgrade to a M1 MacBook but it's not necessary and e-waste is something I do take seriously. 

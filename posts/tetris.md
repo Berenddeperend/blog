@@ -1,5 +1,6 @@
 ---
 layout: layout.njk
+tags: post
 title: My Rad Markdown Blog Post
 ---
 

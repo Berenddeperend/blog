@@ -1,0 +1,17 @@
+---
+title: Berend's website
+---
+
+<html>
+  <head>
+    <title>{{title}}</title>
+  </head>
+  <body>
+    yeah zie de titel: {{title}} Dit zijn de posts:
+    <ul>
+      {%- for post in collections.post -%}
+      <li>{{ post.data.title }}</li>
+      {%- endfor -%}
+    </ul>
+  </body>
+</html>
