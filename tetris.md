@@ -1,3 +1,17 @@
+---
+layout: layout.njk
+title: My Rad Markdown Blog Post
+---
+
+border-color: #736b5e;
+color: #e8e6e3;
+margin: 0 auto;
+max-width: 570px;
+font-size: 17px;
+font-family: avenir;
+line-height: 1.6;
+
+
 Tetris
 
 
