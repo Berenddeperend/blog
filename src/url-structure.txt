@@ -1,0 +1,7 @@
+
+berendswennenhuis.nl -> onepager
+berendswennenhuis.nl/tetris -> game
+berendswennenhuis.nl/api/tetris/scores
+berendswennenhuis.nl/projects
+berendswennenhuis.nl/projects/tetris
+berendswennenhuis.nl/projects/uses

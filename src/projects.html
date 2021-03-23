@@ -1,13 +1,15 @@
 ---
-title: Berend's website
+title: Projects
 ---
 
 <html>
   <head>
-    <title>{{title}}</title>
+    <title>Berend Swennenhuis - {{title}}</title>
+    <link rel="stylesheet" href="/css/styles.css">
   </head>
   <body>
-    yeah zie de titel: {{title}} Dit zijn de posts:
+
+    <h1>{{title}}</h1>
     <ul>
       {%- for post in collections.post -%}
       <li>{{ post.data.title }}</li>

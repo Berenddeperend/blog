@@ -1,7 +1,7 @@
 ---
 tags: post
 layout: layout.njk
-title: uses
+title: Uses
 ---
 
 Computer stuff
