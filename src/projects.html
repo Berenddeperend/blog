@@ -11,7 +11,11 @@ title: Projects
     <h1>{{title}}</h1>
     <ul>
       {%- for post in collections.post -%}
-      <li>{{ post.data.title }}</li>
+      <li>
+        <a href="{{ post.data.title | slug }}">
+          {{ post.data.title }}
+        </a>  
+      </li>
       {%- endfor -%}
     </ul>
   </body>
