@@ -1,6 +1,6 @@
 html {
   border-color: #736b5e;
-  color: #e8e6e3;
+  color: #b3b3de;
   background: #2c2c44;
   margin: 0 auto;
   max-width: 570px;
@@ -9,6 +9,11 @@ html {
   line-height: 1.6;
 }
 
-a {
-  color: inherit;
+h1, h2, h3, h4, h5, h6 {
+  color: #e8e6e3;
+
+}
+
+a, strong {
+  color: #e2bc4e;
 }
