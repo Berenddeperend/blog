@@ -5,18 +5,31 @@ title: Projects
 <html>
   <head>
     <title>Berend Swennenhuis - {{title}}</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
     <h1>{{title}}</h1>
-    <ul>
-      {%- for post in collections.post -%}
-      <li>
-        <a href="{{ post.data.title | slug }}">
-          {{ post.data.title }}
-        </a>  
-      </li>
-      {%- endfor -%}
-    </ul>
+
+    <p>
+      These are some of the projects I've been working on over the years. Feel
+      free to ask me anything
+    </p>
+
+    {%- for post in collections.post -%}
+    <div class="post-overview-item">
+      <img
+        class="post-overview-featured-img"
+        src="{{ post.data.featured-img }}"
+      />
+
+      <div class="post-overview-item-content">
+        <h3 class="post-overview-item-title">
+          <a href="{{ post.data.title | slug }}"> {{ post.data.title }} </a>
+        </h3>
+        <p class="post-overview-summary">{{ post.data.summary }}</p>
+        <p class="post-metadata">{{ post.data.posted }}</p>
+      </div>
+    </div>
+    {%- endfor -%}
   </body>
 </html>

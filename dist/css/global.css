@@ -1,0 +1,30 @@
+*  {
+  box-sizing: border-box;
+  margin-top: 0;
+}
+
+html {
+  border-color: #736b5e;
+  color: #b3b3de;
+  background: #2c2c44;
+  margin: 0 auto;
+  max-width: 570px;
+  font-size: 17px;
+  font-family: avenir;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #e8e6e3;
+}
+
+img {
+  max-width: 100%;
+  border: 10px solid #3f3f5f;
+  border-radius: 2px;
+  /* border: 10px solid #b3b3de; */
+}
+
+a, strong {
+  color: #e2bc4e;
+}

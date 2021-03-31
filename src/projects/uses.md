@@ -2,6 +2,9 @@
 tags: post
 layout: layout.njk
 title: Uses
+summary: Flexing with the things I bought to make up for a mediocre personality.
+posted: 31-07-2021
+featured-img: /img/uses-temp.jpg
 ---
 
 Inspired by [Wes](https://wesbos.com/uses), here's a list of some of the cool things I own
@@ -11,10 +14,10 @@ Inspired by [Wes](https://wesbos.com/uses), here's a list of some of the cool th
 - **2020 M1 MacBook Air (16 GB RAM, 250 GB SSD)**. Definitely the best laptop I've ever owned. It's passively cooled, fast, stays cool and has an amazing battery life. Pretty much all I could ask for. I do prefer the 15 inch screen of my old MacBook but I needed a new laptop and I was fed up with the fan noise needed to keep the Intel processor cool. At the time of writing, the 13 inch models were the only Apple Silicon laptops available.
 - **Keychron K2** with red switches. Awesome keyboard, typing on it is a delight. In hindsight I'd rather have gone with the K8. The K8 is only slightly bigger but has a more traditional tenkeyless layout, making switching to other keyboards easier.
 - **Logitech MX Master S2**. Good mouse. A bit too heavy for my taste and I'm not a fan of OSX scroll acceleration, but you get used to it. Its scrolling is awesome.
-- **LG 27UL850-W** monitor. With just one usb-c cable I can take care of audio, video and charging. 
-- My editor of choice is **VS Code**. 
+- **LG 27UL850-W** 4k 27 inch monitor. With just one usb-c cable I can take care of audio, video and charging. 
+- **VS Code** is my editor of choice. 
 - **Wacom Intuos 4 M**. I don't draw much any more, but it has served me well over the years.
-- **Raspberry Pi 3b**. Hidden in a cabin. It's where I host this website with a Node + Express.js server.
+- **Raspberry Pi 3b**. Hidden in a cabinet. It's where I host this website with a Node + Express.js server.
 - **Synology DS218play** with 2x 3TB in a mirror setup. Not sure what RAID that is. This machine is mostly fire-and-forget for me.
 
 ### Tools

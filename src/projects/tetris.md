@@ -1,7 +1,15 @@
 ---
 layout: layout.njk
-tags: post
+tags: 
+    - post
+    - software
+    - typescript
+    - game
 title: Tetris
+duration: 2 months
+posted: 31-07-2021
+summary: Recreating an all-time classic in TypeScript from scratch.
+project-start: january 2021
 ---
 
 ## TL;DR
