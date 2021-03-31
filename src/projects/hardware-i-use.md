@@ -1,7 +1,7 @@
 ---
 tags: post
 layout: layout.njk
-title: Uses
+title: Hardware I use
 summary: Flexing with the things I bought to make up for a mediocre personality.
 posted: 31-07-2021
 featured-img: /img/uses-temp.jpg

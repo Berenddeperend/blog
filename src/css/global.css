@@ -6,12 +6,17 @@
 html {
   border-color: #736b5e;
   color: #b3b3de;
-  background: #2c2c44;
-  margin: 0 auto;
-  max-width: 570px;
+  /* background: #2c2c44; */
+  background: #242440;
   font-size: 17px;
   font-family: avenir;
   line-height: 1.6;
+}
+
+body {
+  margin: 0 auto;
+  
+  max-width: 570px;
 }
 
 h1, h2, h3, h4, h5, h6 {

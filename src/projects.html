@@ -7,20 +7,27 @@ title: Projects
     <title>Berend Swennenhuis - {{title}}</title>
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
-  <body>
+  <body class="overview-container">
     <h1>{{title}}</h1>
 
-    <p>
+    <p class="overview-intro">
       These are some of the projects I've been working on over the years. Feel
-      free to ask me anything
+      free to send me a
+      <a href="mailto:berendswennenhuis@gmail.com">message</a> if you have any
+      questions or ideas.
     </p>
 
     {%- for post in collections.post -%}
     <div class="post-overview-item">
-      <img
-        class="post-overview-featured-img"
-        src="{{ post.data.featured-img }}"
-      />
+      <a
+        class="post-overview-featured-img-anchor"
+        href="{{ post.data.title | slug }}"
+      >
+        <img
+          class="post-overview-featured-img"
+          src="{{ post.data.featured-img }}"
+        />
+      </a>
 
       <div class="post-overview-item-content">
         <h3 class="post-overview-item-title">

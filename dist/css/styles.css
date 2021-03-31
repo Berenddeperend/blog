@@ -2,6 +2,13 @@
 @import "global.css";
 
 
+.overview-container {
+  /* max-width: 800px; */
+}
+
+.overview-intro {
+  margin-bottom: 40px;
+}
 
 .post-overview-item {
   display: flex;
@@ -19,9 +26,15 @@
 }
 
 .post-overview-featured-img {
-  width: 150px;
   border-width: 4px;
+}
+
+.post-overview-featured-img-anchor {
+  flex: 0 0 150px;
+  /* display: block; */
+  /* width: 150px; */
   margin-right: 20px;
+
 }
 
 .post-metadata {
