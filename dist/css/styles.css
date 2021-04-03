@@ -6,6 +6,10 @@ header {
   padding: 10px 0;
 }
 
+header a {
+    margin-right: 20px;
+}
+
 .emoji {
   font-size: 24px;
   margin-right: 10px;
@@ -59,11 +63,18 @@ header {
 }
 
 .post-header {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.back {
+  margin-bottom: -10px;
+  display: block;
 }
 
 .post-header .post-title {
   margin-bottom: 0;
+  margin-top: 10px;
 }
 
 .no-underline {
@@ -73,3 +84,4 @@ header {
 .underline {
   text-decoration: underline;
 }
+
