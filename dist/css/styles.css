@@ -21,10 +21,6 @@ header a {
   margin: 0 auto;
 }
 
-.overview-container {
-  /* max-width: 800px; */
-}
-
 .overview-intro {
   margin-bottom: 40px;
 }
@@ -50,8 +46,6 @@ header a {
 
 .post-overview-featured-img-anchor {
   flex: 0 0 200px;
-  /* display: block; */
-  /* width: 150px; */
   margin-right: 20px;
 
 }
@@ -74,7 +68,6 @@ header a {
 
 .post-header .post-title {
   margin-bottom: 0;
-  margin-top: 10px;
 }
 
 .no-underline {

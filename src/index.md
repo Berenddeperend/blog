@@ -8,4 +8,5 @@ This is the website of Berend Swennenhuis. Frontend developer by day, frontend d
 
 I like to dabble in woodworking, 3D-printing, guitar playing, IoT and fitness.
 
-Other interests in which I don't actively partake include retro hardware (big fan of channels like LGR and the 8-Bit Guy), birds and skateboarding.
+Other interests in which I don't actively partake include retro hardware (big fan of channels like LGR and the 8-Bit Guy), birds, skateboarding and Sea Shanty 2 from Runescape.
+
