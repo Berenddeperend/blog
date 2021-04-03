@@ -10,7 +10,7 @@ duration: 2 months
 posted: 31-07-2021
 summary: Recreating an all-time classic in TypeScript from scratch.
 project-start: january 2021
-featured-img: /img/tetris-intro.png
+featured-img: /img/tetris-intro.gif
 ---
 
 ## TL;DR

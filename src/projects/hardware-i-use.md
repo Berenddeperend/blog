@@ -2,7 +2,7 @@
 tags: post
 layout: layout.njk
 title: Hardware I use
-summary: Flexing with the things I bought to make up for a mediocre personality.
+summary: Flexing with things I bought to make up for a mediocre personality.
 posted: 31-07-2021
 featured-img: /img/uses-temp.jpg
 ---
@@ -12,7 +12,7 @@ Inspired by [Wes](https://wesbos.com/uses), here's a list of some of the cool th
 ### Computer stuff 
 
 - **2020 M1 MacBook Air (16 GB RAM, 250 GB SSD)**. Definitely the best laptop I've ever owned. It's passively cooled, fast, stays cool and has an amazing battery life. Pretty much all I could ask for. I do prefer the 15 inch screen of my old MacBook but I needed a new laptop and I was fed up with the fan noise needed to keep the Intel processor cool. At the time of writing, the 13 inch models were the only Apple Silicon laptops available.
-- **Keychron K2** with red switches. Awesome keyboard, typing on it is a delight. In hindsight I'd rather have gone with the K8. The K8 is only slightly bigger but has a more traditional tenkeyless layout, making switching to other keyboards easier.
+- **Keychron K2** with red switches. Awesome keyboard, typing on it is a delight. In hindsight I'd rather have gone with the K8. The K8 is only slightly bigger but has a more traditional tenkeyless layout, making switching to other keyboards easier. I'm also curious about their low-profile switches. Maybe someday.
 - **Logitech MX Master S2**. Good mouse. A bit too heavy for my taste and I'm not a fan of OSX scroll acceleration, but you get used to it. Its scrolling is awesome.
 - **LG 27UL850-W** 4k 27 inch monitor. With just one usb-c cable I can take care of audio, video and charging. 
 - **VS Code** is my editor of choice. 

@@ -30,7 +30,7 @@
 }
 
 .post-overview-featured-img-anchor {
-  flex: 0 0 150px;
+  flex: 0 0 200px;
   /* display: block; */
   /* width: 150px; */
   margin-right: 20px;
@@ -43,3 +43,10 @@
   font-size: 0.8em;
 }
 
+.post-header {
+  margin-bottom: 20px;
+}
+
+.post-header .post-title {
+  margin-bottom: 0;
+}
