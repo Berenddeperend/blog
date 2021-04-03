@@ -7,13 +7,13 @@ posted: 31-07-2021
 featured-img: /img/uses-temp.jpg
 ---
 
-Inspired by [Wes](https://wesbos.com/uses), here's a list of some of the cool things I own
+Inspired by [Wes](https://wesbos.com/uses), here's a list of some of the cool things I bought.
 
 ### Computer stuff 
 
 - **2020 M1 MacBook Air (16 GB RAM, 250 GB SSD)**. Definitely the best laptop I've ever owned. It's passively cooled, fast, stays cool and has an amazing battery life. Pretty much all I could ask for. I do prefer the 15 inch screen of my old MacBook but I needed a new laptop and I was fed up with the fan noise needed to keep the Intel processor cool. At the time of writing, the 13 inch models were the only Apple Silicon laptops available.
 - **Keychron K2** with red switches. Awesome keyboard, typing on it is a delight. In hindsight I'd rather have gone with the K8. The K8 is only slightly bigger but has a more traditional tenkeyless layout, making switching to other keyboards easier. I'm also curious about their low-profile switches. Maybe someday.
-- **Logitech MX Master S2**. Good mouse. A bit too heavy for my taste and I'm not a fan of OSX scroll acceleration, but you get used to it. Its scrolling is awesome.
+- **Logitech MX Master S2**. Good mouse. A bit too heavy for my taste and I'm not a fan of OSX scroll acceleration, but you get used to it. Its free-scrolling wheel is awesome.
 - **LG 27UL850-W** 4k 27 inch monitor. With just one usb-c cable I can take care of audio, video and charging. 
 - **VS Code** is my editor of choice. 
 - **Wacom Intuos 4 M**. I don't draw much any more, but it has served me well over the years.
@@ -28,7 +28,7 @@ Inspired by [Wes](https://wesbos.com/uses), here's a list of some of the cool th
 ### Workout stuff
 
 - Decathlon **barbell**. Awesome piece of metal, I still can't believe I have my own barbell.
-- 70kg worth of (relatively) cheap cast-iron **plates**. I built a [storage rack]() for them.
+- 70kg worth of (relatively) cheap cast-iron **plates**. I built a [storage rack](/projects/plate-storage) for them.
 - **Pullup bar**. Love it.
 - Homemade **[squat rack]()**.
 - Two cheap **dumbbells**.

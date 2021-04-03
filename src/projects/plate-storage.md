@@ -3,7 +3,7 @@ layout: project.njk
 tags: post
 posted: 31-07-2021
 featured-img: /img/platestorage-finished-outside-2.jpg
-summary: Building a thing to store my weights in. Keepin' the pounds off da grounds. 
+summary: Building a thing to store my weights in. Keepin' the pounds off the grounds. 
 title: Plate Storage
 ---
 
