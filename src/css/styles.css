@@ -1,6 +1,21 @@
 @import "normalize.css";
 @import "global.css";
 
+header {
+  background: #19192f;
+  padding: 10px 0;
+}
+
+.emoji {
+  font-size: 24px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.container {
+  width: 570px;
+  margin: 0 auto;
+}
 
 .overview-container {
   /* max-width: 800px; */
@@ -49,4 +64,12 @@
 
 .post-header .post-title {
   margin-bottom: 0;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.underline {
+  text-decoration: underline;
 }

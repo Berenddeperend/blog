@@ -8,6 +8,7 @@ title: Plate Storage
 ---
 
 During Covid I bought 70kg worth of relatively cheap weights. For a while I had them stored in the hallway like this:
+
 ![](/img/platestorage-before.jpg)
 
 Not ideal. So I built this:

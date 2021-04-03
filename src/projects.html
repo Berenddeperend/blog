@@ -7,9 +7,11 @@ title: Projects
     <title>Berend Swennenhuis - {{title}}</title>
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
-  <body class="overview-container">
+  <body>
 
-    {% include header.html %}
+    <!-- {% include header.html %} -->
+
+    <div class="container">
 
     <h1>{{title}}</h1>
 
@@ -41,5 +43,7 @@ title: Projects
       </div>
     </div>
     {%- endfor -%}
+
+  </div>
   </body>
 </html>
