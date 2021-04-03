@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: project.njk
 tags: post
 posted: 31-07-2021
 featured-img: /img/platestorage-finished-outside-2.jpg

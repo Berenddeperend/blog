@@ -1,6 +1,6 @@
 ---
 tags: post
-layout: layout.njk
+layout: project.njk
 title: Hardware I use
 summary: Flexing with things I bought to make up for a mediocre personality.
 posted: 31-07-2021

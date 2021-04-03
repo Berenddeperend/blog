@@ -8,9 +8,8 @@ title: Projects
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body class="overview-container">
-    {%- include "header.html" -%}
 
-
+    {% include header.html %}
 
     <h1>{{title}}</h1>
 
@@ -23,7 +22,7 @@ title: Projects
 
     {%- for post in collections.post -%}
     <div class="post-overview-item">
-      <a
+      <a 
         class="post-overview-featured-img-anchor"
         href="{{ post.data.title | slug }}"
       >
