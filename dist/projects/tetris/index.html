@@ -7,9 +7,18 @@
     <header>
   <div class="container">
     <nav>
-      <a class="logo" href="/">About</a>
-      <a class="logo" href="/projects">Projects</a>
-      <a class="logo" target="_blank" href="https://github.com/berenddeperend/">Github</a>
+      <div class="left">
+        <a class="logo" href="/">Berend Swennenhuis</a>
+        <a class="logo" href="/projects">Projects</a>
+      </div>
+      <div class="right">
+        <a
+          class="logo"
+          target="_blank"
+          href="https://github.com/berenddeperend/"
+          >Github</a
+        >
+      </div>
     </nav>
   </div>
 </header>
@@ -32,6 +41,7 @@
 <h2>Backend</h2>
 <p>I wanted to store the highscores in a database on my Raspberry Pi. For something as simple as this I'd usually go with MongoDB. But as I had no experience with relational databases, I felt this would be a nice opportunity. I chose Postgres. Massive overkill for a simple project as this, but it's what we often use at the office so the experience was welcome. Learning the SQL queries to read and write some rows didn't take more than a few hours. After making a few endpoints on my RPi + Node + Expressjs server, I could use Postman to interact with it from another machine on the same network. Neat!</p>
 <p>Now came the part I wasn't looking forward to: making the thing publicly available. I wanted to have the API accessible through <a href="https://berendswennenhuis.nl/api">https://berendswennenhuis.nl/api</a>, something like http://86.91.181.219 wouldn't cut it. Luckily, my friend Erik came to the rescue. After an evening of hard work, we managed to change the DNS settings to point to my local network, set up port-forwarding to route it to the RPi, and get get a LetsEncrypt certificate. <a href="https://www.berendswennenhuis.nl">https://www.berendswennenhuis.nl</a> succesfully routed to my RPi, I was beyond excited. About an hour later, I managed to hook up my Tetris highscore list to the RPi.</p>
+<p><img src="/img/tetris-score-hacked.jpg" alt=""></p>
 <h2>Challenges</h2>
 <p>I had no expectations for this project at all, I just started writing some code for fun. I used plain TypeScript without any frontend framework. Things were going pretty well and I was very happy with the progress I made.</p>
 <p>The game had three states at this point (splash, playing, gameover) and I knew I was going to add more. Doing DOM manipulations within TS was getting tedious so I needed something to help me out. At my job at TRIMM I work with Vue.js which I love, but I wanted to keep this game as lightweight as possible. Since the rest of the industry primarily uses React, this seemed like the perfect opportunity to try out Preact, the 3kB React alternative with the same API.</p>
@@ -40,10 +50,9 @@
 <p>All thoughout the project I shared my progress with my close friends Joost and Erik.</p>
 <ul>
 <li>My friend Erik helped me with setting up my Raspberry Pi to use as a server and highscore-database. This included DNS settings, port-forwarding and getting a LetsEncrypt certificate. You've been a great help, thank you!</li>
-<li>My old colleague Daniël wrote the <a href="https://virtual-clock.js.org/">lib</a> I used for the game clock.</li>
+<li>My ex-colleague Daniël wrote the <a href="https://virtual-clock.js.org/">lib</a> I used for the game clock.</li>
 <li>My colleague Erik helped me to think out a strategy for validating the scores on the back-end</li>
 </ul>
-
 
 
       <a href="/projects" class="back no-underline">

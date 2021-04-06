@@ -7,7 +7,7 @@ posted: 31-07-2021
 featured-img: /img/uses-temp.jpg
 ---
 
-Inspired by [Wes](https://wesbos.com/uses), here's a list of some of the cool things I bought.
+Nobody asked but here's a list of some of the cool things I bought. Inspired by [Wes](https://wesbos.com/uses).
 
 ### Computer stuff 
 

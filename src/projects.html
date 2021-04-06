@@ -16,17 +16,14 @@ title: Projects
     <h1>{{title}}</h1>
 
     <p class="overview-intro">
-      These are some of the projects I've been working on over the years. Feel
-      free to send me a
-      <a href="mailto:berendswennenhuis@gmail.com">message</a> if you have any
-      questions or ideas.
+      These are some of the projects I've been working on over the years. I honestly don't know what the default sorting is of 11ty, the framework I used to make this site.
     </p>
 
     {%- for post in collections.post -%}
     <div class="post-overview-item">
       <a 
         class="post-overview-featured-img-anchor"
-        href="{{ post.data.title | slug }}"
+        href="{{ (post.data.url | slug) || (post.data.title | slug) }}"
       >
         <img
           class="post-overview-featured-img"

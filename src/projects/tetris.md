@@ -6,10 +6,10 @@ tags:
     - typescript
     - game
 title: Tetris
-duration: 2 months
 posted: 31-07-2021
 summary: Recreating an all-time classic in TypeScript from scratch.
 project-start: january 2021
+project-duration: 2 months
 featured-img: /img/tetris-intro.gif
 ---
 
@@ -34,6 +34,8 @@ I wanted to store the highscores in a database on my Raspberry Pi. For something
 Now came the part I wasn't looking forward to: making the thing publicly available. I wanted to have the API accessible through [https://berendswennenhuis.nl/api](https://berendswennenhuis.nl/api), something like http://86.91.181.219 wouldn't cut it. Luckily, my friend Erik came to the rescue. After an evening of hard work, we managed to change the DNS settings to point to my local network, set up port-forwarding to route it to the RPi, and get get a LetsEncrypt certificate. [https://www.berendswennenhuis.nl](https://www.berendswennenhuis.nl) succesfully routed to my RPi, I was beyond excited. About an hour later, I managed to hook up my Tetris highscore list to the RPi.
 
 
+![](/img/tetris-score-hacked.jpg)
+
 ## Challenges
 
 I had no expectations for this project at all, I just started writing some code for fun. I used plain TypeScript without any frontend framework. Things were going pretty well and I was very happy with the progress I made.
@@ -47,5 +49,5 @@ Writing new components in Preact went fine, like the three-letter-input and high
 All thoughout the project I shared my progress with my close friends Joost and Erik.
 
 - My friend Erik helped me with setting up my Raspberry Pi to use as a server and highscore-database. This included DNS settings, port-forwarding and getting a LetsEncrypt certificate. You've been a great help, thank you!
-- My old colleague Daniël wrote the [lib](https://virtual-clock.js.org/) I used for the game clock.
+- My ex-colleague Daniël wrote the [lib](https://virtual-clock.js.org/) I used for the game clock.
 - My colleague Erik helped me to think out a strategy for validating the scores on the back-end

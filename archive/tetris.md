@@ -4,13 +4,7 @@ tags: post
 title: Tetris
 ---
 
-
-
-
-Tetris
-
-
-TL;DR: I wrote a Tetris clone in Typescript from scratch for fun. The code is messy because I never expected it to get as many features as it has.  
+I wrote a Tetris clone in Typescript from scratch for fun. The code is messy because I never expected it to get as many features as it has.  
 
 At around January 4th 2021 I was looking for a new programming project. I had never written a game before but I've always been interested in 8-bit style programs. Back in 2008 when I was studying Arts and Technology I had a teacher who was trying to build Tetris in ActionScript. While I had never seen his attempt, I do remember him saying the task was too difficult for him. As I was feeling more and more confident about my programming skills, I decided to give it a shot. 
 

@@ -4,10 +4,16 @@
 header {
   background: #19192f;
   padding: 10px 0;
+  margin-bottom: 40px;
 }
 
 header a {
-    margin-right: 20px;
+  margin-right: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
 }
 
 .emoji {
@@ -17,8 +23,9 @@ header a {
 }
 
 .container {
-  width: 570px;
+  max-width: 590px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .overview-intro {
@@ -47,7 +54,6 @@ header a {
 .post-overview-featured-img-anchor {
   flex: 0 0 200px;
   margin-right: 20px;
-
 }
 
 .post-metadata {
@@ -77,4 +83,3 @@ header a {
 .underline {
   text-decoration: underline;
 }
-
