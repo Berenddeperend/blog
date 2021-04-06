@@ -21,9 +21,15 @@ title: Projects
 
     {%- for post in collections.post -%}
     <div class="post-overview-item">
+
+
       <a 
         class="post-overview-featured-img-anchor"
-        href="{{ (post.data.url | slug) || (post.data.title | slug) }}"
+        {%- if post.data.url -%}
+          href="{{ (post.data.url | slug) }}"
+        {% else %}
+          href="{{ (post.data.title | slug) }}"
+        {% endif %}
       >
         <img
           class="post-overview-featured-img"
