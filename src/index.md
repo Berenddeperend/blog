@@ -2,7 +2,7 @@
 layout: template.njk
 ---
 
-# Nice to meet you.
+# Hello.
 
 This is the website of Berend Swennenhuis. Frontend developer by day, frontend developer by night as well but asleep. I live in Enschede, the Netherlands.
 

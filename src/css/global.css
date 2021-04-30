@@ -25,6 +25,16 @@ img {
   border-radius: 2px;
 }
 
+a {
+  text-underline-offset: 1px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgba(226,188,78, 0.5);
+  transition: text-decoration-color 0.2s;
+}
+a:hover, a:active, a:focus {
+  text-decoration-color: #e2bc4e;
+}
+
 a, strong {
   color: #e2bc4e;
 }
