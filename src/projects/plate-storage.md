@@ -16,7 +16,7 @@ During Covid I bought 70kg worth of relatively cheap weights. For a while I had 
 Not ideal. So I built this:
 
 <!-- ![](/img/platestorage-finished.jpg) -->
-![](/img/platestorage-finished-outside-2.jpg)
+![](/img/platestorage-finished-outside-3.jpg)
 
 
 

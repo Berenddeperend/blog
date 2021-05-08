@@ -5,7 +5,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx @11ty/eleventy --input=./src --output=dist",
-    "serve": "npx @11ty/eleventy --input=./src --output=dist --serve"
+    "serve": "npx @11ty/eleventy --input=./src --output=dist --serve",
+    "docker-build": "docker build -t berenddeperend/blog .",
+    "docker-push": "docker push berenddeperend/blog"
   },
   "repository": {
     "type": "git",
