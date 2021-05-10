@@ -86,6 +86,7 @@ nav {
 
 .face-container {
   position: relative;
+  display: block;
 }
 
 .face {
@@ -96,7 +97,12 @@ nav {
   left: -70px;
   top: -25px;
   transition: transform 0.4s;
-  animation: spin 1s infinite;
+  animation: spin 2s infinite;
+
+  filter: drop-shadow(2px 0px 0 white)
+          drop-shadow(0px 2px 0 white) 
+          drop-shadow(-0px -2px 0 white)
+          drop-shadow(-2px -0px 0 white);
 }
 
 @keyframes spin { 
