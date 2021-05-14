@@ -2,7 +2,8 @@
 @import "global.css";
 
 header {
-  background: #19192f;
+  /* background: #19192f; */
+  background: #191940;
   padding: 20px 0;
   margin-bottom: 40px;
 }
@@ -47,9 +48,9 @@ nav {
   margin-bottom: 0;
 }
 
-.post-overview-featured-img {
-  border-width: 4px;
-}
+/* .post-overview-featured-img {
+  border-width: 2px;
+} */
 
 .post-overview-featured-img-anchor {
   flex: 0 0 200px;
