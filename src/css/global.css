@@ -9,7 +9,9 @@ html {
   /* background: #242440; */
   background: #222250;
   font-size: 17px;
-  font-family: avenir, sans-serif;
+  /* font-family: avenir, sans-serif; */
+  /* font-family: 'Nunito Sans', sans-serif; */
+  font-family: 'Poppins', sans-serif;
   /* font-family: monospace, sans-serif; */
   /* font-family: 'Courier New', Courier, monospace; */
   line-height: 1.6;
