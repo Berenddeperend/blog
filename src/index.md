@@ -2,7 +2,7 @@
 layout: template.njk
 ---
 
-# Hello there.
+# Hello.
 
 This is the website of Berend Swennenhuis. Frontend developer by day, frontend developer by night as well but asleep. My preferred technologies are Vuejs, TypeScript and SCSS. I live in Enschede, the Netherlands.
 
