@@ -7,6 +7,12 @@ title: Projects
     <title>Berend Swennenhuis - {{title}}</title>
     <link rel="stylesheet" href="/css/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
 
@@ -40,7 +46,7 @@ title: Projects
 
       <div class="post-overview-item-content">
         <h3 class="post-overview-item-title">
-          <a 
+          <a
             class=""
             {%- if post.data.url -%}
              href="{{ (post.data.url) | slug }}"
