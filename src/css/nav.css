@@ -1,0 +1,61 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .last-name {
+  display: none;
+}
+
+.face-container {
+  width: 50px;
+  display: inline-block;
+  position: relative;
+}
+
+.face {
+  --stroke-color: white;
+
+  position: absolute;
+
+  display: inline-block;
+  width: 50px;
+  border: none;
+  /* position: absolute;
+  left: -70px; */
+  top: -47px;
+  transition: transform 0.4s;
+  animation: spin 2s infinite;
+
+  filter: drop-shadow(2px 0px 0 var(--stroke-color))
+    drop-shadow(0px 2px 0 var(--stroke-color))
+    drop-shadow(-0px -2px 0 var(--stroke-color))
+    drop-shadow(-2px -0px 0 var(--stroke-color));
+}
+
+@media (min-width: 500px) { 
+    nav .last-name {
+        display: inline;
+    }
+
+}
+
+
+@media (min-width: 750px) {
+  .face-container {
+    position: relative;
+    display: block;
+  }
+
+  .face {
+    position: absolute;
+    left: -70px;
+    top: -25px;
+  }
+}
+
+@keyframes spin {
+  50% {
+    transform: rotate(-10deg);
+  }
+}
