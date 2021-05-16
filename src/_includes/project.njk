@@ -2,28 +2,35 @@
   <head>
     <title>Berend Swennenhuis - {{ title }}</title>
     <link rel="stylesheet" href="/css/styles.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     {% include 'header.html' %}
 
     <div class="container">
       <div class="post-header">
-        
         <h1 class="post-title">{{ title }}</h1>
+        {%- if updated -%}
+        <p class="post-metadata">
+          Posted on {{ posted }} • last updated on {{ updated }}
+        </p>
+        {% else %}
         <p class="post-metadata">Posted on {{ posted }}</p>
+        {% endif %}
       </div>
 
       {{ content | safe }}
 
       <a href="/projects" class="back no-underline">
-          <span class="emoji"> 👈 </span>
-          <span class="underline">Back to projects overview</span></a
-        >
+        <span class="emoji"> 👈 </span>
+        <span class="underline">Back to projects overview</span></a
+      >
     </div>
   </body>
 </html>

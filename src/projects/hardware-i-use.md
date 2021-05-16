@@ -3,7 +3,8 @@ tags: post
 layout: project.njk
 title: Hardware I use
 summary: Flexing with things I bought to make up for a mediocre personality.
-posted: 31-07-2021
+posted: 15-05-2021
+updated: 16-05-2021
 featured-img: /img/uses-temp.jpg
 ---
 
@@ -11,13 +12,13 @@ Nobody asked but here's a list of some of the cool things I bought. Inspired by 
 
 ### Computer stuff 
 
-- **2020 M1 MacBook Air (16 GB RAM, 250 GB SSD)**. Definitely the best laptop I've ever owned. It's passively cooled, fast, stays cool and has an amazing battery life. Pretty much all I could ask for. I do prefer the 15 inch screen of my old MacBook but I needed a new laptop and I was fed up with the fan noise needed to keep the Intel processor cool. At the time of writing, the 13 inch models were the only Apple Silicon laptops available.
+- **2020 M1 MacBook Air (16GB RAM, 250GB SSD)**. Definitely the best laptop I've ever owned. It's passively cooled, fast, stays cool and has an amazing battery life. Pretty much all I could ask for. I do prefer the 15 inch screen of my old MacBook but I needed a new laptop and I was fed up with the fan noise needed to keep the Intel processor cool. At the time of writing, the 13 inch models were the only Apple Silicon laptops available.
 - **Keychron K2** with red switches. Awesome keyboard, typing on it is a delight. In hindsight I'd rather have gone with the K8. The K8 is only slightly bigger but has a more traditional tenkeyless layout, making switching to other keyboards easier. I'm also curious about their low-profile switches. Maybe someday.
 - **Logitech MX Master S2**. Good mouse. A bit too heavy for my taste and I'm not a fan of OSX scroll acceleration, but you get used to it. Its free-scrolling wheel is awesome.
 - **LG 27UL850-W** 4k 27 inch monitor. With just one usb-c cable I can take care of audio, video and charging. 
 - **VS Code** is my editor of choice. 
 - **Wacom Intuos 4 M**. I don't draw much any more, but it has served me well over the years.
-- **Raspberry Pi 3b**. Hidden in a cabinet. It's where I host this website with a Node + Express.js server.
+- **Raspberry Pi 4, 8GB RAM**. Hidden in a cabinet. Passively cooled with a heatsink enclosure. It's where I host [this website](/projects/this-website).
 - **Synology DS218play** with 2x 3TB in a mirror setup. Not sure what RAID that is. This machine is mostly fire-and-forget for me.
 
 ### Tools

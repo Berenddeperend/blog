@@ -16,6 +16,13 @@ body {
   margin-bottom: 40px;
 }
 
+code {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: #12123e;
+  padding: 0 3px;
+  border-radius: 3px;
+}
+
 h1,
 h2,
 h3,
