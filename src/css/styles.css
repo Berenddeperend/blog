@@ -38,7 +38,9 @@ header a {
 .post-overview-item {
   display: flex;
   margin-bottom: 40px;
+  /* flex-direction: column; */
 }
+
 
 .post-overview-item-content {
   display: flex;
@@ -55,8 +57,21 @@ header a {
 } */
 
 .post-overview-featured-img-anchor {
-  flex: 0 0 200px;
+  /* flex: 0 0 200px; */
+  flex: 0 0 33%;
   margin-right: 20px;
+}
+
+
+@media (min-width: 500px) {
+  .post-overview-item {
+    flex-direction: row;
+  }
+
+  .post-overview-featured-img-anchor {
+    margin-right: 30px;
+    flex: 0 0 200px;
+  }
 }
 
 .post-metadata {
