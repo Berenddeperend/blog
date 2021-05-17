@@ -17,7 +17,7 @@ featured-img: /img/tetris/tetris-intro.gif
 
 I wrote a Tetris clone in Typescript from scratch for fun. The code is messy because I never expected it to get as many features as it has.  
 
-Play it [here](http://berenddeperend.github.io/tetris)
+Play it [here](/tetris)
 
 Code lives on [Github](https://github.com/Berenddeperend/tetris)
 
@@ -49,5 +49,5 @@ Writing new components in Preact went fine, like the three-letter-input and high
 All thoughout the project I shared my progress with my close friends Joost and Erik.
 
 - My friend Erik helped me with setting up my Raspberry Pi to use as a server and highscore-database. This included DNS settings, port-forwarding and getting a LetsEncrypt certificate. You've been a great help, thank you!
-- My ex-colleague Daniël wrote the [lib](https://virtual-clock.js.org/) I used for the game clock.
-- My colleague Erik helped me to think out a strategy for validating the scores on the back-end
+- My ex-colleague Daniël wrote ['virtual-clock'](https://virtual-clock.js.org/), the lib I used for the game clock.
+- My colleague Erik helped me to think out a strategy for validating the scores on the back-end.

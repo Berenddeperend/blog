@@ -21,6 +21,12 @@ I was using the small servo motor in a pretty inefficient way so it wasn't stron
 Two servos:
 
 
+ <video controls="true" allowfullscreen="true" poster="/img/soapdispenser/soap-finished.gif">
+    <source src="/img/soapdispenser/soap-finished-fail.mp4" type="video/mp4">
+  </video>
+
+
+
 Still not great. I ordered a slightly bigger servo and attached it:
 
 

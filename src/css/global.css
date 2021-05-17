@@ -59,3 +59,8 @@ a,
 strong {
   color: #e2bc4e;
 }
+
+
+video {
+  max-width: 100%;
+}

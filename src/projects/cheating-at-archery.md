@@ -8,7 +8,7 @@ featured-img: /img/gyrobow/gyrobow-finished-side.jpg
 summary: Turns out I suck at both archery and hardware.
 duration: Not sure anymore, few weeks probably
 posted: 15-05-2021
-project-start: 2018
+project-start: march 2018
 ---
 
 ![](/img/gyrobow/gyrobow-finished-side.jpg)
