@@ -21,6 +21,13 @@ Then I built a pretty crappy planter with the sensor built-in.
 
 I wanted to do something more with this concept. I wanted a planter with a water compartiment and a pump, so I could water the plant without being there. These are some sketches:
 
+![](/img/plant-water/sketch1.jpg)
+
+![](/img/plant-water/sketch2.jpg)
+
+![](/img/plant-water/sketch3.jpg)
+
+
 I settled on this design:
 
 ![](/img/plant-water/sketch.jpeg)
