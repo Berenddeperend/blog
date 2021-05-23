@@ -3,7 +3,7 @@ tags: post
 layout: project.njk
 title: DIY squat rack on my balcony
 summary: Centerpiece of my homegym.
-posted: 15-05-2021
+posted: 13-11-2020
 url: squat-rack
 featured-img: /img/squatrack/IMG_20201113_111050.jpg
 ---

@@ -1,13 +1,11 @@
 ---
 layout: project.njk
 tags: post
-posted: 15-05-2021
+posted: 21-03-2020
 featured-img: /img/soapdispenser/soap-finished-thumb.gif
 summary: Arduino powered, made from scrap wood and components I had laying around.
 title: Hands-free soap dispenser
 url: Soap dispenser
-verb: Created
-verb-on: February 2020
 ---
 
 Inspired by some facebook post. Seemed like a simple enough project and I already had all the required hardware laying around. 
@@ -37,9 +35,6 @@ The servo worked but the sensor was not in a good place. I fixed it with some po
 ![](/img/soapdispenser/soap-finished.gif)
 
 Success!
-
-
-
 
 Used hardware: 
   - Arduino Duemilanove (Italian for "2009", so it's a pretty old one)

@@ -7,7 +7,7 @@ title: Cheating at archery
 featured-img: /img/gyrobow/gyrobow-finished-side.jpg
 summary: Turns out I suck at both archery and hardware.
 duration: Not sure anymore, few weeks probably
-posted: 15-05-2021
+posted: 01-03-2018
 project-start: march 2018
 ---
 
