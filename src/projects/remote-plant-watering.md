@@ -1,7 +1,7 @@
 ---
 layout: project.njk
 tags: post
-posted: 26-03-2019
+date: 2019-03-26
 title: Remote plant watering
 featured-img: /img/plant-water/final-1.jpg
 summary: Plants, arduino, remote controller and a pump.

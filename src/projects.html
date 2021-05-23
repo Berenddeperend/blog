@@ -22,11 +22,11 @@ title: Projects
 
     <h1>{{title}}</h1>
 
-    <p class="overview-intro">
-      These are some of the projects I've been working on over the years. I honestly don't know what the default sorting is of 11ty, the framework I used to make this site.
-    </p>
+    <!-- <p class="overview-intro">
+      These are some of the projects I've been working on over the years.
+    </p> -->
 
-    {%- for post in collections.post -%}
+    {%- for post in collections.post reversed -%}
     <div class="post-overview-item">
 
       
@@ -46,6 +46,7 @@ title: Projects
 
       <div class="post-overview-item-content">
         <h3 class="post-overview-item-title">
+          
           <a
             class=""
             {%- if post.data.url -%}
@@ -56,7 +57,7 @@ title: Projects
           > {{ post.data.title }} </a>
         </h3>
         <p class="post-overview-summary">{{ post.data.summary }}</p>
-        <p class="post-metadata">{{ post.data.posted }}</p>
+        <p class="post-metadata">{{ post.data.date | formatDate }}</p>
       </div>
     </div>
     {%- endfor -%}

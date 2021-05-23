@@ -3,8 +3,8 @@ tags: post
 layout: project.njk
 title: This website
 summary: Documenting some of my projects on a self-hosted website.
-posted: 15-05-2021
-featured-img: /img/uses-temp.jpg
+date: 2021-05-21
+featured-img: /img/this-website/pi4.jpg
 ---
 
 

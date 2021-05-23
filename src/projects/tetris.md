@@ -6,10 +6,8 @@ tags:
     - typescript
     - game
 title: Tetris
-posted: 20-03-2021
+date: 2021-03-20
 summary: Recreating an all-time classic in TypeScript from scratch.
-project-start: january 2021
-project-duration: 2 months
 featured-img: /img/tetris/tetris-intro.gif
 ---
 

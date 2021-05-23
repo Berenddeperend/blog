@@ -18,10 +18,10 @@
         <h1 class="post-title">{{ title }}</h1>
         {%- if updated -%}
         <p class="post-metadata">
-          Posted on {{ posted }} • last updated on {{ updated }}
+          Posted on {{ page.date | formatDate }} • last updated on {{ updated | formatDate }}
         </p>
-        {% else %}
-        <p class="post-metadata">Posted on {{ posted }}</p>
+        {% else %} 
+        <p class="post-metadata">Posted on {{ page.date | formatDate }}</p>
         {% endif %}
       </div>
 

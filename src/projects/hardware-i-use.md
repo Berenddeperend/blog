@@ -3,8 +3,8 @@ tags: post
 layout: project.njk
 title: Hardware I use
 summary: Flexing with things I bought to make up for a mediocre personality.
-posted: 15-05-2021
-updated: 16-05-2021
+date: 2021-05-15
+updated: 2021-05-16
 featured-img: /img/uses-temp.jpg
 ---
 
