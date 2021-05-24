@@ -4,7 +4,7 @@ layout: project.njk
 title: Hardware I use
 summary: Flexing with things I bought to make up for a mediocre personality.
 date: 2021-05-15
-updated: 2021-05-16
+updated: 2021-05-24
 featured-img: /img/uses-temp.jpg
 ---
 
@@ -31,7 +31,8 @@ Nobody asked but here's a list of some of the cool things I bought. Inspired by 
 - Decathlon **barbell**. Awesome piece of metal, I still can't believe I have my own barbell.
 - 70kg worth of (relatively) cheap cast-iron **plates**. I built a [storage rack](/projects/plate-storage) for them.
 - **Pullup bar**. Love it.
-- Homemade **[squat rack]()**.
+- Homemade **[squat rack](/projects/squat-rack)**.
+- 2x25kg Duo-Tech **adjustable dumbbells**. Got a good deal on them and they're well worth it.  
 - Two cheap **dumbbells**.
 - 10kg **kettlebell**, mainly for weighted pullups.
 - **Power Perfect 3** shoes. I have shitty ankle mobility so having a raised heel really helps.
