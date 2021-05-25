@@ -4,7 +4,7 @@ layout: template.njk
 
 # Hello.
 
-I'm a frontend developer by day, and a frontend developer by night as well but asleep. My preferred technologies are Vuejs, TypeScript and SCSS. I live in Enschede, the Netherlands.
+I'm a frontend developer by day, and a frontend developer by night as well but asleep. I enjoy working with Vue.js and SCSS. I live in Enschede, the Netherlands.
 
 I like to dabble in woodworking, 3D-printing, guitar playing, IoT and fitness.
 

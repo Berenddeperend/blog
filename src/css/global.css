@@ -41,9 +41,10 @@ img {
 a {
   text-underline-offset: 1px;
   text-decoration-thickness: 1px;
-  text-decoration-color: rgba(226, 188, 78, 0.5);
+  text-decoration-color: rgba(226, 188, 78, 0);
   transition: text-decoration-color 0.2s;
 }
+
 a:hover,
 a:active,
 a:focus {
