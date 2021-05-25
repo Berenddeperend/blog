@@ -16,6 +16,11 @@ header a {
   margin-right: 20px;
 }
 
+p a,
+li a {
+  text-decoration: underline;
+}
+
 .emoji {
   font-size: 24px;
   margin-right: 10px;
