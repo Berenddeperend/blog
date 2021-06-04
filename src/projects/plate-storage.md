@@ -9,32 +9,28 @@ title: Plate Storage
 
 During Covid I bought 70kg worth of relatively cheap weights. For a while I had them stored in the hallway like this:
 
-![](/img/platestorage/platestorage-before.jpg)
+{% image "platestorage/platestorage-before.jpg", "Before" %}
 
 Not ideal. So I built this:
 
-<!-- ![](/img/platestorage/platestorage-finished.jpg) -->
-![](/img/platestorage/platestorage-finished-outside-3.jpg)
-
-
+{% image "platestorage/platestorage-finished-outside-3.jpg", "Finished product outside" %}
 
 In order to protect the wood (and because I like overengineering), I made some holders as well. This was the general idea:
 
-![](/img/platestorage/platestorage-adapter-sketch.jpg)
+{% image "platestorage/platestorage-adapter-sketch.jpg", "Sketch" %}
 
 I modeled the holders for each of the weights, matching the exact radius of the plates.
 
-![](/img/platestorage/platestorage-adapter-cad.jpg)
+{% image "platestorage/platestorage-adapter-cad.jpg", "Adapter drawn in Fusion 360" %}
 
 Using my trusty Ender 3, I printed these: 
 
-![](/img/platestorage/platestorage-adapter-finished-1.jpg)
+{% image "platestorage/platestorage-adapter-finished-1.jpg", "Printed adapter" %}
 
-
-![](/img/platestorage/platestorage-adapter-finished-2.jpg)
+{% image "platestorage/platestorage-adapter-finished-2.jpg", "Printed adapter" %}
 
 When installed it looks something like this:
 
-![](/img/platestorage/platestorage-finished-outside.jpg)
+{% image "platestorage/platestorage-finished-outside.jpg", "Finished product" %}
 
-![](/img/platestorage/platestorage-finished-detail.jpg)
+{% image "platestorage/platestorage-finished-detail.jpg", "Finished product" %}

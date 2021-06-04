@@ -1,18 +1,32 @@
-var slugify = require('slugify')
+const slugify = require('slugify');
+const path = require("path");
 const { DateTime } = require("luxon");
 const Image = require("@11ty/eleventy-img");
 
 async function imageShortcode(src, alt) {
-  let metadata = await Image(src, {
-    widths: [300, 600],
-    formats: ["jpg"],
+  let metadata = await Image(`src/img/${src}`, {
+    widths: [1000],
+    formats: ["jpg", null],
     outputDir: "./dist/img",
-    urlPath: '/img/'
+    urlPath: '/img/',
+    filenameFormat: function (id, src, width, format, options) {
+      const target = src.split('/').filter((e,i) => i > 1).join('/');
+      const extension = path.extname(src);
+      const name = path.basename(src, extension);
+      // return target;
+      return `${name}.${format}`;
+    },
+    sharpJpegOptions: {
+      quality: 80
+    },
+    sharpPngOptions: {
+      quality: 80
+    },
   });
 
   let imageAttributes = {
     alt,
-    sizes: [500, 1000],
+    sizes: [1000],
     loading: "lazy",
     decoding: "async",
   };

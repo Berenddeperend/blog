@@ -22,15 +22,16 @@ Two servos:
 
 Still not great. I ordered a slightly bigger servo and attached it:
 
-![](/img/soapdispenser/soap-finished-back.jpg)
 
-![](/img/soapdispenser/soap-wip-2-low.jpg)
+{% image "soapdispenser/soap-finished-back.jpg", "Soap dispenser finished" %}
+
+{% image "soapdispenser/soap-wip-2-low.jpg", "Soap dispenser finished" %}
 
 ![](/img/soapdispenser/soap-wip-fail.gif)
 
 The servo worked but the sensor was not in a good place. I fixed it with some popsicle sticks.
 
-![](/img/soapdispenser/soap-finished-low.jpg)
+{% image "soapdispenser/soap-finished-low.jpg", "Soap dispenser finished" %}
 
 ![](/img/soapdispenser/soap-finished.gif)
 

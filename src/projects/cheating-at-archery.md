@@ -4,12 +4,12 @@ tags:
     - post
     - arduino
 title: Cheating at archery
-featured-img: /img/gyrobow/gyrobow-finished-side.jpg
+featured-img: gyrobow-finished-side.jpg
 summary: Turns out I suck at both archery and hardware.
 date: 2018-03-01
 ---
 
-![](/img/gyrobow/gyrobow-finished-side.jpg)
+{% image "gyrobow/gyrobow-finished-side.jpg", "" %}
 
 
 For a while I was really into archery. I came up with the idea to attach a gyroscope to my bow to see if it would help my accuracy. A first prototype with an Arduino Uno looked like this:
@@ -19,7 +19,7 @@ For a while I was really into archery. I came up with the idea to attach a gyros
 
 When you turn on the device, it shows you the angle you're pointing your bow at (up/down, not left/right).
 
-![](/img/gyrobow/gyrobow-wip-3.jpg)
+{% image "gyrobow/gyrobow-wip-3.jpg", "Gyroscope bow work in progress" %}
 
 
 First you shoot an arrow like you normally would. All else being equal, if your arrow flies over the target, you've aimed too high. If the arrow falls short, you've aimed too low. If you take notice of the value on the screen before you shoot, you can use it as an anchor point to make adjustments to your next shot. 
@@ -29,10 +29,10 @@ That's already pretty cool, but it came with a drawback: you had to pay attentio
 
 Here are some more photos.
 
-![](/img/gyrobow/gyrobow-finished-front.jpg)
+{% image "gyrobow/gyrobow-finished-front.jpg", "Gyroscope bow finished" %}
 
-![](/img/gyrobow/gyrobow-finished-side.jpg)
+{% image "gyrobow/gyrobow-finished-side.jpg", "Gyroscope bow finished" %}
 
-![](/img/gyrobow/gyrobow-finished-back.jpg)
+{% image "gyrobow/gyrobow-finished-back.jpg", "Gyroscope bow finished" %}
 
-![](/img/gyrobow/gyrobow-finished-action.jpg)
+{% image "gyrobow/gyrobow-finished-action.jpg", "Gyroscope bow finished" %}

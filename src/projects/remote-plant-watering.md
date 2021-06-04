@@ -9,35 +9,28 @@ summary: Plants, arduino, remote controller and a pump.
 
 This was one of my earlier arduino projects. I started with connecting some soil moisture sensors to a plant.
 
-![](/img/plant-water/plant-water-sensor.jpg)
-
-![](/img/plant-water/plant-water-sensor-2.jpg)
+{% image "plant-water/plant-water-sensor.jpg", "Plant with sensor." %}
+{% image "plant-water/plant-water-sensor-2.jpg", "Plant with sensor." %}
 
 Then I built a pretty crappy planter with the sensor built-in.
 
-![](/img/plant-water/plant-water-gift-1.jpg)
 
-![](/img/plant-water/plant-water-gift-2.jpg)
+
+{% image "plant-water/plant-water-gift-1.jpg", "Planter with sensor" %}
+{% image "plant-water/plant-water-gift-2.jpg", "Planter with sensor" %}
 
 I wanted to do something more with this concept. I wanted a planter with a water compartiment and a pump, so I could water the plant without being there. These are some sketches:
 
-![](/img/plant-water/sketch1.jpg)
-
-![](/img/plant-water/sketch2.jpg)
-
-![](/img/plant-water/sketch3.jpg)
-
+{% image "plant-water/sketch1.jpg", "Sketch of my planter idea" %}
+{% image "plant-water/sketch2.jpg", "Sketch of my planter idea" %}
+{% image "plant-water/sketch3.jpg", "Sketch of my planter idea" %}
 
 I settled on this design:
 
-![](/img/plant-water/sketch.jpeg)
-
-![](/img/plant-water/IMG_20190317_122331.jpg)
-
-![](/img/plant-water/electronics.jpg)
-
-![](/img/plant-water/final-1.jpg)
-
+{% image "plant-water/sketch.jpg", "Sketch of my planter idea" %}
+{% image "plant-water/planter-wip.jpg", "Work in progress of planter" %}
+{% image "plant-water/electronics.jpg", "Work in progress of electronics" %}
+{% image "plant-water/final-1.jpg", "The finished product" %}
 
 At TRIMM we have these green mugs everywhere. Whenever I wanted to get myself a cup of coffee, I could also get my planty boy a refill. 
 
