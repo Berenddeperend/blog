@@ -7,7 +7,8 @@
     "build": "npx @11ty/eleventy --input=./src --output=dist",
     "serve": "npx @11ty/eleventy --input=./src --output=dist --serve",
     "docker:build": "docker build -t berenddeperend/blog .",
-    "docker:push": "docker push berenddeperend/blog"
+    "docker:push": "docker push berenddeperend/blog",
+    "publish": "node publish.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/Berenddeperend/blog#readme",
   "dependencies": {
     "@11ty/eleventy-img": "^0.9.0",
+    "gh-pages": "^3.2.0",
     "markdown-it": "^12.0.4"
   },
   "devDependencies": {
