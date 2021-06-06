@@ -5,7 +5,7 @@ title: DIY squat rack on my balcony
 summary: Centerpiece of my homegym.
 date: 2020-11-13
 url: squat-rack
-featured-img: /img/squatrack/IMG_20201113_111050.jpg
+featured-img: IMG_20201113_111050.jpeg
 ---
 
 I like to do pullups. Me and a few friends usually trained at an outdoor sports park nearby, but it was closed due to Covid. So I invested in a heavy duty, outdoor-proof pullup rack.

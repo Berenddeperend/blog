@@ -5,7 +5,7 @@ title: Hardware I use
 summary: Flexing with things I bought to make up for a mediocre personality.
 date: 2021-05-15
 updated: 2021-05-24
-featured-img: /img/uses-temp.jpg
+featured-img: uses-temp.jpg
 ---
 
 Nobody asked but here's a list of some of the cool things I bought. Inspired by [Wes](https://wesbos.com/uses).

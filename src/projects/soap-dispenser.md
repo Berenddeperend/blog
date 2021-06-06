@@ -2,7 +2,7 @@
 layout: project.njk
 tags: post
 date: 2020-03-21
-featured-img: /img/soapdispenser/soap-finished-thumb.gif
+featured-img: /soapdispenser/soap-finished-thumb.gif
 summary: Arduino powered, made from scrap wood and components I had laying around.
 title: Hands-free soap dispenser
 url: Soap dispenser

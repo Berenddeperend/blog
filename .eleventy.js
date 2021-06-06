@@ -17,10 +17,10 @@ async function imageShortcode(src, alt) {
       return `${name}.${format}`;
     },
     sharpJpegOptions: {
-      quality: 80
+      quality: 60
     },
     sharpPngOptions: {
-      quality: 80
+      quality: 60
     },
   });
 
