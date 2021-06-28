@@ -17,8 +17,31 @@
     
   </head>
   <body>
-    {% include 'header.html' %}
-
+    <header>
+      <div class="container">
+        <nav>
+          <div class="left">
+            <a href="/" class="face-container"
+              ><img src="/img/berend-zonder-stroke.png" class="face" alt=""
+            /></a>
+            <a class="home" href="/">Berend<span class="last-name"> Swennenhuis</span></a>
+            <a class="projects" href="/projects">Projects</a>
+          </div>
+          <div class="right">
+            <!-- <a href="">
+              Quick links 🔽
+            </a> -->
+            <!-- <a
+              class="logo"
+              target="_blank"
+              href="https://github.com/berenddeperend/"
+              >Github</a
+            > -->
+          </div>
+        </nav>
+      </div>
+    </header>
+    
     <div class="container">
       {{ content | safe }}
     </div>
