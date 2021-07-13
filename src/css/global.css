@@ -47,7 +47,10 @@ a {
 
 a:hover,
 a:active,
-a:focus {
+a:focus,
+button:hover,
+button:active,
+button:focus {
   text-decoration-color: #e2bc4e;
 }
 
@@ -61,6 +64,25 @@ strong {
   color: #e2bc4e;
 }
 
+button {
+  background: none;
+	/* color: inherit; */
+	color: #e2bc4e;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+button .underline-on-hover {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+button:hover .underline-on-hover {
+  text-decoration: underline;
+}
 
 video {
   max-width: 100%;

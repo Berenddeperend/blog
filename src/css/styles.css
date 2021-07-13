@@ -1,6 +1,7 @@
 @import "normalize.css";
 @import "global.css";
 @import "nav.css";
+@import "dropdown.css";
 
 :root {
   --breakpoint: 400px;
@@ -15,6 +16,18 @@ header {
 header a {
   margin-right: 20px;
 }
+
+.dropdown-trigger {
+
+}
+
+.dropdown-trigger .emoji {
+  font-size: inherit;
+  margin: 0;
+  text-decoration: none;
+}
+
+
 
 p a,
 li a {
@@ -100,5 +113,20 @@ li a {
 }
 
 .underline {
+  text-decoration: underline;
+  text-underline-offset: 1px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgba(226, 188, 78, 0);
+  transition: text-decoration-color 0.2s;
+}
+
+.underline-on-hover {
+  text-underline-offset: 1px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgba(226, 188, 78, 0);
+  transition: text-decoration-color 0.2s;
+}
+
+.underline-on-hover:hover {
   text-decoration: underline;
 }

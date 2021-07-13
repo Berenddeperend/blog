@@ -11,6 +11,7 @@
     <title>Berend Swennenhuis - {{ title }}</title>
     <link rel="stylesheet" href="/css/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
@@ -28,15 +29,17 @@
             <a class="projects" href="/projects">Projects</a>
           </div>
           <div class="right">
-            <!-- <a href="">
-              Quick links 🔽
-            </a> -->
-            <!-- <a
-              class="logo"
-              target="_blank"
-              href="https://github.com/berenddeperend/"
-              >Github</a
-            > -->
+            <div class="dropdown">
+            <button class="dropdown-trigger">
+              <span class="underline-on-hover">Links</span>  
+              <span class="emoji">🔽</span>
+            </button>
+            <div class="dropdown-content">
+              <a href="/tetris">Tetris</a>
+              <a href="http://86.91.181.219:8123/" target="_blank">Minecraft</a>
+              <a href="https://github.com/berenddeperend/" target="_blank">Github</a>
+            </div>
+          </div>
           </div>
         </nav>
       </div>
@@ -46,5 +49,7 @@
       {{ content | safe }}
     </div>
     </div>
+
+    <script src="/js/app.js"></script>
   </body>
 </html>
