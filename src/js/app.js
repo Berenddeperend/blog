@@ -13,6 +13,6 @@ function outsideDropdownClickedChecker(e) {
   }
 }
 
-const el = document
+document
   .querySelector(".dropdown-trigger")
   .addEventListener("click", onDropdownTriggerClicked);

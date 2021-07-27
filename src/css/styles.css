@@ -7,28 +7,6 @@
   --breakpoint: 400px;
 }
 
-header {
-  background: #12123e;
-  padding: 20px 0;
-  margin-bottom: 40px;
-}
-
-header a {
-  margin-right: 20px;
-}
-
-.dropdown-trigger {
-
-}
-
-.dropdown-trigger .emoji {
-  font-size: inherit;
-  margin: 0;
-  text-decoration: none;
-}
-
-
-
 p a,
 li a {
   text-decoration: underline;
