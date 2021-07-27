@@ -10,55 +10,65 @@
 
     <title>Berend Swennenhuis - This website</title>
     <link rel="stylesheet" href="/css/styles.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
   </head>
   <body>
     <header>
-  <div class="container">
-    <nav>
-      <div class="left">
-        <a href="/" class="face-container"
-          ><img src="/img/berend-zonder-stroke.png" class="face" alt=""
-        /></a>
-        <a class="home" href="/">Berend<span class="last-name"> Swennenhuis</span></a>
-        <a class="projects" href="/projects">Projects</a>
+      <div class="container">
+        <nav>
+          <div class="left">
+            <a href="/" class="face-container"
+              ><img src="/img/berend-zonder-stroke.png" class="face" alt=""
+            /></a>
+            <a class="home" href="/"><span class="first-name">Berend</span><span class="last-name"> Swennenhuis</span></a>
+            <a class="projects" href="/projects">Projects</a>
+          </div>
+          <div class="right">
+            <div class="dropdown">
+            <button class="dropdown-trigger">
+              <span class="underline-on-hover">Links</span>  
+              <span class="emoji">🔽</span>
+            </button>
+            <div class="dropdown-content">
+              <a href="/tetris" target="_blank">Tetris</a>
+              <a href="/tetris/api/scores" target="_blank">Tetris highscores</a>
+              <!-- <a href="http://86.91.181.219:8123/" target="_blank">Minecraft</a> -->
+              <a href="https://github.com/berenddeperend/" target="_blank">Github</a>
+            </div>
+          </div>
+          </div>
+        </nav>
       </div>
-      <div class="right">
-        <!-- <a
-          class="logo"
-          target="_blank"
-          href="https://github.com/berenddeperend/"
-          >Github</a
-        > -->
-      </div>
-    </nav>
-  </div>
-</header>
-
-
+    </header>
+    
     <div class="container">
-      <div class="post-header">
-        <h1 class="post-title">This website</h1> 
-        <p class="post-metadata">Posted on May 21, 2021</p>
-        
-      </div>
+      
+<div class="post-header">
+  <h1 class="post-title">This website</h1> 
+  <p class="post-metadata">Posted on May 21, 2021</p>
+  
+</div>
 
-      <p>I made this website because I wanted one central place to showcase some of my projects. The blog you're reading right is static HTML generated with <a href="https://11ty.dev">11ty</a>. I'm not using a theme, I've just slapped some CSS on it. It is hosted on a headless Raspberry Pi 4 (8GB) which is stuffed away somewhere in a cabinet in my living room:</p>
-<img alt="The computer running this website." loading="lazy" decoding="async" src="/img/pi4.jpeg" width="1000" height="750" srcset="/img/pi4.jpeg 1000w, /img/pi4.jpeg 1000w" sizes="1000">
-<p>The blog is Dockerized along with some other projects (a Minecraft server, my Tetris clone, its backend, its database, and anything else I'll build in the future). One <code>docker-compose up</code> command fires up everything, which is really cool. I spent a few evenings trying to learn Traefik for my reverse proxy HTTPS needs, but honestly I had a really hard time figuring it out. <a href="https://caddyserver.com/">Caddy</a> proved to be a way easier alternative, I would definitely recommend it. This stack I'm using is probably overkill for what I want to archieve. I just wanted the experience of doing it the 'right' way. Hopefully having this system in place also makes it less of a big deal to upgrade/maintain. If you're reading this, it at least means it hasn't failed yet :)</p>
+<p>I made this website because I wanted one central place to showcase some of my projects. The blog you're reading right is static HTML generated with <a href="11ty">11ty</a>. I'm not using a theme, I've just slapped some CSS on it. It is hosted on a headless Raspberry Pi 4 (8GB) which is stuffed away somewhere in a cabinet in my living room:</p>
+<p><img src="/img/this-website/pi4.jpg" alt="The computer running this website."></p>
+<p>The blog is Dockerized along with some other projects (a Minecraft server, my Tetris clone, its backend, its database, and anything else I'll build in the future). One <code>docker-compose up</code> command fires up everything, which is really cool. I spent a few evenings trying to learn Traefik for my reverse proxy HTTPS needs, but honestly I had a really hard time figuring it out. <a href="Caddy">Caddy</a> proved to be a way easier alternative, I would definitely recommend it. This stack I'm using is probably overkill for what I want to archieve. I just wanted the experience of doing it the 'right' way. Hopefully having this system in place also makes it less of a big deal to upgrade/maintain. If you're reading this, it at least means it hasn't failed yet :)</p>
 <p>Big thanks to Erik (the one living in Norway) for helping me with some Docker and HTTPS stuff.</p>
 
 
-      <a href="/projects" class="back no-underline">
-        <span class="emoji"> 👈 </span>
-        <span class="underline">Back to projects overview</span></a
-      >
+<a href="/projects" class="back no-underline">
+  <span class="emoji"> 👈 </span>
+  <span class="underline">Back to projects overview</span></a
+>
+
+
     </div>
+    </div>
+
+    <script src="/js/app.js"></script>
   </body>
 </html>

@@ -10,57 +10,62 @@
 
     <title>Berend Swennenhuis - Hands-free soap dispenser</title>
     <link rel="stylesheet" href="/css/styles.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
   </head>
   <body>
     <header>
-  <div class="container">
-    <nav>
-      <div class="left">
-        <a href="/" class="face-container"
-          ><img src="/img/berend-zonder-stroke.png" class="face" alt=""
-        /></a>
-        <a class="home" href="/">Berend<span class="last-name"> Swennenhuis</span></a>
-        <a class="projects" href="/projects">Projects</a>
+      <div class="container">
+        <nav>
+          <div class="left">
+            <a href="/" class="face-container"
+              ><img src="/img/berend-zonder-stroke.png" class="face" alt=""
+            /></a>
+            <a class="home" href="/"><span class="first-name">Berend</span><span class="last-name"> Swennenhuis</span></a>
+            <a class="projects" href="/projects">Projects</a>
+          </div>
+          <div class="right">
+            <div class="dropdown">
+            <button class="dropdown-trigger">
+              <span class="underline-on-hover">Links</span>  
+              <span class="emoji">🔽</span>
+            </button>
+            <div class="dropdown-content">
+              <a href="/tetris" target="_blank">Tetris</a>
+              <a href="/tetris/api/scores" target="_blank">Tetris highscores</a>
+              <!-- <a href="http://86.91.181.219:8123/" target="_blank">Minecraft</a> -->
+              <a href="https://github.com/berenddeperend/" target="_blank">Github</a>
+            </div>
+          </div>
+          </div>
+        </nav>
       </div>
-      <div class="right">
-        <!-- <a
-          class="logo"
-          target="_blank"
-          href="https://github.com/berenddeperend/"
-          >Github</a
-        > -->
-      </div>
-    </nav>
-  </div>
-</header>
-
-
+    </header>
+    
     <div class="container">
-      <div class="post-header">
-        <h1 class="post-title">Hands-free soap dispenser</h1> 
-        <p class="post-metadata">Posted on Mar 21, 2020</p>
-        
-      </div>
+      
+<div class="post-header">
+  <h1 class="post-title">Hands-free soap dispenser</h1> 
+  <p class="post-metadata">Posted on Mar 21, 2020</p>
+  
+</div>
 
-      <p>Inspired by some facebook post. Seemed like a simple enough project and I already had all the required hardware laying around.</p>
+<p>Inspired by some facebook post. Seemed like a simple enough project and I already had all the required hardware laying around.</p>
 <p>Some first prototypes:</p>
 <p><img src="/img/soapdispenser/soap-wip-1-lq.gif" alt=""></p>
 <p>I was using the small servo motor in a pretty inefficient way so it wasn't strong enough.</p>
 <p>Two servos:</p>
 <p><img src="/img/soapdispenser/soap-wip-2.gif" alt=""></p>
 <p>Still not great. I ordered a slightly bigger servo and attached it:</p>
-<img alt="Soap dispenser finished" loading="lazy" decoding="async" src="/img/soap-finished-back.jpeg" width="1000" height="1333" srcset="/img/soap-finished-back.jpeg 1000w, /img/soap-finished-back.jpeg 1000w" sizes="1000">
-<img alt="Soap dispenser finished" loading="lazy" decoding="async" src="/img/soap-wip-2-low.jpeg" width="1000" height="1333" srcset="/img/soap-wip-2-low.jpeg 1000w, /img/soap-wip-2-low.jpeg 1000w" sizes="1000">
+<p><img src="/img/soapdispenser/soap-finished-back.jpg" alt=""></p>
+<p><img src="/img/soapdispenser/soap-wip-2-low.jpg" alt=""></p>
 <p><img src="/img/soapdispenser/soap-wip-fail.gif" alt=""></p>
 <p>The servo worked but the sensor was not in a good place. I fixed it with some popsicle sticks.</p>
-<img alt="Soap dispenser finished" loading="lazy" decoding="async" src="/img/soap-finished-low.jpeg" width="1000" height="1333" srcset="/img/soap-finished-low.jpeg 1000w, /img/soap-finished-low.jpeg 1000w" sizes="1000">
+<p><img src="/img/soapdispenser/soap-finished-low.jpg" alt=""></p>
 <p><img src="/img/soapdispenser/soap-finished.gif" alt=""></p>
 <p>Success!</p>
 <p>Used hardware:</p>
@@ -76,10 +81,15 @@
   </video> -->
 
 
-      <a href="/projects" class="back no-underline">
-        <span class="emoji"> 👈 </span>
-        <span class="underline">Back to projects overview</span></a
-      >
+<a href="/projects" class="back no-underline">
+  <span class="emoji"> 👈 </span>
+  <span class="underline">Back to projects overview</span></a
+>
+
+
     </div>
+    </div>
+
+    <script src="/js/app.js"></script>
   </body>
 </html>

@@ -10,69 +10,79 @@
 
     <title>Berend Swennenhuis - Remote plant watering</title>
     <link rel="stylesheet" href="/css/styles.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
   </head>
   <body>
     <header>
-  <div class="container">
-    <nav>
-      <div class="left">
-        <a href="/" class="face-container"
-          ><img src="/img/berend-zonder-stroke.png" class="face" alt=""
-        /></a>
-        <a class="home" href="/">Berend<span class="last-name"> Swennenhuis</span></a>
-        <a class="projects" href="/projects">Projects</a>
+      <div class="container">
+        <nav>
+          <div class="left">
+            <a href="/" class="face-container"
+              ><img src="/img/berend-zonder-stroke.png" class="face" alt=""
+            /></a>
+            <a class="home" href="/"><span class="first-name">Berend</span><span class="last-name"> Swennenhuis</span></a>
+            <a class="projects" href="/projects">Projects</a>
+          </div>
+          <div class="right">
+            <div class="dropdown">
+            <button class="dropdown-trigger">
+              <span class="underline-on-hover">Links</span>  
+              <span class="emoji">🔽</span>
+            </button>
+            <div class="dropdown-content">
+              <a href="/tetris" target="_blank">Tetris</a>
+              <a href="/tetris/api/scores" target="_blank">Tetris highscores</a>
+              <!-- <a href="http://86.91.181.219:8123/" target="_blank">Minecraft</a> -->
+              <a href="https://github.com/berenddeperend/" target="_blank">Github</a>
+            </div>
+          </div>
+          </div>
+        </nav>
       </div>
-      <div class="right">
-        <!-- <a
-          class="logo"
-          target="_blank"
-          href="https://github.com/berenddeperend/"
-          >Github</a
-        > -->
-      </div>
-    </nav>
-  </div>
-</header>
-
-
+    </header>
+    
     <div class="container">
-      <div class="post-header">
-        <h1 class="post-title">Remote plant watering</h1> 
-        <p class="post-metadata">Posted on Mar 26, 2019</p>
-        
-      </div>
+      
+<div class="post-header">
+  <h1 class="post-title">Remote plant watering</h1> 
+  <p class="post-metadata">Posted on Mar 26, 2019</p>
+  
+</div>
 
-      <p>This was one of my earlier arduino projects. I started with connecting some soil moisture sensors to a plant.</p>
-<img alt="Plant with sensor." loading="lazy" decoding="async" src="/img/plant-water-sensor.jpeg" width="1000" height="1333" srcset="/img/plant-water-sensor.jpeg 1000w, /img/plant-water-sensor.jpeg 1000w" sizes="1000">
-<img alt="Plant with sensor." loading="lazy" decoding="async" src="/img/plant-water-sensor-2.jpeg" width="1000" height="1333" srcset="/img/plant-water-sensor-2.jpeg 1000w, /img/plant-water-sensor-2.jpeg 1000w" sizes="1000">
+<p>This was one of my earlier arduino projects. I started with connecting some soil moisture sensors to a plant.</p>
+<p><img src="/img/plant-water/plant-water-sensor.jpg" alt=""></p>
+<p><img src="/img/plant-water/plant-water-sensor-2.jpg" alt=""></p>
 <p>Then I built a pretty crappy planter with the sensor built-in.</p>
-<img alt="Planter with sensor" loading="lazy" decoding="async" src="/img/plant-water-gift-1.jpeg" width="1000" height="1333" srcset="/img/plant-water-gift-1.jpeg 1000w, /img/plant-water-gift-1.jpeg 1000w" sizes="1000">
-<img alt="Planter with sensor" loading="lazy" decoding="async" src="/img/plant-water-gift-2.jpeg" width="1000" height="750" srcset="/img/plant-water-gift-2.jpeg 1000w, /img/plant-water-gift-2.jpeg 1000w" sizes="1000">
+<p><img src="/img/plant-water/plant-water-gift-1.jpg" alt=""></p>
+<p><img src="/img/plant-water/plant-water-gift-2.jpg" alt=""></p>
 <p>I wanted to do something more with this concept. I wanted a planter with a water compartiment and a pump, so I could water the plant without being there. These are some sketches:</p>
-<img alt="Sketch of my planter idea" loading="lazy" decoding="async" src="/img/sketch1.jpeg" width="1000" height="1333" srcset="/img/sketch1.jpeg 1000w, /img/sketch1.jpeg 1000w" sizes="1000">
-<img alt="Sketch of my planter idea" loading="lazy" decoding="async" src="/img/sketch2.jpeg" width="1000" height="1333" srcset="/img/sketch2.jpeg 1000w, /img/sketch2.jpeg 1000w" sizes="1000">
-<img alt="Sketch of my planter idea" loading="lazy" decoding="async" src="/img/sketch3.jpeg" width="1000" height="1333" srcset="/img/sketch3.jpeg 1000w, /img/sketch3.jpeg 1000w" sizes="1000">
+<p><img src="/img/plant-water/sketch1.jpg" alt=""></p>
+<p><img src="/img/plant-water/sketch2.jpg" alt=""></p>
+<p><img src="/img/plant-water/sketch3.jpg" alt=""></p>
 <p>I settled on this design:</p>
-<img alt="Sketch of my planter idea" loading="lazy" decoding="async" src="/img/sketch.jpeg" width="1000" height="1777" srcset="/img/sketch.jpeg 1000w, /img/sketch.jpeg 1000w" sizes="1000">
-<img alt="Work in progress of planter" loading="lazy" decoding="async" src="/img/planter-wip.jpeg" width="1000" height="750" srcset="/img/planter-wip.jpeg 1000w, /img/planter-wip.jpeg 1000w" sizes="1000">
-<img alt="Work in progress of electronics" loading="lazy" decoding="async" src="/img/electronics.jpeg" width="1000" height="1333" srcset="/img/electronics.jpeg 1000w, /img/electronics.jpeg 1000w" sizes="1000">
-<img alt="The finished product" loading="lazy" decoding="async" src="/img/final-1.jpeg" width="1000" height="750" srcset="/img/final-1.jpeg 1000w, /img/final-1.jpeg 1000w" sizes="1000">
+<p><img src="/img/plant-water/sketch.jpeg" alt=""></p>
+<p><img src="/img/plant-water/IMG_20190317_122331.jpg" alt=""></p>
+<p><img src="/img/plant-water/electronics.jpg" alt=""></p>
+<p><img src="/img/plant-water/final-1.jpg" alt=""></p>
 <p>At TRIMM we have these green mugs everywhere. Whenever I wanted to get myself a cup of coffee, I could also get my planty boy a refill.</p>
 <p><img src="/img/plant-water/VID_20190325_131418.gif" alt=""></p>
 <p>The goal was to have the thing wifi-connected, but I never made it past a prototype. I did hook it up to an infrared remote controller though, which worked pretty well.</p>
 
 
-      <a href="/projects" class="back no-underline">
-        <span class="emoji"> 👈 </span>
-        <span class="underline">Back to projects overview</span></a
-      >
+<a href="/projects" class="back no-underline">
+  <span class="emoji"> 👈 </span>
+  <span class="underline">Back to projects overview</span></a
+>
+
+
     </div>
+    </div>
+
+    <script src="/js/app.js"></script>
   </body>
 </html>

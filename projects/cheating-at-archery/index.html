@@ -10,62 +10,73 @@
 
     <title>Berend Swennenhuis - Cheating at archery</title>
     <link rel="stylesheet" href="/css/styles.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
   </head>
   <body>
     <header>
-  <div class="container">
-    <nav>
-      <div class="left">
-        <a href="/" class="face-container"
-          ><img src="/img/berend-zonder-stroke.png" class="face" alt=""
-        /></a>
-        <a class="home" href="/">Berend<span class="last-name"> Swennenhuis</span></a>
-        <a class="projects" href="/projects">Projects</a>
+      <div class="container">
+        <nav>
+          <div class="left">
+            <a href="/" class="face-container"
+              ><img src="/img/berend-zonder-stroke.png" class="face" alt=""
+            /></a>
+            <a class="home" href="/"><span class="first-name">Berend</span><span class="last-name"> Swennenhuis</span></a>
+            <a class="projects" href="/projects">Projects</a>
+          </div>
+          <div class="right">
+            <div class="dropdown">
+            <button class="dropdown-trigger">
+              <span class="underline-on-hover">Links</span>  
+              <span class="emoji">🔽</span>
+            </button>
+            <div class="dropdown-content">
+              <a href="/tetris" target="_blank">Tetris</a>
+              <a href="/tetris/api/scores" target="_blank">Tetris highscores</a>
+              <!-- <a href="http://86.91.181.219:8123/" target="_blank">Minecraft</a> -->
+              <a href="https://github.com/berenddeperend/" target="_blank">Github</a>
+            </div>
+          </div>
+          </div>
+        </nav>
       </div>
-      <div class="right">
-        <!-- <a
-          class="logo"
-          target="_blank"
-          href="https://github.com/berenddeperend/"
-          >Github</a
-        > -->
-      </div>
-    </nav>
-  </div>
-</header>
-
-
+    </header>
+    
     <div class="container">
-      <div class="post-header">
-        <h1 class="post-title">Cheating at archery</h1> 
-        <p class="post-metadata">Posted on Mar 1, 2018</p>
-        
-      </div>
+      
+<div class="post-header">
+  <h1 class="post-title">Cheating at archery</h1> 
+  <p class="post-metadata">Posted on Mar 1, 2018</p>
+  
+</div>
 
-      <img alt="" loading="lazy" decoding="async" src="/img/gyrobow-finished-side.jpeg" width="1000" height="750" srcset="/img/gyrobow-finished-side.jpeg 1000w, /img/gyrobow-finished-side.jpeg 1000w" sizes="1000">
+<p><img src="/img/gyrobow/gyrobow-finished-side.jpg" alt=""></p>
 <p>For a while I was really into archery. I came up with the idea to attach a gyroscope to my bow to see if it would help my accuracy. A first prototype with an Arduino Uno looked like this:</p>
 <p><img src="/img/gyrobow/gyrobow-wip.gif" alt=""></p>
 <p>When you turn on the device, it shows you the angle you're pointing your bow at (up/down, not left/right).</p>
-<img alt="Gyroscope bow work in progress" loading="lazy" decoding="async" src="/img/gyrobow-wip-3.jpeg" width="1000" height="1333" srcset="/img/gyrobow-wip-3.jpeg 1000w, /img/gyrobow-wip-3.jpeg 1000w" sizes="1000">
+<p><img src="/img/gyrobow/gyrobow-wip-3.jpg" alt=""></p>
 <p>First you shoot an arrow like you normally would. All else being equal, if your arrow flies over the target, you've aimed too high. If the arrow falls short, you've aimed too low. If you take notice of the value on the screen before you shoot, you can use it as an anchor point to make adjustments to your next shot.</p>
 <p>That's already pretty cool, but it came with a drawback: you had to pay attention to both the screen and your target. My solution was to add a second value to the screen: the target value. You can set this target value by turning the knob. If the measured angle matches the target value, a small motor will start vibrating. This will let you match your angle to the target angle without losing focus on the bullseye.</p>
 <p>Here are some more photos.</p>
-<img alt="Gyroscope bow finished" loading="lazy" decoding="async" src="/img/gyrobow-finished-front.jpeg" width="1000" height="1333" srcset="/img/gyrobow-finished-front.jpeg 1000w, /img/gyrobow-finished-front.jpeg 1000w" sizes="1000">
-<img alt="Gyroscope bow finished" loading="lazy" decoding="async" src="/img/gyrobow-finished-side.jpeg" width="1000" height="750" srcset="/img/gyrobow-finished-side.jpeg 1000w, /img/gyrobow-finished-side.jpeg 1000w" sizes="1000">
-<img alt="Gyroscope bow finished" loading="lazy" decoding="async" src="/img/gyrobow-finished-back.jpeg" width="1000" height="1333" srcset="/img/gyrobow-finished-back.jpeg 1000w, /img/gyrobow-finished-back.jpeg 1000w" sizes="1000">
-<img alt="Gyroscope bow finished" loading="lazy" decoding="async" src="/img/gyrobow-finished-action.jpeg" width="1000" height="1537" srcset="/img/gyrobow-finished-action.jpeg 1000w, /img/gyrobow-finished-action.jpeg 1000w" sizes="1000">
+<p><img src="/img/gyrobow/gyrobow-finished-front.jpg" alt=""></p>
+<p><img src="/img/gyrobow/gyrobow-finished-side.jpg" alt=""></p>
+<p><img src="/img/gyrobow/gyrobow-finished-back.jpg" alt=""></p>
+<p><img src="/img/gyrobow/gyrobow-finished-action.jpg" alt=""></p>
 
-      <a href="/projects" class="back no-underline">
-        <span class="emoji"> 👈 </span>
-        <span class="underline">Back to projects overview</span></a
-      >
+
+<a href="/projects" class="back no-underline">
+  <span class="emoji"> 👈 </span>
+  <span class="underline">Back to projects overview</span></a
+>
+
+
     </div>
+    </div>
+
+    <script src="/js/app.js"></script>
   </body>
 </html>
