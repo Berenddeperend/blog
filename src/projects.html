@@ -1,0 +1,40 @@
+---
+title: Projects
+layout: template.njk
+---
+
+<h1>{{title}}</h1>
+
+{%- for post in collections.post reversed -%}
+<div class="post-overview-item">
+  <a 
+    class="post-overview-featured-img-anchor"
+    {%- if post.data.url -%}
+      href="{{ (post.data.url) | slug }}"
+    {% else %}
+      href="{{ (post.data.title) | slug }}"
+    {% endif %}
+  >
+    <img
+      class="post-overview-featured-img"
+      src="{{ post.data.featured-img }}"
+    />
+  </a>
+
+  <div class="post-overview-item-content">
+    <h3 class="post-overview-item-title">
+      
+      <a
+        class=""
+        {%- if post.data.url -%}
+          href="{{ (post.data.url) | slug }}"
+        {% else %}
+        href="{{ (post.data.title) | slug }}"
+        {% endif %}
+      > {{ post.data.title }} </a>
+    </h3>
+    <p class="post-overview-summary">{{ post.data.summary }}</p>
+    <p class="post-metadata">{{ post.data.date | formatDate }}</p>
+  </div>
+</div>
+{%- endfor -%}  
