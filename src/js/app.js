@@ -6,9 +6,9 @@ function onDropdownTriggerClicked(e)  {
 
 function outsideDropdownClickedChecker(e) {
   const clickedWithin = e.target.closest('.dropdown')
-  console.log('clickedWithin: ', clickedWithin);
+  const clickedLink = clickedWithin && e.target.localName === 'a';
 
-  if (!clickedWithin) {
+  if (!clickedWithin || clickedLink) {
     document.querySelector('.dropdown-content').classList.remove('open');
     window.removeEventListener('click', outsideDropdownClickedChecker);
   }
