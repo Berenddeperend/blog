@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Berend Swennenhuis - Tetris</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="left">
+            <a href="/" class="face-container"
+              ><img src="/img/berend-zonder-stroke.png" class="face" alt=""
+            /></a>
+            <a class="home" href="/"><span class="first-name">Berend</span><span class="last-name"> Swennenhuis</span></a>
+            <a class="projects" href="/projects">Projects</a>
+          </div>
+          <div class="right">
+            <div class="dropdown">
+            <button class="dropdown-trigger">
+              <span class="underline-on-hover">Links</span>  
+              <span class="emoji">🔽</span>
+            </button>
+            <div class="dropdown-content">
+              <a href="/tetris" target="_blank">Tetris</a>
+              <!-- <a href="/tetris/api/scores" target="_blank">Tetris highscores</a> -->
+              <!-- <a href="http://86.91.181.219:8123/" target="_blank">Minecraft</a> -->
+              <a href="https://github.com/berenddeperend/" target="_blank">Github</a>
+            </div>
+          </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    
+    <div class="container">
+      
+<div class="post-header">
+  <h1 class="post-title">Tetris</h1> 
+  <p class="post-metadata">Posted on Mar 20, 2021</p>
+  
+</div>
+
+<h2>TL;DR</h2>
+<p>I wrote a Tetris clone in Typescript from scratch for fun. The code is messy because I never expected it to get as many features as it has.</p>
+<p>Play it <a href="/tetris">here</a></p>
+<p>Code lives on <a href="https://github.com/Berenddeperend/tetris">Github</a></p>
+<h2>Progress</h2>
+<h2>Background</h2>
+<p>At around January 4th 2021 I was looking for a new programming project. I had never written a game before but I've always been interested in 8-bit style programs. Back in 2008 when I was studying Arts and Technology I had a teacher who was trying to build Tetris in ActionScript. While I had never seen his attempt, I do remember him saying the task was too difficult for him. Fast-forward some 13 years later and I felt confident enough in my skills to give it a shot.</p>
+<h2>Backend</h2>
+<p>I wanted to store the highscores in a database on my Raspberry Pi. For something as simple as this I'd usually go with MongoDB. But as I had no experience with relational databases, I felt this would be a nice opportunity. I chose Postgres. Massive overkill for a simple project as this, but it's what we often use at the office so the experience was welcome. Learning the SQL queries to read and write some rows didn't take more than a few hours. After making a few endpoints on my RPi + Node + Expressjs server, I could use Postman to interact with it from another machine on the same network. Neat!</p>
+<p>Now came the part I wasn't looking forward to: making the thing publicly available. I wanted to have the API accessible through <a href="https://berendswennenhuis.nl/api">https://berendswennenhuis.nl/api</a>, something like http://86.91.181.219 wouldn't cut it. Luckily, my friend Erik came to the rescue. After an evening of hard work, we managed to change the DNS settings to point to my local network, set up port-forwarding to route it to the RPi, and get get a LetsEncrypt certificate. <a href="https://www.berendswennenhuis.nl">https://www.berendswennenhuis.nl</a> succesfully routed to my RPi, I was beyond excited. About an hour later, I managed to hook up my Tetris highscore list to the RPi.</p>
+<p><img src="/img/tetris/tetris-score-hacked.jpg" alt=""></p>
+<h2>Challenges</h2>
+<p>I had no expectations for this project at all, I just started writing some code for fun. I used plain TypeScript without any frontend framework. Things were going pretty well and I was very happy with the progress I made.</p>
+<p>The game had three states at this point (splash, playing, gameover) and I knew I was going to add more. Doing DOM manipulations within TS was getting tedious so I needed something to help me out. At my job at TRIMM I work with Vue.js which I love, but I wanted to keep this game as lightweight as possible. Since the rest of the industry primarily uses React, this seemed like the perfect opportunity to try out Preact, the 3kB React alternative with the same API.</p>
+<p>Writing new components in Preact went fine, like the three-letter-input and highscore list. I knew it was time to rewrite the primary gamefiles as well. I gave it my best shot, but after two weeks of refactoring I was still breaking more than I was fixing. This was pretty demotivating, especially considering my productivity from when I was still frameworkless. As I was already learning a lot from building the new components, I decided on leaving the old components as-is. This means that the code is pretty inconsistent but I'm okay with that. I'm doing this for fun after all.</p>
+<h2>Acknowledgements</h2>
+<p>All thoughout the project I shared my progress with my close friends Joost and Erik.</p>
+<ul>
+<li>My friend Erik helped me with setting up my Raspberry Pi to use as a server and highscore-database. This included DNS settings, port-forwarding and getting a LetsEncrypt certificate. You've been a great help, thank you!</li>
+<li>My ex-colleague Daniël wrote <a href="https://virtual-clock.js.org/">'virtual-clock'</a>, the lib I used for the game clock.</li>
+<li>My colleague Erik helped me to think out a strategy for validating the scores on the back-end.</li>
+</ul>
+
+
+<a href="/projects" class="back no-underline">
+  <span class="emoji"> 👈 </span>
+  <span class="underline">Back to projects overview</span></a
+>
+
+
+    </div>
+    </div>
+
+    <script src="/js/app.js"></script>
+  </body>
+</html>

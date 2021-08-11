@@ -1,0 +1,33 @@
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: flex;
+    position: absolute;
+    background: #e8e6e3;
+    padding: 15px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    flex-direction: column;
+    right: 0;
+    text-align: right;
+    opacity: 0;
+    transform: translateY(5px);
+    transition: opacity 0.2s, transform 0.2s;
+    pointer-events: none;
+}
+
+.dropdown-content.open {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(10px);
+}
+
+.dropdown-content a {
+    color: #12123d;
+    display: inline-block;
+    margin: 2px 0;
+
+    white-space: nowrap;
+}
