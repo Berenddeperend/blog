@@ -28,7 +28,7 @@ Nobody asked but here's a list of some of the cool things I bought. Inspired by 
 
 ### Workout stuff
 
-- Decathlon **barbell**. Awesome piece of metal, I still can't believe I have my own barbell.
+- Decathlon **barbell**. Very cool, I still can't believe I have my own barbell.
 - 70kg worth of (relatively) cheap cast-iron **plates**. I built a [storage rack](/projects/plate-storage) for them.
 - **Pullup bar**. Love it.
 - Homemade **[squat rack](/projects/squat-rack)**.
