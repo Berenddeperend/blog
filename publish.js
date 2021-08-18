@@ -3,7 +3,7 @@ ghpages.publish(
   "dist",
   {
     repo: "https://github.com/Berenddeperend/blog.git",
-    branch: "dist",
+    branch: "gh-pages",
   },
   function (err) {
     if(err) {
