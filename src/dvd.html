@@ -24,10 +24,14 @@
 
     <script>
       const paths = document.querySelectorAll("path");
-      document.addEventListener("keydown touchstart", function () {
+
+      function randomColor() {
         const color = "hsl(" + Math.floor(Math.random()*360) + ", 100%, 50%)";
         paths.forEach((path) => (path.style.fill = color));
-      });
+      }
+
+      document.addEventListener("keydown", randomColor);
+      document.addEventListener("mouseover", randomColor);
       
     </script>
   </body>
