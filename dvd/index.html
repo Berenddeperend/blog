@@ -1,10 +1,11 @@
 <html>
   <head>
-      <style>
-          html, body {
-              background: black;
-          }
-      </style>
+    <style>
+      html,
+      body {
+        background: black;
+      }
+    </style>
   </head>
   <body>
     <svg
@@ -23,16 +24,19 @@
     </svg>
 
     <script>
+      console.log(
+        "This page was used as a part of a costume: www.berendswennenhuis.nl/projects/standby-dvd-costume"
+      );
       const paths = document.querySelectorAll("path");
 
       function randomColor() {
-        const color = "hsl(" + Math.floor(Math.random()*360) + ", 100%, 50%)";
+        const color = "hsl(" + Math.floor(Math.random() * 360) + ", 100%, 50%)";
         paths.forEach((path) => (path.style.fill = color));
       }
 
+      randomColor();
       document.addEventListener("keydown", randomColor);
       document.addEventListener("touchstart", randomColor);
-      
     </script>
   </body>
 </html>
