@@ -5,9 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx @11ty/eleventy --input=./src --output=dist",
-    "serve": "npx @11ty/eleventy --input=./src --output=dist --serve",
-    "docker:build": "docker build -t berenddeperend/blog .",
-    "docker:push": "docker push berenddeperend/blog",
+    "serve": "npx @11ty/eleventy --input=./src --output=dist --serve --watch",
     "publish": "node publish.js"
   },
   "repository": {
@@ -26,6 +24,7 @@
     "markdown-it": "^12.0.4"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.1"
+    "@11ty/eleventy": "^0.11.1",
+    "gh-pages": "^3.2.0"
   }
 }

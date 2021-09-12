@@ -1,75 +1,41 @@
 ---
 title: Projects
+layout: template.njk
 ---
 
-<html>
-  <head>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+<h1>{{title}}</h1>
 
-    <title>Berend Swennenhuis - {{title}}</title>
-    <link rel="stylesheet" href="/css/styles.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet"
+{%- for post in collections.post reversed -%}
+<div class="post-overview-item">
+  <a 
+    class="post-overview-featured-img-anchor"
+    {%- if post.data.url -%}
+      href="{{ (post.data.url) | slug }}"
+    {% else %}
+      href="{{ (post.data.title) | slug }}"
+    {% endif %}
+  >
+    <img
+      class="post-overview-featured-img"
+      src="/img/{{ post.data.featured-img }}"
+
     />
-  </head>
-  <body>
+  </a>
 
-    {% include header.html %}
-
-    <div class="container">
-
-    <h1>{{title}}</h1>
-
-    <!-- <p class="overview-intro">
-      These are some of the projects I've been working on over the years.
-    </p> -->
-
-    {%- for post in collections.post reversed -%}
-    <div class="post-overview-item">
-
+  <div class="post-overview-item-content">
+    <h3 class="post-overview-item-title">
       
-      <a 
-        class="post-overview-featured-img-anchor"
+      <a
+        class=""
         {%- if post.data.url -%}
           href="{{ (post.data.url) | slug }}"
         {% else %}
-          href="{{ (post.data.title) | slug }}"
+        href="{{ (post.data.title) | slug }}"
         {% endif %}
-      >
-        <img
-          class="post-overview-featured-img"
-          src="/img/{{ post.data.featured-img }}"
-        />
-      </a>
-
-      <div class="post-overview-item-content">
-        <h3 class="post-overview-item-title">
-          
-          <a
-            class=""
-            {%- if post.data.url -%}
-             href="{{ (post.data.url) | slug }}"
-            {% else %}
-            href="{{ (post.data.title) | slug }}"
-            {% endif %}
-          > {{ post.data.title }} </a>
-        </h3>
-        <p class="post-overview-summary">{{ post.data.summary }}</p>
-        <p class="post-metadata">{{ post.data.date | formatDate }}</p>
-      </div>
-    </div>
-    {%- endfor -%}
-
+      > {{ post.data.title }} </a>
+    </h3>
+    <p class="post-overview-summary">{{ post.data.summary }}</p>
+    <p class="post-metadata">{{ post.data.date | formatDate }}</p>
   </div>
-  </body>
-</html>
+</div>
+{%- endfor -%}  
