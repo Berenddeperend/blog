@@ -22,6 +22,6 @@ I made them a picnic table.
 
 {% image "mini-picnic-table/picnic-table-clamp-2.png", "Some more clamping" %}
 
-{% image "mini-picnic-table/picnic-table-pieter-julia.png", "Pieter and Julia enjoying lunch" %}
+{% image "mini-picnic-table/picnic-table-pieter-julia.jpeg", "Pieter and Julia enjoying lunch" %}
 
 {% image "mini-picnic-table/picnic-table-julia.jpeg", "Julia being sassy" %}
