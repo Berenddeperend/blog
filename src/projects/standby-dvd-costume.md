@@ -13,29 +13,27 @@ With Covid almost behind us my friend Joost and his roommates gave a house party
 
 I constructed a simple wooden frame that I spraypainted silver:
 
-![](/img/standby-dvd-costume/frame-front.jpg)
+{% image "standby-dvd-costume/frame-front.jpg", "Front of the frame" %}
 
 It's a simple mitre joint with a glued-on square on the back.
 
-![](/img/standby-dvd-costume/frame-back.jpg)
-
+{% image "standby-dvd-costume/frame-back.jpg", "Back of the frame" %}
 
 I 3D-printed a Samsung logo:
 
-![](/img/standby-dvd-costume/logo-3d.jpg)
+{% image "standby-dvd-costume/logo-3d.jpg", "Samsung logo in Prusaslicer" %}
 
-![](/img/standby-dvd-costume/logo-printed.jpg)
+{% image "standby-dvd-costume/logo-printed.jpg", "3D-printed Samsung logo" %}
 
 I attached Erik's dev board to the frame. He configured it to act like a Bluetooth keyboard that I could connect to my phone:
 
-![](/img/standby-dvd-costume/nordic.jpg)
+{% image "standby-dvd-costume/nordic.jpg", "Nordic board that acts as a keyboard" %}
 
 I created and hosted a **[simple website](/dvd)** that shows the DVD logo as svg, and changes to a random color on every keypress.
 
 Finally I attached my phone to my t-shirt. I did this by simply sandwiching my t-shirt between the phone and its case: 
 
 ![](/img/standby-dvd-costume/tshirt-and-keypress.gif)
-
 
 That's it! Thanks for Erik for some help with brainstorming and Joost for the awesome party.
 
