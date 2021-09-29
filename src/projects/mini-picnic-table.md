@@ -26,6 +26,12 @@ I made them a picnic table.
 
 {% image "mini-picnic-table/picnic-table-julia.jpeg", "Julia being sassy" %}
 
-Loki seems to like it as well:
+I really liked building it so I made some more:
+
+{% image "mini-picnic-table/picnic-table-wip.jpeg", "WIP" %}
+
+{% image "mini-picnic-table/two-picnic-tables.jpeg", "Two more" %}
+
+Loki seems to like his as well:
 
 {% image "mini-picnic-table/loki.png", "Loki" %}
