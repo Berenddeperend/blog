@@ -35,3 +35,7 @@ I really liked building it so I made some more:
 Loki seems to like his as well:
 
 {% image "mini-picnic-table/loki.png", "Loki" %}
+
+And Pip too:
+
+{% image "mini-picnic-table/pip.jpeg", "Pip" %}
