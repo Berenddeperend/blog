@@ -2,7 +2,7 @@
 layout: project.njk
 tags: post
 date: 2021-10-02
-featured-img: /bird-house/thumbnail.jpeg
+featured-img: /bird-house/thumbnail.jpg
 summary: "Is this even worth writing about?"
 title: Bird house
 
