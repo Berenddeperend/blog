@@ -3,13 +3,12 @@ layout: project.njk
 tags: post
 date: 2021-10-02
 featured-img: /bird-house/thumbnail.jpg
-summary: "Is this even worth writing about?"
+summary: "Imagine living rent-free and having a beak. Birds are truly living the dream."
 title: Bird house
 
 ---
 
 I made a bird house. Nothing special but the pocket holes are pretty nifty.
-
 
 {% image "bird-house/IMG_0219.jpeg", "Bird house work in progress" %}
 
