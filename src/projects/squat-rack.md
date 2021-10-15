@@ -1,5 +1,7 @@
 ---
-tags: post
+tags: 
+    - Woodworking
+    - post
 layout: project.njk
 title: DIY squat rack on my balcony
 summary: Centerpiece of my homegym.

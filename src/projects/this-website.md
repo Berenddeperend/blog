@@ -1,5 +1,7 @@
 ---
-tags: post
+tags: 
+    - Software
+    - post
 layout: project.njk
 title: This website
 summary: Documenting some of my projects on a self-hosted website.

@@ -1,10 +1,8 @@
 ---
 layout: project.njk
 tags: 
+    - Software
     - post
-    - software
-    - typescript
-    - game
 title: Tetris
 date: 2021-03-20
 summary: Recreating an all-time classic in TypeScript from scratch.

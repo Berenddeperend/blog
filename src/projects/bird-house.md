@@ -1,9 +1,11 @@
 ---
 layout: project.njk
-tags: post
+tags: 
+    - post
+    - Woodworking
 date: 2021-10-02
 featured-img: /bird-house/thumbnail.jpg
-summary: "Imagine living rent-free and having a beak. Birds are truly living the dream."
+summary: "Imagine living rent-free and having a beak. Birds are living the dream."
 title: Bird house
 
 ---

@@ -1,6 +1,9 @@
 ---
 layout: project.njk
-tags: post
+tags: 
+    - Woodworking
+    - Arduino
+    - post
 date: 2019-03-26
 title: Remote plant watering
 featured-img: final-1.jpeg

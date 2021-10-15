@@ -1,5 +1,7 @@
 ---
-tags: post
+tags: 
+    - Other
+    - post
 layout: project.njk
 title: Hardware I use
 summary: Flexing with things I bought to make up for a mediocre personality.

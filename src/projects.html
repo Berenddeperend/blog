@@ -5,6 +5,11 @@ layout: template.njk
 
 <h1>{{title}}</h1>
 
+{% set taglist = collections[ post ] %}
+{% for post in taglist | reverse %}
+{{ post.title }}
+{%- endfor -%}  
+
 {%- for post in collections.post reversed -%}
 <div class="post-overview-item">
   <a 

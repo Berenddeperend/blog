@@ -1,8 +1,8 @@
 ---
 layout: project.njk
 tags: 
+    - Arduino
     - post
-    - arduino
 title: Cheating at archery
 featured-img: gyrobow-finished-side.jpeg
 summary: Turns out I suck at both archery and hardware.

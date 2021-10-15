@@ -1,6 +1,8 @@
 ---
 layout: project.njk
-tags: post
+tags: 
+    - Woodworking
+    - post
 date: 2021-09-11
 featured-img: /mini-picnic-table/thumbnail.jpg
 summary: "If you couldn't tell from the thumbnail: that's a small table, not huge bunnies."

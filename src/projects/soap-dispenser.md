@@ -1,6 +1,8 @@
 ---
 layout: project.njk
-tags: post
+tags: 
+  - Arduino
+  - post
 date: 2020-03-21
 featured-img: /soapdispenser/soap-finished-thumb.gif
 summary: Arduino powered, made from scrap wood and components I had laying around.
