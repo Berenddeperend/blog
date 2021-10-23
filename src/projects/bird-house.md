@@ -33,3 +33,5 @@ I made a bird house. Nothing special but the pocket holes are pretty nifty.
 {% image "bird-house/IMG_0226.jpeg", "Bird house work in progress" %}
 
 {% image "bird-house/IMG_0240.jpeg", "Bird house work in progress" %}
+
+{% image "bird-house/bird-house-finished.jpeg", "Bird house in use" %}
