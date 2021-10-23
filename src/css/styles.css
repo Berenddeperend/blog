@@ -1,6 +1,7 @@
 @import "normalize.css";
 @import "global.css";
 @import "nav.css";
+@import "tags.css";
 @import "dropdown.css";
 
 :root {
@@ -107,4 +108,8 @@ li a {
 
 .underline-on-hover:hover {
   text-decoration: underline;
+}
+
+.hibbem {
+  display: none;
 }
