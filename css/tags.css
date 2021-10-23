@@ -1,0 +1,21 @@
+.taglist {
+    padding: 0 0 20px;
+}
+.tags-label {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.taglist .tag {
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 3px 10px;
+    margin: 3px;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.taglist .tag.active {
+    background-color: rgba(255, 255, 255, 0.3);
+}
