@@ -11,7 +11,7 @@ class Projects {
 
   render(data) {
     return `
-    <h1>${data.title} <small>(${this.postCount(data)}) (test)</small></h1>
+    <h1>${data.title} <small>(${this.postCount(data)})</small></h1>
 
     <div class="taglist">
     <span class="tags-label">Tags:</span>
@@ -61,8 +61,6 @@ class Projects {
     .reverse()
     .join('')
   }
-
-
 
   listTags(data) {
     const blacklist = ["all", "post"];
