@@ -34,6 +34,7 @@ if (document.title.includes("Projects")) {
       ).map((element) => {
         return element.innerText;
       });
+
       document.querySelectorAll(".post-overview-item").forEach((element) => {
         if (activeTags.length === 0) {
           element.classList.remove("hibbem");
@@ -42,6 +43,7 @@ if (document.title.includes("Projects")) {
             element
               .getAttribute("category")
               .split(",")
+              .map(d => d.trim())
               .some((tag) => {
                 return activeTags.includes(tag);
               })
