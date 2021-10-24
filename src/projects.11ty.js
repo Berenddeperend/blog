@@ -41,6 +41,7 @@ class Projects {
 
     return data.collections.post.map(d => {
         return `
+        <article>
         <div class="post-overview-item"
             category="${getPostTags(d)}"
         >
@@ -52,10 +53,11 @@ class Projects {
                 <h3 class="post-overview-item-title">
                 <a href="${getPostSlug(d)}">${d.data.title}</a>
                 </h3>
-                <p class="post-overview-summary">${d.data.summary}</p>
+                  <p class="post-overview-summary">${d.data.summary}</p>
                 <p class="post-metadata">${getPostDate(d)}</p>
             </div>
         </div>
+        </article>
         `
     })
     .reverse()
