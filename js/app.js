@@ -21,7 +21,7 @@ document
 if (document.title.includes("Projects")) {
   const allTags = Array.from(document.querySelectorAll(".taglist .tag")).map(
     (element) => {
-      return element.innerText;
+      return element.innerText.split(' ')[0];
     }
   );
 
@@ -32,7 +32,7 @@ if (document.title.includes("Projects")) {
       const activeTags = Array.from(
         document.querySelectorAll(".taglist .tag.active")
       ).map((element) => {
-        return element.innerText;
+        return element.innerText.split(' ')[0];
       });
 
       document.querySelectorAll(".post-overview-item").forEach((element) => {

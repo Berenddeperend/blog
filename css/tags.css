@@ -17,6 +17,11 @@
     user-select: none;
 }
 
+.taglist .tag small {
+    opacity: 0.5;
+    pointer-events: none;;
+}
+
 .taglist .tag.active {
     background-color: rgba(255, 255, 255, 0.3);
 }
