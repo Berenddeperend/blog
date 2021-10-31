@@ -32,6 +32,7 @@ li a {
 .post-overview-item {
   display: flex;
   margin-bottom: 40px;
+  flex-direction: column;
 }
 
 
@@ -52,7 +53,7 @@ li a {
 }
 
 
-@media (min-width: 500px) {
+@media (min-width: 430px) {
   .post-overview-item {
     flex-direction: row;
   }
@@ -112,4 +113,12 @@ li a {
 
 .hibbem {
   display: none;
+}
+
+@media (max-width: 400px) {
+  article.post img {
+    margin-right: -15px;
+    margin-left: -15px;
+    max-width: calc(100% + 30px);
+  }
 }

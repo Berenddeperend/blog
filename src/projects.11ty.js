@@ -15,7 +15,7 @@ class Projects {
 
     <div class="taglist">
     <span class="tags-label">Tags:</span>
-    ${this.listTags(data)} 
+    ${this.renderTags(data)} 
     </div>
 
     ${this.listPosts(data)}
@@ -24,6 +24,10 @@ class Projects {
 
   postCount(data) {
     return data.collections.post.length
+  }
+
+  getTagCount(data, tagName) {
+    return data.collections[tagName].length
   }
   
   listPosts(data) {
@@ -64,12 +68,12 @@ class Projects {
     .join('')
   }
 
-  listTags(data) {
+  renderTags(data) {
     const blacklist = ["all", "post"];
     return Object.keys(data.collections)
       .filter((d) => !blacklist.includes(d))
       .sort()
-      .map(d => `<div class="tag" category="${d}">${d}</div>`)
+      .map(d => `<div class="tag" category="${d}">${d} <small>(${this.getTagCount(data, d)})</small></div>`)
       .join('');
   }
 
