@@ -7,8 +7,11 @@ layout: template.njk
 
 I'm a frontend developer by day, and a frontend developer by night as well but asleep. I enjoy working with Vue.js and SCSS. I live in Enschede, the Netherlands.
 
+
 I like to dabble in woodworking, 3D-printing, guitar playing, IoT and fitness.
 
 Other interests in which I don't actively partake include retro hardware (big fan of Youtube channels like <a href="https://www.youtube.com/channel/UC8uT9cgJorJPWu7ITLGo9Ww" target="_blank">the 8-Bit Guy</a> and <a href="https://www.youtube.com/channel/UCLx053rWZxCiYWsBETgdKrQ" target="_blank">LGR</a>), birds, skateboarding and <a href="https://www.youtube.com/watch?v=_nRzQlQ7tAw" target="_blank">Sea Shanty 2</a> from Runescape.
 
-Feel free to send me a <a href="mailto:berendswennenhuis@gmail.com">message</a> if you have any questions or ideas.
+You can reach me by <a href="mailto:berendswennenhuis@gmail.com">email</a> and find my code on <a href="https://github.com/berenddeperend/" target="_blank">Github</a>.
+
+Quick links to games I wrote: <a href="/tetris" target="_blank">Tetris</a>, <a href="/nonogram" target="_blank">Nonogram With Friends</a>
