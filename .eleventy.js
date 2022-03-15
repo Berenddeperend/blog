@@ -19,6 +19,9 @@ async function imageShortcode(src, alt) {
       // return target;
       return `${name}.${format}`;
     },
+    sharpOptions: {
+
+    }
     sharpJpegOptions: {
       quality: 60,
     },
