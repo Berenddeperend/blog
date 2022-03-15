@@ -8,7 +8,7 @@ function onDropdownTriggerClicked(dropdown) {
   }
 
   el.classList.toggle("open");
-  window.addEventListener("click", outsideDropdownClickedChecker, );
+  window.addEventListener("click", outsideDropdownClickedChecker );
 }
 
 function outsideDropdownClickedChecker(e) {
