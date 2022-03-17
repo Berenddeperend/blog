@@ -57,6 +57,10 @@
     transition: width 1s cubic-bezier(0.33, 1, 0.68, 1);
 }
 
+.days-since-pr {
+    margin: 10px 0 0 0;
+}
+
 .lift-title  {
     border-bottom: 1px solid rgba(0,0,0, 0.1);
     margin-bottom: 5px;
