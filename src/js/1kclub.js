@@ -8,12 +8,30 @@ function setBarWidths() {
 
 const barFuncs = [];
 
+const highestTarget = Math.max(
+  ...[...document.querySelectorAll("[data-target]")].map((el) =>
+    parseInt(el.dataset.target)
+  )
+);
+
+const $dropdownContent = document.querySelector(".dropdown-content");
+const availableWidth =
+  $dropdownContent.clientWidth -
+  parseInt(window.getComputedStyle($dropdownContent).paddingLeft) -
+  parseInt(window.getComputedStyle($dropdownContent).paddingRight);
+
 [...document.querySelectorAll("[data-target]")].map((el) => {
   const target = el.dataset.target;
   const pr = el.firstElementChild.dataset.pr;
 
-  const adjustedTarget = arduinoMap(target, 0, 200, 0, 108);
-  const adjustedPr = arduinoMap(pr, 0, 200, 0, 108);
+  const adjustedTarget = arduinoMap(
+    target,
+    0,
+    highestTarget,
+    0,
+    availableWidth
+  );
+  const adjustedPr = arduinoMap(pr, 0, highestTarget, 0, availableWidth);
 
   el.style.width = adjustedTarget + "px";
 

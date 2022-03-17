@@ -7,7 +7,6 @@
     position: absolute;
     background: #e8e6e3;
     padding: 15px 20px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     flex-direction: column;
     right: 0;
@@ -17,7 +16,7 @@
     pointer-events: none;
     z-index: 2;
     color: #12123d;
-    width: 150px;   
+    width: 180px;   
     text-transform: uppercase;
     font-size: 0.7em;
 }
