@@ -26,7 +26,7 @@
 }
 
 .dropdown-content.open {
-    opacity: 1;
+    opacity: 1 !important;
     pointer-events: all;
     transform: translateY(10px);
 }
