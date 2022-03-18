@@ -58,6 +58,11 @@ nav .left a:last-child {
     drop-shadow(-2px -0px 0 var(--stroke-color));
 }
 
+.right {
+  display: flex;
+  gap: 20px;
+}
+
 @media (min-width: 400px) { 
   nav {
     justify-content: space-between;
