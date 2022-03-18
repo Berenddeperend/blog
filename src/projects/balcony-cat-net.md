@@ -13,7 +13,7 @@ title: Balcony cat net
 Winky and Luna are not allowed to jump off Maaike's balcony so I installed a net.
 The landlord however didn't allow us to drill into the wall.
 The solution was to build a wooden frame that clamps between the walls.
-Threaded inserts and adjustable worked great.   
+Threaded inserts and adjustable feet worked great.   
 
 {% image "cat-net/IMG_0631.JPG", "Installed cat net" %}
 
