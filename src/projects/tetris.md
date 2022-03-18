@@ -6,7 +6,7 @@ tags:
 title: Tetris
 date: 2021-03-20
 summary: Recreating an all-time classic in TypeScript from scratch.
-featured-img: /tetris/tetris-intro.gif
+featured-img: tetris/tetris-intro.gif
 ---
 
 ## TL;DR

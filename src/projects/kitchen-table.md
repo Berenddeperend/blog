@@ -4,7 +4,7 @@ tags:
     - Woodworking
     - post
 date: 2021-08-25
-featured-img: /kitchen-table/thumbnail.jpg
+featured-img: kitchen-table/thumbnail.jpg
 summary: Crooked, messy and a bit ugly. But it's mine.
 title: DIY kitchen table
 url: kitchen table
