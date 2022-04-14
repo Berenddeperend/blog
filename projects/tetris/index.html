@@ -35,9 +35,9 @@
                 <span class="emoji">📊</span>
               </button>
               <div class="dropdown-content" style='opacity: 0;'>
-                <div class="lift-title"><strong>Bench</strong> 110/120</div>
+                <div class="lift-title"><strong>Bench</strong> 112,5/120</div>
                 <div class="loading-bar" data-target="120">
-                  <div class="loading-bar-inner" data-pr="110"></div>
+                  <div class="loading-bar-inner" data-pr="112.5"></div>
                 </div>
 
                   <div class="lift-title"><strong>Squat</strong> 115/134</div>
@@ -51,7 +51,7 @@
                     <div class="loading-bar-inner" data-pr="170"></div>
                   </div>
                   <p class="days-since-pr">
-                    last PR: <strong data-last-pr-date="2022-03-15"></strong> day<span class="last-pr-days-plural">s</span> ago</p>
+                    last PR: <strong data-last-pr-date="2022-04-14"></strong> day<span class="last-pr-days-plural">s</span> ago</p>
               </div>
             </div>
 
@@ -85,16 +85,15 @@
 <p>I wrote a Tetris clone in Typescript from scratch for fun. The code is messy because I never expected it to get as many features as it has.</p>
 <p>Play it <a href="/tetris">here</a></p>
 <p>Code lives on <a href="https://github.com/Berenddeperend/tetris">Github</a></p>
-<h2>Progress</h2>
 <h2>Background</h2>
-<p>At around January 4th 2021 I was looking for a new programming project. I had never written a game before but I've always been interested in 8-bit style programs. Back in 2008 when I was studying Arts and Technology I had a teacher who was trying to build Tetris in ActionScript. While I had never seen his attempt, I do remember him saying the task was too difficult for him. Fast-forward some 13 years later and I felt confident enough in my skills to give it a shot.</p>
+<p>At around January 4th 2021 I was looking for a new programming project. I had never written a game before, but I've always been interested in 8-bit style programs. Back in 2008 when I was studying Arts and Technology I had a teacher who was trying to build Tetris in ActionScript. While I had never seen his attempt, I do remember him saying the task was too difficult for him. Fast-forward some 13 years later and I felt confident enough in my skills to give it a shot.</p>
 <h2>Backend</h2>
-<p>I wanted to store the highscores in a database on my Raspberry Pi. For something as simple as this I'd usually go with MongoDB. But as I had no experience with relational databases, I felt this would be a nice opportunity. I chose Postgres. Massive overkill for a simple project as this, but it's what we often use at the office so the experience was welcome. Learning the SQL queries to read and write some rows didn't take more than a few hours. After making a few endpoints on my RPi + Node + Expressjs server, I could use Postman to interact with it from another machine on the same network. Neat!</p>
-<p>Now came the part I wasn't looking forward to: making the thing publicly available. I wanted to have the API accessible through <a href="https://berendswennenhuis.nl/api">https://berendswennenhuis.nl/api</a>, something like http://86.91.181.219 wouldn't cut it. Luckily, my friend Erik came to the rescue. After an evening of hard work, we managed to change the DNS settings to point to my local network, set up port-forwarding to route it to the RPi, and get get a LetsEncrypt certificate. <a href="https://www.berendswennenhuis.nl">https://www.berendswennenhuis.nl</a> succesfully routed to my RPi, I was beyond excited. About an hour later, I managed to hook up my Tetris highscore list to the RPi.</p>
+<p>I wanted to store the highscores in a database on my Raspberry Pi. For something as simple as this I'd usually go with MongoDB. But as I had no experience with relational databases, I felt this would be a nice opportunity. I chose Postgres. Massive overkill for a simple project as this, but it's what we often used my job ad the time so the experience was welcome. Learning the SQL queries to read and write some rows didn't take too long. After making a few endpoints on my RPi + Node + Expressjs server, I could use Postman to interact with it from another machine on the same network. Neat!</p>
+<p>Now came the part I wasn't looking forward to: making the thing publicly available. I wanted to have the API accessible through <a href="https://berendswennenhuis.nl/api">https://berendswennenhuis.nl/api</a>, something like http://86.91.181.219 wouldn't cut it. Luckily, my friend Erik came to the rescue. After an evening of hard work, we managed to change the DNS settings to point to my local network, set up port-forwarding to route it to the RPi, and get a LetsEncrypt certificate. <a href="https://www.berendswennenhuis.nl">https://www.berendswennenhuis.nl</a> succesfully routed to my RPi, I was beyond excited. About an hour later, I managed to hook up my Tetris highscore list to the RPi. It didn't take Erik long to figure out it wasn't very secure.</p>
 <img alt="Hacked highscore" loading="lazy" decoding="async" src="/img/tetris-score-hacked.jpeg" width="1000" height="1333" srcset="/img/tetris-score-hacked.jpeg 1000w, /img/tetris-score-hacked.jpeg 1000w" sizes="1000">
 <h2>Challenges</h2>
-<p>I had no expectations for this project at all, I just started writing some code for fun. I used plain TypeScript without any frontend framework. Things were going pretty well and I was very happy with the progress I made.</p>
-<p>The game had three states at this point (splash, playing, gameover) and I knew I was going to add more. Doing DOM manipulations within TS was getting tedious so I needed something to help me out. At my job at TRIMM I work with Vue.js which I love, but I wanted to keep this game as lightweight as possible. Since the rest of the industry primarily uses React, this seemed like the perfect opportunity to try out Preact, the 3kB React alternative with the same API.</p>
+<p>I had no expectations for this project at all, I just started writing some code for fun. I used plain TypeScript without any frontend framework. Things were going pretty well, and I was very happy with the progress I made.</p>
+<p>The game had three states at this point (splash, playing, gameover) and I knew I was going to add more. Doing DOM manipulations within TS was getting tedious, so I needed something to help me out. At my job at the time I worked with Vue.js which I love, but I wanted to keep this game as lightweight as possible. Since the rest of the industry primarily uses React, this seemed like the perfect opportunity to try out Preact, the 3kB React alternative with the same API.</p>
 <p>Writing new components in Preact went fine, like the three-letter-input and highscore list. I knew it was time to rewrite the primary gamefiles as well. I gave it my best shot, but after two weeks of refactoring I was still breaking more than I was fixing. This was pretty demotivating, especially considering my productivity from when I was still frameworkless. As I was already learning a lot from building the new components, I decided on leaving the old components as-is. This means that the code is pretty inconsistent but I'm okay with that. I'm doing this for fun after all.</p>
 <h2>Acknowledgements</h2>
 <p>All thoughout the project I shared my progress with my close friends Joost and Erik.</p>
