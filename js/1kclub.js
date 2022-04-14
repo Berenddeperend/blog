@@ -17,9 +17,16 @@ const highestTarget = Math.max(
 const $lastPr = document.querySelector("[data-last-pr-date]");
 const lastDate = new Date($lastPr.dataset.lastPrDate);
 const differenceInDays = Math.floor((new Date() - lastDate) / (1000 * 3600 * 24));
+
 if(differenceInDays === 1) {
   document.querySelector('.last-pr-days-plural').classList.add('hibbem')
 }
+
+if(differenceInDays === 0) {
+  document.querySelector('.days-since-pr.past').classList.add('hibbem')
+  document.querySelector('.days-since-pr.today').classList.remove('hibbem')
+}
+
 $lastPr.innerHTML = differenceInDays
 
 const $dropdownContent = document.querySelector(".dropdown-content");
