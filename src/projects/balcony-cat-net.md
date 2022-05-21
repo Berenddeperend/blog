@@ -4,7 +4,7 @@ tags:
 - post
 - Woodworking
 date: 2021-12-23
-featured-img: cat-net/IMG_0632.JPG
+featured-img: cat-net/thumbnail.jpg
 summary: "Keeping cats in and creeps out"
 title: Balcony cat net 
 
