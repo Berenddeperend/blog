@@ -1,4 +1,7 @@
 const ghpages = require("gh-pages");
+
+console.log('dont forget to run \'npm run build\' first.')
+
 ghpages.publish(
   "dist",
   {
