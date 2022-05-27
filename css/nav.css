@@ -43,7 +43,6 @@ nav .left a:last-child {
   display: inline-block;
   width: 50px;
   border: none;
-  left: -70px;
   top: -47px;
   transition: transform 0.4s;
   animation: spin 2s infinite;
