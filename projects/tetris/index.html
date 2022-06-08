@@ -79,7 +79,7 @@
 
   <div class="post-header">
     <h1 class="post-title">Tetris</h1> 
-    <p class="post-metadata">Posted on Mar 20, 2021</p>
+    <p class="post-metadata">Posted on 20 Mar 2021</p>
     
   </div>
 
@@ -92,7 +92,7 @@
 <h2>Backend</h2>
 <p>I wanted to store the highscores in a database on my Raspberry Pi. For something as simple as this I'd usually go with MongoDB. But as I had no experience with relational databases, I felt this would be a nice opportunity. I chose Postgres. Massive overkill for a simple project as this, but it's what we often used my job ad the time so the experience was welcome. Learning the SQL queries to read and write some rows didn't take too long. After making a few endpoints on my RPi + Node + Expressjs server, I could use Postman to interact with it from another machine on the same network. Neat!</p>
 <p>Now came the part I wasn't looking forward to: making the thing publicly available. I wanted to have the API accessible through <a href="https://berendswennenhuis.nl/api">https://berendswennenhuis.nl/api</a>, something like http://86.91.181.219 wouldn't cut it. Luckily, my friend Erik came to the rescue. After an evening of hard work, we managed to change the DNS settings to point to my local network, set up port-forwarding to route it to the RPi, and get a LetsEncrypt certificate. <a href="https://www.berendswennenhuis.nl">https://www.berendswennenhuis.nl</a> succesfully routed to my RPi, I was beyond excited. About an hour later, I managed to hook up my Tetris highscore list to the RPi. It didn't take Erik long to figure out it wasn't very secure.</p>
-<img alt="Hacked highscore" loading="lazy" decoding="async" src="/img/tetris-score-hacked.jpeg" width="1000" height="1333" srcset="/img/tetris-score-hacked.jpeg 1000w, /img/tetris-score-hacked.jpeg 1000w" sizes="1000">
+<img alt="Hacked highscore" loading="lazy" decoding="async" src="/img/tetris-score-hacked.jpeg" width="1000" height="1333">
 <h2>Challenges</h2>
 <p>I had no expectations for this project at all, I just started writing some code for fun. I used plain TypeScript without any frontend framework. Things were going pretty well, and I was very happy with the progress I made.</p>
 <p>The game had three states at this point (splash, playing, gameover) and I knew I was going to add more. Doing DOM manipulations within TS was getting tedious, so I needed something to help me out. At my job at the time I worked with Vue.js which I love, but I wanted to keep this game as lightweight as possible. Since the rest of the industry primarily uses React, this seemed like the perfect opportunity to try out Preact, the 3kB React alternative with the same API.</p>
