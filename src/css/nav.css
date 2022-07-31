@@ -36,6 +36,8 @@ nav .left a:last-child {
   width: 50px;
   display: inline-block;
   position: relative;
+  top: -47px;
+  left: -20px;
 }
 
 .face {
@@ -43,9 +45,20 @@ nav .left a:last-child {
   display: inline-block;
   width: 50px;
   border: none;
-  top: -47px;
   transition: transform 0.4s;
   animation: spin 2s infinite;
+}
+
+.face.berend {
+
+  z-index: 3;
+}
+
+.face.pip {
+  top: 28px;
+  left: 35px;
+  animation-delay: -1.4s;
+  z-index: 2;
 }
 
 .right {
@@ -77,12 +90,13 @@ nav .left a:last-child {
   .face-container {
     position: relative;
     display: block;
+    left: -90px;
+    top: -25px;
   }
 
   .face {
     position: absolute;
-    left: -70px;
-    top: -25px;
+    
   }
 }
 
