@@ -56,7 +56,6 @@ nav .left a:last-child {
 .face.pip {
   top: 28px;
   left: 35px;
-  animation-delay: -1.4s;
   z-index: 2;
 }
 
