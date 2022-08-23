@@ -42,7 +42,10 @@ module.exports = function (eleventyConfig) {
   // eleventyConfig.addWatchTarget(".src/js/app.js");
 
   eleventyConfig.addPassthroughCopy("src/css");
-  eleventyConfig.addPassthroughCopy("src/img");
+  eleventyConfig.addPassthroughCopy("src/public");
+  eleventyConfig.addPassthroughCopy("src/img/**/*.gif");
+  eleventyConfig.addPassthroughCopy("src/img/**/thumbnail.jpg");
+  eleventyConfig.addPassthroughCopy("src/img/uses-temp.jpg");
   eleventyConfig.addPassthroughCopy("src/js");
   eleventyConfig.addPassthroughCopy({ "src/favicons": "." });
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
