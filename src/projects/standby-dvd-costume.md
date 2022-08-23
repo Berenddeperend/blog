@@ -5,7 +5,7 @@ tags:
     - post
 date: 2021-08-24
 featured-img: standby-dvd-costume/thumbnail.gif
-summary: Putting way too much effort into a 'letter D' theme party
+summary: Putting way too much effort into a 'letter D' theme party.
 title: Standby DVD screen costume
 url: standby dvd costume
 
