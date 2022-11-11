@@ -8,7 +8,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
-    <title>Berend Swennenhuis - Hands-free soap dispenser</title>
+    <title>Berend Swennenhuis - Co-op nonograms</title>
     <link rel="stylesheet" href="/css/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -80,36 +80,22 @@
 <article class="post">
 
   <div class="post-header">
-    <h1 class="post-title">Hands-free soap dispenser</h1> 
-    <p class="post-metadata">Posted on 21 Mar 2020</p>
+    <h1 class="post-title">Co-op nonograms</h1> 
+    <p class="post-metadata">Posted on 6 Nov 2022</p>
     
   </div>
 
-  <p>Inspired by some facebook post. Seemed like a simple enough project and I already had all the required hardware laying around.</p>
-<p>Some first prototypes:</p>
-<p><img src="/img/soapdispenser/soap-wip-1-lq.gif" alt=""></p>
-<p>I was using the small servo motor in a pretty inefficient way so it wasn't strong enough.</p>
-<p>Two servos:</p>
-<p><img src="/img/soapdispenser/soap-wip-2.gif" alt=""></p>
-<p>Still not great. I ordered a slightly bigger servo and attached it:</p>
-<img alt="Soap dispenser finished" loading="lazy" decoding="async" src="/img/soap-finished-back.jpeg" width="1000" height="1333">
-<img alt="Soap dispenser finished" loading="lazy" decoding="async" src="/img/soap-wip-2-low.jpeg" width="1000" height="1333">
-<p><img src="/img/soapdispenser/soap-wip-fail.gif" alt=""></p>
-<p>The servo worked but the sensor was not in a good place. I fixed it with some popsicle sticks.</p>
-<img alt="Soap dispenser finished" loading="lazy" decoding="async" src="/img/soap-finished-low.jpeg" width="1000" height="1333">
-<p><img src="/img/soapdispenser/soap-finished.gif" alt=""></p>
-<p>Success!</p>
-<p>Used hardware:</p>
+  <p>Play it <a href="/nonogram">here</a>.</p>
+<h2>Background</h2>
+<p>In January of 2021 I wrote Tetris in Typescript. This was one of the most rewarding experiences I've ever had in programming. So in trying to chase the same high I wanted to write another game this year. <a href="https://en.wikipedia.org/wiki/Nonogram">Nonograms</a> are cool and websockets are also cool so I wrote Nonogram With Friends.</p>
+<p>When I initially created Tetris without a framework I quickly realized how tedious it is to manipulate the DOM the old-fashioned way. That's why I wrote the frontend in Vue3, a framework I've had a few years of experience with.</p>
+<h2>Lessons learned</h2>
+<p>It took me a LOT of time to get from having all of the services working locally, to having them all deployed in Docker behind a reverse-proxy.</p>
 <ul>
-<li>Arduino Duemilanove (Italian for &quot;2009&quot;, so it's a pretty old one)</li>
-<li>Ultrasonic distance sensor</li>
-<li>S3003 Servo</li>
-<li>Hot glue and scrap wood</li>
+<li>In the future I'd like to have all the services connected and working as early in the project as possible. Integration hell is real and tackling it when the codebase is still small is something I'd like to try next time. This would also allow me to publish my work earlier, which will probably work as a great motivator.</li>
+<li>Don't needlessly seperate the front- and backend into two repositories. My backend runs on the same Raspberry Pi that serves the frontend, which would enable me to serve it as a monolith. Both the front- and backend are written in Typescript and it would have been really nice to reuse some functions and types. Also, no CORS.</li>
+<li>Make touchscreen support a first-class citizen instead of an afterthought. The types of games I've been making so far don't translate very well to mobile in my opinion, but I want to make something my mom would be able to play.</li>
 </ul>
-<!-- 
- <video controls="true" allowfullscreen="true" poster="/img/soapdispenser/soap-finished.gif">
-    <source src="/img/soapdispenser/soap-finished-fail.mp4" type="video/mp4">
-  </video> -->
 
 
 </article>
