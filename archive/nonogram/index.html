@@ -1,0 +1,116 @@
+<html>
+  <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Berend Swennenhuis - Co-op nonograms</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="left">
+            <a href="/" class="face-container"
+              >
+              <img src="/public/berend.png" class="face berend" alt=""/>
+              <img src="/public/pip.png" class="face pip" alt=""/>
+            </a>
+            <a class="home" href="/"><span class="first-name">Berend</span><span class="last-name"> Swennenhuis</span></a>
+            <a class="projects" href="/projects">Projects</a>
+          </div>
+          <div class="right">
+            <div class="dropdown" data-dropdown="stronk">
+              <button class="dropdown-trigger">
+                <span class="emoji">💪</span>
+                <span class="emoji">📊</span>
+              </button>
+              <div class="dropdown-content" style='opacity: 0;'>
+                <div class="lift-title"><strong>Bench</strong> 112,5/120</div>
+                <div class="loading-bar" data-target="120">
+                  <div class="loading-bar-inner" data-pr="112.5"></div>
+                </div>
+
+                  <div class="lift-title"><strong>Squat</strong> 132.5/134</div>
+                  <div class="loading-bar" data-target="134">
+                    <div class="loading-bar-inner" data-pr="132.5"></div>
+                  </div>
+                  
+                  
+                  <div class="lift-title"><strong>Deadlift</strong> 185/200</div>
+                  <div class="loading-bar" data-target="200">
+                    <div class="loading-bar-inner" data-pr="185"></div>
+                  </div>
+                  <p class="days-since-pr today hibbem">Last PR: <strong>today! <span style="font-size: 18px; margin-left:5px;">🎉</span></strong></p>
+                  <p class="days-since-pr past">
+                    last PR: <strong data-last-pr-date="2022-11-11"></strong> day<span class="last-pr-days-plural">s</span> ago
+                  </p>
+              </div>
+            </div>
+
+
+            <!-- <div class="dropdown" data-dropdown="links">
+              <button class="dropdown-trigger">
+                <span class="underline-on-hover">Links</span>
+                <span class="emoji">🔽</span>
+              </button>
+              <div class="dropdown-content">
+                <a href="/tetris" target="_blank">Tetris</a>
+                <a href="https://github.com/berenddeperend/" target="_blank">Github</a>
+              </div>
+            </div> -->
+          </div>
+        </nav>
+      </div>
+    </header>
+    
+    <div class="container">
+      
+<article class="post">
+
+  <div class="post-header">
+    <h1 class="post-title">Co-op nonograms</h1> 
+    <p class="post-metadata">Posted on 6 Nov 2022</p>
+    
+  </div>
+
+  <p>Play it <a href="/nonogram">here</a>.</p>
+<h2>Background</h2>
+<p>In January of 2021 I wrote Tetris in Typescript. This was one of the most rewarding experiences I've ever had in programming. So in trying to chase the same high I wanted to write another game this year. <a href="https://en.wikipedia.org/wiki/Nonogram">Nonograms</a> are cool and websockets are also cool so I wrote Nonogram With Friends.</p>
+<p>When I initially created Tetris without a framework I quickly realized how tedious it is to manipulate the DOM the old-fashioned way. That's why I wrote the frontend in Vue3, a framework I've had a few years of experience with.</p>
+<h2>Lessons learned</h2>
+<p>It took me a LOT of time to get from having all of the services working locally, to having them all deployed in Docker behind a reverse-proxy.</p>
+<ul>
+<li>In the future I'd like to have all the services connected and working as early in the project as possible. Integration hell is real and tackling it when the codebase is still small is something I'd like to try next time. This would also allow me to publish my work earlier, which will probably work as a great motivator.</li>
+<li>Don't needlessly seperate the front- and backend into two repositories. My backend runs on the same Raspberry Pi that serves the frontend, which would enable me to serve it as a monolith. Both the front- and backend are written in Typescript and it would have been really nice to reuse some functions and types. Also, no CORS.</li>
+<li>Make touchscreen support a first-class citizen instead of an afterthought. The types of games I've been making so far don't translate very well to mobile in my opinion, but I want to make something my mom would be able to play.</li>
+</ul>
+
+
+</article>
+
+<a href="/projects" class="back no-underline">
+  <span class="emoji"> 👈 </span>
+  <span class="underline">Back to projects overview</span></a
+>
+
+
+    </div>
+    </div>
+
+    <script src="/js/app.js?v=1"></script>
+    <script src="/js/1kclub.js?v=2"></script>
+    <script src="/js/dropdown.js?v=1"></script>
+  </body>
+</html>
