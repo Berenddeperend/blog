@@ -8,7 +8,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
-    <title>Berend Swennenhuis - Co-op nonograms</title>
+    <title>Berend Swennenhuis - nonogram</title>
     <link rel="stylesheet" href="/css/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -37,13 +37,13 @@
                 <span class="emoji">📊</span>
               </button>
               <div class="dropdown-content" style='opacity: 0;'>
-                <div class="lift-title"><strong>Bench</strong> 112,5/120</div>
-                <div class="loading-bar" data-target="120">
-                  <div class="loading-bar-inner" data-pr="112.5"></div>
+                <div class="lift-title"><strong>Bench</strong> 113/114</div>
+                <div class="loading-bar" data-target="114">
+                  <div class="loading-bar-inner" data-pr="113"></div>
                 </div>
 
-                  <div class="lift-title"><strong>Squat</strong> 132.5/134</div>
-                  <div class="loading-bar" data-target="134">
+                  <div class="lift-title"><strong>Squat</strong> 132.5/140</div>
+                  <div class="loading-bar" data-target="140">
                     <div class="loading-bar-inner" data-pr="132.5"></div>
                   </div>
                   
@@ -54,7 +54,7 @@
                   </div>
                   <p class="days-since-pr today hibbem">Last PR: <strong>today! <span style="font-size: 18px; margin-left:5px;">🎉</span></strong></p>
                   <p class="days-since-pr past">
-                    last PR: <strong data-last-pr-date="2022-11-11"></strong> day<span class="last-pr-days-plural">s</span> ago
+                    last PR: <strong data-last-pr-date="2022-11-16"></strong> day<span class="last-pr-days-plural">s</span> ago
                   </p>
               </div>
             </div>
@@ -80,20 +80,47 @@
 <article class="post">
 
   <div class="post-header">
-    <h1 class="post-title">Co-op nonograms</h1> 
-    <p class="post-metadata">Posted on 6 Nov 2022</p>
+    <h1 class="post-title">nonogram</h1> 
+    <p class="post-metadata">Posted on 22 Aug 2022</p>
     
   </div>
 
-  <p>Play it <a href="/nonogram">here</a>.</p>
-<h2>Background</h2>
-<p>In January of 2021 I wrote Tetris in Typescript. This was one of the most rewarding experiences I've ever had in programming. So in trying to chase the same high I wanted to write another game this year. <a href="https://en.wikipedia.org/wiki/Nonogram">Nonograms</a> are cool and websockets are also cool so I wrote Nonogram With Friends.</p>
-<p>When I initially created Tetris without a framework I quickly realized how tedious it is to manipulate the DOM the old-fashioned way. That's why I wrote the frontend in Vue3, a framework I've had a few years of experience with.</p>
-<h2>Lessons learned</h2>
-<p>It took me a LOT of time to get from having all of the services working locally, to having them all deployed in Docker behind a reverse-proxy.</p>
+  <p>Play it <a href="/nonogram" target="_blank">here</a>.</p>
+<p><em>video</em></p>
+<h2>Features</h2>
 <ul>
+<li>Real-time co-op multiplayer over websockets</li>
+<li>Only has puzzles that are solvable without guessing/backtracking</li>
+<li>Create new puzzles by drawing pixel art</li>
+<li>Multiple input methods (mouse, keyboard, touch)</li>
+<li>Auto x-es for better quality of life</li>
+<li>A nice animation on puzzle clear for that extra dopamine boost</li>
+</ul>
+<h2>Background</h2>
+<p>In January 2021 I wrote Tetris in Typescript. This was one of the most rewarding experiences I've ever had in programming. So in trying to chase the same high I wanted to write another game this year. <a href="https://en.wikipedia.org/wiki/Nonogram" target="_blank">Nonograms</a> are cool and websockets are also cool so I wrote Nonogram With Friends.
+When I initially created Tetris without a framework I quickly realized how tedious it is to manipulate the DOM the old-fashioned way. That's why I wrote the frontend in Vue, a framework I've had a few years of experience with.</p>
+<h2>Improvement opportunities</h2>
+<ul>
+<li>The backend doesn't resolve multiple simultaneous inputs correctly, causing inputs to get lost. The more active players, the bigger the problem becomes. But since this game won't get popular anyway that won't matter 👈😎👈</li>
+</ul>
+<h2>Feature ideas</h2>
+<ul>
+<li>A poll where you can vote on which of three puzzles to play next (showing only the puzzle title, so no spoilers)</li>
+<li></li>
+</ul>
+<h2>Omissions</h2>
+<ul>
+<li>No chat system. Want to communicate? Aggressively point your cursor to the square you have an opinion about. Have others figure what you mean.</li>
+</ul>
+<p><em>video</em></p>
+<ul>
+<li>No private games or lobbies. We're all in this together!</li>
+</ul>
+<h2>Lessons learned</h2>
+<ul>
+<li>It took me a LOT of time to get from having all the services working locally, to having them all deployed in Docker behind a reverse-proxy.</li>
 <li>In the future I'd like to have all the services connected and working as early in the project as possible. Integration hell is real and tackling it when the codebase is still small is something I'd like to try next time. This would also allow me to publish my work earlier, which will probably work as a great motivator.</li>
-<li>Don't needlessly seperate the front- and backend into two repositories. My backend runs on the same Raspberry Pi that serves the frontend, which would enable me to serve it as a monolith. Both the front- and backend are written in Typescript and it would have been really nice to reuse some functions and types. Also, no CORS.</li>
+<li>Don't needlessly separate the front- and backend into two repositories. My backend runs on the same Raspberry Pi that serves the frontend, which would enable me to serve it as a monolith. Both the front- and backend are written in Typescript and it would have been really nice to reuse some functions and types. Also, no CORS.</li>
 <li>Make touchscreen support a first-class citizen instead of an afterthought. The types of games I've been making so far don't translate very well to mobile in my opinion, but I want to make something my mom would be able to play.</li>
 </ul>
 
