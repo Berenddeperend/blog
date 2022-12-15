@@ -41,6 +41,7 @@ async function imageShortcode(src, alt) {
 module.exports = function (eleventyConfig) {
   // eleventyConfig.addWatchTarget(".src/js/app.js");
 
+
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/public");
   eleventyConfig.addPassthroughCopy("src/img/**/*.gif");
