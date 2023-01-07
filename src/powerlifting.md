@@ -11,7 +11,7 @@ So how impressive is it to lift a thousand pounds? It depends on your sex, build
 
 The short answer is that I think my technique isn't good enough. The squat in particular feels like a very inefficient movement to me with a lot of power leaks. Minor injuries and pains have led me to experiment quite a bit with high/low bar positions, stance widths, belts/beltless, but as of now I've not found my way yet. Low-back pain especially hinders progression as it prevents me from going heavy with both the deadlift and the low-bar squat.
 
-Either way, in the summer of 2022 I joined my first powerlifting competition for beginners in Nijmegen. As expected I finished last out of the 18 athletes in my weight class. Here's video evidence of my not-so impressive lifts:
+Either way, in the summer of 2022 I joined my first powerlifting competition for beginners in Nijmegen. As expected I finished last out of the 15 athletes in my weight class. For reference: 12 out of 15 guys there were in the 1000-pound club. Here's video evidence of my not-so impressive lifts:
 
 ### Squat
 
@@ -24,7 +24,7 @@ High bar, 125kg's on my 3rd and last attempt. This was a 5kg improvement on my p
 
 ### Bench press
 
-110kg on my 3rd and last attempt, a few kg's under my gym-PR at the time. I had already failed my first two attempts of 100kg and 105kg because I didn't comply to a few rules I wasn't aware of (head must stay on the bench, heels must touch floor). I was very relieved I got my third attempt because failing all of your three attempts means disqualification. 
+110kg on my 3rd and last attempt, a few kg's under my gym-PR at the time. I had already failed my first two attempts of 90kg and 105kg because I didn't comply to a few rules I wasn't aware of (head must stay on the bench, heels must touch floor). I was very relieved I got my third attempt because failing all of your three attempts means disqualification. 
 
 <video controls>
   <source src="/video/powerlifting-2022/bench-2022.mp4" type="video/mp4">
