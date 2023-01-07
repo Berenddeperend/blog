@@ -3,7 +3,8 @@ layout: project.njk
 tags: 
     - Software
     - post
-title: nonogram
+title: Nonogram With Friends
+url: nonogram
 date: 2022-08-22
 summary: Nonononononogram
 featured-img: bunny-blocker/thumbnail.jpg
@@ -29,25 +30,28 @@ When I initially created Tetris without a framework I quickly realized how tedio
 ## Improvement opportunities
 
 - The backend doesn't resolve multiple simultaneous inputs correctly, causing inputs to get lost. The more active players, the bigger the problem becomes. For now I ingeniously solved this problem by not having any online popularity 👈😎👈
+- An animation when successfully clearing a row or column.
 
 ## Feature ideas
 
 - A poll where you can vote on which of three puzzles to play next (showing only the puzzle title, so no spoilers)
-- 
 
 ## Omissions
 
 - No chat system. Want to communicate? Aggressively point your cursor to the square you have an opinion about. Have others figure what you mean.
 - You can't place X-es on mobile yet. The solution proposed above works here as well. 
 
-*video*
+<video  autoplay loop muted playsinline>
+  <source src="/video/picross-agression-converted.mp4" type="video/mp4">
+</video>
 
 - No private games or lobbies. We're all in this together!
 
 
 ## Lessons learned
-- It took me a LOT of time to get from having all the services working locally, to having them all deployed in Docker behind a reverse-proxy.
-- In the future I'd like to have all the services connected and working as early in the project as possible. Integration hell is real and tackling it when the codebase is still small is something I'd like to try next time. This would also allow me to publish my work earlier, which will probably work as a great motivator.
+- It took me a LOT of time to get from having all the services working locally, to having them all deployed in Docker behind a reverse-proxy. In the future I'd like to have all the services connected and working as early in the project as possible. Integration hell is real and tackling it when the codebase is still small is something I'd like to try next time. This would also allow me to publish my work earlier, which will probably work as a great motivator.
 - Don't needlessly separate the front- and backend into two repositories. My backend runs on the same Raspberry Pi that serves the frontend, which would enable me to serve it as a monolith. Both the front- and backend are written in Typescript and it would have been really nice to reuse some functions and types. Also, no CORS.
 - Make touchscreen support a first-class citizen instead of an afterthought. The types of games I've been making so far don't translate very well to mobile in my opinion, but I want to make something my mom would be able to play.
 
+## Acknowledgements
+- <a href="https://github.com/ThomasR/nonogram-solver" target="_blank">ThomasR's nonogram solver</a>. I used this to validate user-generated puzzles.
