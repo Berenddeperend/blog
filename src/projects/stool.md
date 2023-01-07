@@ -27,7 +27,7 @@ Sure smells better too"<br />
 
 {% image "stool/IMG_2700.jpg", "Stool progress picture" %}
 
-In September 2022 I joined a 12-week [woodworking course](https://cursushout.nl/cursussen/particulier/houtbewerking-1/). The first three weeks we practiced different types of joints, in the remaining nine weeks I built this stool. The wood is 'grenenhout', which I believe is Scots Pine in English. It's made with [mortise and tenon](https://en.wikipedia.org/wiki/Mortise_and_tenon) joints. I sawed, chiseled and sanded it by hand. A few exeptions:
+In September 2022 I joined a 12-week [woodworking course](https://cursushout.nl/cursussen/particulier/houtbewerking-1/). The first three weeks we practiced different types of joints, in the remaining nine weeks I built this stool. It took around 25 hours. The wood is 'grenenhout', which I believe is Scots Pine in English. It's made with [mortise and tenon](https://en.wikipedia.org/wiki/Mortise_and_tenon) joints. I sawed, chiseled and sanded it by hand. A few exeptions:
 
 - Some of the mortises were drilled with a horizontal drill press to save time.
 - The lumber was prepared for us with machines. I don't know which ones, but the wood was perfectly square.

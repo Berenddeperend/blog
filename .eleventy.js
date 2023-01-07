@@ -47,6 +47,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/img/**/*.gif");
   eleventyConfig.addPassthroughCopy("src/img/**/thumbnail.jpg");
   eleventyConfig.addPassthroughCopy("src/img/uses-temp.jpg");
+  eleventyConfig.addPassthroughCopy("src/video/picross-agression-converted.mp4");
+  eleventyConfig.addPassthroughCopy("src/video/powerlifting-2022/*");
   eleventyConfig.addPassthroughCopy("src/js");
   eleventyConfig.addPassthroughCopy({ "src/favicons": "." });
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);

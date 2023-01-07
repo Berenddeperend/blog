@@ -44,7 +44,7 @@ h6 small {
   opacity: 0.6;
 }
 
-img {
+img, video {
   max-width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -101,3 +101,32 @@ button:hover .underline-on-hover {
 video {
   max-width: 100%;
 }
+
+/* blockquote {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+blockquote::before {
+  display: block;
+  content: "\"";
+  opacity: 0.4;
+  font-size: 3rem;
+  position: absolute;
+  font-style: italic;
+  left: -35px;
+  top: -20px;
+} */
+
+/* blockquote::after {
+  content: "";
+  width: 2px;
+  display: block;
+  position: absolute;
+  height: 100%;
+  background: #b3b3de;
+  left: -40px;
+  top: 0;
+  opacity: 0.1;
+} */
