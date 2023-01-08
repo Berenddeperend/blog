@@ -6,19 +6,20 @@ tags:
 title: Nonogram With Friends
 url: nonogram
 date: 2023-01-08
-summary: Sudokus too hard for you? Play Nonograms. Still too hard? Get your friend to help you.
+summary: Sudokus too hard for you? Play Nonograms. Still too hard? Invite friends to help you.
 featured-img: nonogram/thumbnail.gif
 ---
 
 Play it <a href="/nonogram" target="_blank">here</a>.
 
-<video  autoplay loop muted playsinline style="width:300px;">
+<video autoplay loop muted playsinline style="width:100%; max-width:300px;">
   <source src="/video/pip-test-minified.mp4" type="video/mp4">
 </video>
 
 ## Features
 
 - Real-time co-op multiplayer over websockets
+- No login or other shenanigans necessary, just pick a nickname and play
 - Only has puzzles that are solvable without guessing/backtracking
 - Create new puzzles by drawing pixel art
 - Multiple input methods (mouse, keyboard, touch)

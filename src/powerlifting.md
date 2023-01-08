@@ -18,7 +18,7 @@ Either way, in the summer of 2022 I joined my first powerlifting competition for
 
 ### Squat
 
-High bar, 125kg's on my 3rd and last attempt. This was a 5kg improvement on my previous gym-PR.
+High bar, 125kg on my 3rd and last attempt. This was a 5kg improvement on my previous gym-PR.
 
 <video controls>
   <source src="/video/powerlifting-2022/squat-2022.mp4" type="video/mp4">
@@ -27,7 +27,7 @@ High bar, 125kg's on my 3rd and last attempt. This was a 5kg improvement on my p
 
 ### Bench press
 
-110kg on my 3rd and last attempt, a few kg's under my gym-PR at the time. I had already failed my first two attempts of 90kg and 105kg because I didn't comply to a few rules I wasn't aware of (head must stay on the bench, heels must touch floor). I was very relieved I got my third attempt because failing all of your three attempts means disqualification. 
+110kg on my 3rd and last attempt, a few kgs under my gym-PR at the time. I had already failed my first two attempts of 90kg and 105kg because I didn't comply to a few rules I wasn't aware of (head must stay on the bench, heels must touch floor). I was very relieved I got my third attempt because failing all of your three attempts means disqualification. 
 
 <video controls>
   <source src="/video/powerlifting-2022/bench-2022.mp4" type="video/mp4">
@@ -36,10 +36,10 @@ High bar, 125kg's on my 3rd and last attempt. This was a 5kg improvement on my p
 
 ### Deadlift
 
-170kg on my 2nd attempt, 10kg's under my gym-PR at the time. Yeah I didn't eat enough that day so I kinda fainted. I made the decision to not go for a third attempt because of that. Lessons were learned.
+170kg on my 2nd attempt, 10kg under my gym-PR at the time. Yeah I didn't eat enough that day so I kinda fainted. I made the decision to not go for a third attempt because of that. Lessons were learned.
 
 <video controls>
   <source src="/video/powerlifting-2022/deadlift-2022.mp4" type="video/mp4">
 </video>
 
-Overall the meet was a great experience where I met a bnunch of cool people. I'll definitely join another competition as soon as I've hit my 1000-pounds goal.
+Overall the meet was a great experience where I met a bunch of cool people. I'll definitely join another competition as soon as I've hit my 1000-pounds goal.
