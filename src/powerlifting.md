@@ -3,7 +3,10 @@ title: Powerlifting
 layout: template.njk
 ---
 
-# Powerlifting
+<div class="post-header">
+    <h1 class="post-title">{{ title }}</h1>
+    <p class="post-metadata">Posted on {{ page.date | formatDate }}</p>
+</div>
 
 In this sport you measure your one-rep max (1RM) in the squat, bench press and deadlift. The sum of these lifts is your total, the score you compare to your peers in the same weight class. My current goal is to reach the 1000-pound club. This means my total needs to exceed 454 kilos. You can track my progress in the top-right corner of this website.
 

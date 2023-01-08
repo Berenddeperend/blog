@@ -7,7 +7,7 @@ layout: template.njk
 
 I'm Berend, a web developer from the Netherlands. I live in Enschede with my bunny Pip. This website showcases some of the projects I've been working on in my spare time.
 
-My main hobbies are powerlifting and woodworking. I also like to dabble in 3D-printing, guitar playing and IoT.
+My main hobbies are <a href="/powerlifting">powerlifting</a> and woodworking. I also like to dabble in 3D-printing, guitar playing and IoT.
 
 Other interests in which I don't actively partake include retro hardware (big fan of Youtube channels like <a href="https://www.youtube.com/channel/UC8uT9cgJorJPWu7ITLGo9Ww" target="_blank">the 8-Bit Guy</a> and <a href="https://www.youtube.com/channel/UCLx053rWZxCiYWsBETgdKrQ" target="_blank">LGR</a>), birds, skateboarding and <a href="https://www.youtube.com/watch?v=_nRzQlQ7tAw" target="_blank">Sea Shanty 2</a> from Runescape.
 
