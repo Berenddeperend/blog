@@ -6,6 +6,7 @@ tags:
 title: Hand-made stool
 url: stool
 date: 2022-12-15
+updated: 2023-12-28
 summary: Luckily I didn't make it taller because I would need to write more text here to have the thumbnail align nicely with the image. This sentence won't make sense if you're reading this on your phone.
 featured-img: stool/thumbnail.jpg
 ---
@@ -56,7 +57,9 @@ Some work in progress pictures:
 
 {% image "stool/IMG_2704.jpg", "Stool progress picture" %}
 
-I still need to apply some oil or lacquer as a finishing touch but I'm really happy with the result so far.
+Back at home I applied boiled linseed oil. It gave the wood a nice warm color and really made the grains pop.
+
+{% image "stool/IMG_2808.jpg", "Stool progress picture" %}
 
 I highly recommend the course to anyone in need of a new hobby. The folks over at CursusHout have been excellent. It's not cheap but well worth it in my opinion. Spend less on goods and more on services, y'all!
 

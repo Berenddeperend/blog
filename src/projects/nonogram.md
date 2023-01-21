@@ -6,14 +6,15 @@ tags:
 title: Nonogram With Friends
 url: nonogram
 date: 2023-01-08
-summary: Sudokus too hard for you? Play Nonograms. Still too hard? Invite friends to help you.
+updated: 2023-01-21
+summary: Sudokus too hard for you? Play Nonograms. Still too hard? Invite friends to help out.
 featured-img: nonogram/thumbnail.gif
 ---
 
 Play it <a href="/nonogram" target="_blank">here</a>.
 
 <video autoplay loop muted playsinline style="width:100%; max-width:300px;">
-  <source src="/video/pip-test-minified.mp4" type="video/mp4">
+  <source src="/video/nonogram-demo-speedup.mp4" type="video/mp4">
 </video>
 
 ## Features
