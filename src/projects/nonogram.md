@@ -29,7 +29,7 @@ Play it <a href="/nonogram" target="_blank">here</a>.
 
 ## Background
 In January 2021 I wrote Tetris in Typescript. This was one of the most rewarding experiences I've ever had in programming. So in trying to chase the same high I wanted to write another game this year. <a href="https://en.wikipedia.org/wiki/Nonogram" target="_blank">Nonograms</a> are cool and websockets are also cool so I wrote Nonogram With Friends.
-When I initially created Tetris without a framework I quickly realized how tedious it is to manipulate the DOM the old-fashioned way. That's why I wrote the frontend in Vue, a framework I've had a few years of experience with.
+When I initially created Tetris without a framework I quickly realized how tedious it is to manipulate the DOM the old-fashioned way. That's why I wrote the frontend in Vue.js, a framework I've had a few years of experience with.
 
 ## Improvement opportunities
 
@@ -56,6 +56,7 @@ When I initially created Tetris without a framework I quickly realized how tedio
 - It took me a LOT of time to get from having all the services working locally, to having them all deployed in Docker behind a reverse-proxy. In the future I'd like to have all the services connected and working as early in the project as possible. Integration hell is real and tackling it when the codebase is still small is something I'd like to try next time. This would also allow me to publish my work earlier, which will probably work as a great motivator.
 - Don't needlessly separate the front- and backend into two repositories. My backend runs on the same Raspberry Pi that serves the frontend, which would enable me to serve it as a monolith. Both the front- and backend are written in Typescript and it would have been really nice to reuse some functions and types. Also, no CORS.
 - Make touchscreen support a first-class citizen instead of an afterthought. The types of games I've been making so far don't translate very well to mobile in my opinion, but I want to make something my mom would be able to play.
+- While Vue.js is a great framework for making UIs, I wouldn't write game logic in it again. Using computed properties for the cells is convenient but every time you fill in one cell, 99 cells needlessly execute code as well.
 
 ## Acknowledgements
 - <a href="https://github.com/ThomasR/nonogram-solver" target="_blank">ThomasR's nonogram solver</a>. I used this to validate user-generated puzzles.
