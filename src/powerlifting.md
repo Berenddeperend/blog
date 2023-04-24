@@ -14,7 +14,7 @@ So how impressive is it to lift a thousand pounds? It depends on your sex, build
 
 The short answer is that I think my technique isn't good enough. As I don't have a coach or training buddy, improvements come slowly through trail and error. The squat in particular feels like a very inefficient movement to me with a lot of power leaks. Minor injuries and pains have led me to experiment quite a bit with high/low bar positions, stance widths, belts/beltless, but as of now I've not found my way yet. Low-back pain especially hinders progression as it prevents me from going heavy on both the deadlift and the low-bar squat.
 
-Either way, in the summer of 2022 I joined my first powerlifting competition for beginners in Nijmegen. As expected I finished last out of the 15 athletes in my weight class. For reference: 12 out of 15 guys there were in the 1000-pound club. Here's video evidence of my not-so impressive lifts:
+Either way, in the summer of 2022 I joined my first powerlifting competition for beginners in Nijmegen. As expected I finished last out of the 15 athletes in my weight class. For reference: 12 out of 15 guys there were in the 1000-pound club. Here's video evidence of my lifts:
 
 ### Squat
 
