@@ -37,9 +37,9 @@
                 <span class="emoji">📊</span>
               </button>
               <div class="dropdown-content" style='opacity: 0;'>
-                <div class="lift-title"><strong>Bench</strong> 114/114</div>
-                <div class="loading-bar" data-target="114">
-                  <div class="loading-bar-inner" data-pr="114"></div>
+                <div class="lift-title"><strong>Bench</strong> 115/114</div>
+                <div class="loading-bar" data-target="115">
+                  <div class="loading-bar-inner" data-pr="115"></div>
                 </div>
 
                   <div class="lift-title"><strong>Squat</strong> 132.5/140</div>
@@ -54,7 +54,7 @@
                   </div>
                   <p class="days-since-pr today hibbem">Last PR: <strong>today! <span style="font-size: 18px; margin-left:5px;">🎉</span></strong></p>
                   <p class="days-since-pr past">
-                    last PR: <strong data-last-pr-date="2023-01-05"></strong> day<span class="last-pr-days-plural">s</span> ago
+                    last PR: <strong data-last-pr-date="2023-04-24"></strong> day<span class="last-pr-days-plural">s</span> ago
                   </p>
                  <div class="que">
                    <a href="/powerlifting">
@@ -86,7 +86,7 @@
 
   <div class="post-header">
     <h1 class="post-title">Nonogram With Friends</h1><p class="post-metadata">
-      Posted on Jan 8, 2023 • last updated on Jan 21, 2023
+      Posted on Jan 8, 2023 • last updated on Apr 24, 2023
     </p>
     
   </div>
@@ -108,26 +108,34 @@
 <h2>Background</h2>
 <p>In January 2021 I wrote Tetris in Typescript. This was one of the most rewarding experiences I've ever had in programming. So in trying to chase the same high I wanted to write another game this year. <a href="https://en.wikipedia.org/wiki/Nonogram" target="_blank">Nonograms</a> are cool and websockets are also cool so I wrote Nonogram With Friends.
 When I initially created Tetris without a framework I quickly realized how tedious it is to manipulate the DOM the old-fashioned way. That's why I wrote the frontend in Vue.js, a framework I've had a few years of experience with.</p>
+<h2>Giving it to the internet</h2>
+<p>Once I felt the game was in a presentable state I posted it to the /r/nonograms subreddit. The reddit has only 2500ish subscribers, so the chances of them DDOS'ing the Raspberry Pi it's hosted on were slim. Also I didn't need to explain them how nonograms work, saving me from having to write a tutorial. I posted a link to my game and eagerly waited for people to show up. Over the next few hours I had the pleasure of welcoming a few dozen people. At one time I was playing with 5 stranger simultaniously, which felt magical.</p>
+<video autoplay loop muted playsinline style="width:100%; max-width:300px;">
+  <source src="/video/nonogram-posted-on-reddit.mp4" type="video/mp4">
+</video>
+<p>One stranger played for over half an hour straight. Another even took the effort to create a few new puzzles. Check out his cool elephant!</p>
+<p><picture><source type="image/png" srcset="/img/elephant.png 220w" sizes="1000"><img alt="Very cute elephant" loading="lazy" decoding="async" src="/img/elephant.jpeg" width="220" height="220"></picture></p>
+<p>I'm very grateful everyone who stopped by that day.</p>
 <h2>Improvement opportunities</h2>
 <ul>
-<li>The backend doesn't resolve multiple simultaneous inputs correctly, causing inputs to get lost. The more active players, the bigger the problem becomes. For now I ingeniously solved this problem by not having any online popularity 👈😎👈</li>
 <li>An animation when successfully clearing a row or column.</li>
+<li>An anti-spam system which prevents you from filling the puzzle with random blocks.</li>
+<li>Arbitrary puzzle sizes</li>
 </ul>
 <h2>Feature ideas</h2>
 <ul>
 <li>A poll where you can vote on which of three puzzles to play next (showing only the puzzle title, so no spoilers)</li>
+<li>A tutorial</li>
 </ul>
 <h2>Omissions</h2>
 <ul>
 <li>No chat system. Want to communicate? Aggressively point your cursor to the square you have an opinion about. Have others figure what you mean.</li>
-<li>You can't place X-es on mobile yet. The solution proposed above works here as well.</li>
-</ul>
-<video  autoplay loop muted playsinline>
-  <source src="/video/picross-agression-converted.mp4" type="video/mp4">
-</video>
-<ul>
 <li>No private games or lobbies. We're all in this together!</li>
 </ul>
+<!--
+<video  autoplay loop muted playsinline>
+  <source src="/video/picross-agression-converted.mp4" type="video/mp4">
+</video> -->
 <h2>Lessons learned</h2>
 <ul>
 <li>It took me a LOT of time to get from having all the services working locally, to having them all deployed in Docker behind a reverse-proxy. In the future I'd like to have all the services connected and working as early in the project as possible. Integration hell is real and tackling it when the codebase is still small is something I'd like to try next time. This would also allow me to publish my work earlier, which will probably work as a great motivator.</li>
