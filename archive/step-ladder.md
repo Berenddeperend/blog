@@ -5,9 +5,19 @@ tags:
     - post
 title: Step ladder
 date: 2023-04-26
-summary: Enabling multi-level plant action.
+summary: What are you doing step ladder? Enabling that sweet multi-level plant action.
 featured-img: step-ladder/thumbnail.jpg
 ---
+
+A haiku: 
+<blockquote>
+"Can't reach the top shelve?<br />
+I'd lend you my step ladder<br />
+But I like plants more.
+"<br />
+</blockquote>
+<br>
+
 
 My second project at the woodworking course is a step ladder. I get to use the same principles I used for my <a href="/projects/stool" target="_blank">stool</a>, but next level. 
 
