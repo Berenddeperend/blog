@@ -74,7 +74,7 @@ a.active {
 }
 
 a,
-strong  {
+strong {
   color: #e2bc4e;
 }
 
@@ -102,10 +102,6 @@ video {
   max-width: 100%;
 }
 
-/* h2, h3 {
-  margin-top: 30px;
-  margin-bottom: 5px;
-} */
 h4 {
   color: #e2bc4e;
   margin-top: 30px;
