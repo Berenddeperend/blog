@@ -4,24 +4,24 @@ tags:
     - Woodworking
     - post
 title: Step ladder
-date: 2023-04-26
-summary: What are you doing step ladder? Enabling that sweet multi-level plant action.
+date: 2023-07-01
+summary: What are you doing step ladder? We're family!
 featured-img: step-ladder/thumbnail.jpg
 ---
 
-A haiku: 
+<!-- A haiku: 
 <blockquote>
 "Can't reach the top shelve?<br />
 I'd lend you my step ladder<br />
 But I like plants more.
 "<br />
 </blockquote>
-<br>
+<br> -->
 
 
-My second project at the woodworking course is a step ladder. I get to use the same principles I used for my <a href="/projects/stool" target="_blank">stool</a>, but next level. 
+My second project at the woodworking course is a step ladder. I got to use the same principles I used for my <a href="/projects/stool" target="_blank">stool</a>, but next level. 
 
-I started with the back frame. It consists of mortise and tenon joints and halfhoutse dovetails.
+I started with the back frame. It consists of mortise and tenon joints and cross lab dovetails.
 
 {% image "step-ladder/open-joints.JPG", "Open joints" %}
 
@@ -40,7 +40,7 @@ The trickiest part about the back frame is that there's a cross within. It force
 
 
 
-Next up was making the steps. First I cut and chisled out some dedos with a bovenschaaf.
+Next up was making the steps. First I cut and chisled out some dedos with a router plane. Really cool tool!
 
 {% image "step-ladder/sawing-dedos.JPG", "Sawing dedos" %} 
 
@@ -60,3 +60,26 @@ Then I made the steps. They are just planks with one edge planed in an angle so 
 {% image "step-ladder/steps-glued.JPG", "steps-glued" %} 
 
 
+And finally the assembly phase. I chilseled out some room for hinges so they're flush.
+
+{% image "step-ladder/hinge-slot.JPG", "Hinges" %} 
+
+{% image "step-ladder/hinge-2.JPG", "Hinges" %} 
+
+{% image "step-ladder/hinge-3.JPG", "Hinges" %} 
+
+All done!
+
+{% image "step-ladder/step-ladder-done-1.jpg", "Final product" %} 
+
+{% image "step-ladder/step-ladder-done-2.jpg", "Final product" %} 
+
+Taking it home on Joost's bike
+
+{% image "step-ladder/ladder-on-bike.jpg", "Transporting" %} 
+
+Multi-level plant action in my living room.
+
+{% image "step-ladder/ladder-with-plants-1.jpg", "Transporting" %} 
+
+{% image "step-ladder/ladder-with-plants-2.jpg", "Transporting" %}

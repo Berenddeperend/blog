@@ -15,7 +15,6 @@ layout: template.njk
 #### Butter chicken <small>⭐️⭐️⭐️⭐️⭐️</small>
 Combined with the Butter Naan it's the the bread and butter (ha!) of the Indian cuisine. This stuff is fire, yo. But not literally, it's very mild and sweet. Always make sure to order least this as one of your dishes.
 
-
 #### Chicken chettinad
 Pretty spicy, one of my favorites. Will order again.
 
