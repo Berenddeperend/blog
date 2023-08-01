@@ -60,7 +60,7 @@ Then I made the steps. They are just planks with one edge planed in an angle so 
 {% image "step-ladder/steps-glued.JPG", "steps-glued" %} 
 
 
-And finally the assembly phase. I chilseled out some room for hinges so they're flush.
+And finally the assembly phase. I chiseled out some room for hinges so they're flush.
 
 {% image "step-ladder/hinge-slot.JPG", "Hinges" %} 
 

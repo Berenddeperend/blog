@@ -13,10 +13,10 @@ layout: template.njk
 ## Main dishes
 
 #### Butter chicken <small>⭐️⭐️⭐️⭐️⭐️</small>
-Combined with the Butter Naan it's the the bread and butter (ha!) of the Indian cuisine. This stuff is fire, yo. But not literally, it's very mild and sweet. Always make sure to order least this as one of your dishes.
+Combined with the Butter Naan it's  the bread and butter (ha!) of the Indian cuisine. This stuff is fire, yo. But not literally, it's very mild and sweet. Always make sure to order least this as one of your dishes.
 
-#### Chicken chettinad
-Pretty spicy, one of my favorites. Will order again.
+#### Chicken chettinad <small>⭐️⭐️⭐️⭐️🌗️</small>
+Pretty spicy, one of my favorites. The last time I ate it I somehow thought it was better than the Lamb Laal which I gave 5 stars? Confusing. Marco rates it at 4 stars. 
 
 #### Chicken Punjabi
 I can't remember this dish but according to Maartje it's not too spicy but very tasty. Favorite of Joanne, Robin and Maartje.
