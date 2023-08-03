@@ -59,6 +59,16 @@ a {
   transition: text-decoration-color 0.2s;
 }
 
+/* .content a:visited {
+  color: #e2bc4e;
+}
+
+.content a:hover,
+.content a:active,
+.content a:focus{
+  text-decoration-color: #b3b3de;
+} */
+
 a:hover,
 a:active,
 a:focus,
@@ -96,6 +106,20 @@ button .underline-on-hover {
 
 button:hover .underline-on-hover {
   text-decoration: underline;
+}
+
+details, summary {
+  margin-bottom: 17px;
+}
+
+details *:not(summary) {
+  margin-left: 40px;
+}
+
+summary {
+  padding-left: 40px;
+  color: #e2bc4e;
+  cursor: pointer;
 }
 
 video {
