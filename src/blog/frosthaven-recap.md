@@ -47,7 +47,7 @@ I only decided to do write-ups after the seventh campaign, so here are some rand
 
 - Eels trying to destroy our ship named 'flapselhoeps'. They were stationary in the single water tile they spawned in, but one of them got something like a move 3 + jump and was able to jump to another water tile. It was a pretty funny thing to imagine. He didn't survive for long tho.
 
-- An entire campaign of fighting crabs while listening to [Crab Rave](https://www.youtube.com/watch?v=LDU_Txk06tM) remixes on Spotify. 🦀
+- An entire campaign of fighting crabs while listening to <a href="https://www.youtube.com/watch?v=LDU_Txk06tM" target="_blank">Crab Rave</a> remixes on Spotify. 🦀
 
 - Ramon staying a bit behind while we were chased by wolves. No worries though, the Drifter can catch up pretty easily with its walk bonuses. Unless a wolf would manage to bite his ankle and immobilize him. But that wouldn't happen, right?
 
