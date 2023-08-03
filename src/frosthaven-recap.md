@@ -47,6 +47,19 @@ I only decided to do write-ups after the seventh campaign, so here are some high
 
 - Ramon staying a bit behind while we were chased by wolves. No worries though, the Drifter can catch up pretty easily with its walk bonuses. Unless a wolf would manage to bite his ankle and immobilize him. But that wouldn't happen, right?
 
+- Joost staying extremely far behind to gather some more XP and loot afer we've practically finished the campaign. It turned out fine but it was a little risky. Had he died, we'd make him redo the campaign by himself.
+
+{% image "frosthaven/leave-no-blinkblade-behind.jpg", "Blinky boy" %}
+
+
 - Maartje only had one potion while the rest of us had two or three. So we were nice enough to brew her a new potion using two mushrooms. Enjoy your champignonsoep.
 
 {% image "frosthaven/champignonsoep.jpg", "champignonsoep" %}
+
+A typical Frosthaven setup. 
+
+{% image "frosthaven/typical-frosthaven-setup.jpg", "Typical setup" %}
+
+I absolutely love this game.
+
+{% image "frosthaven/berend-loves-frosthaven.jpg", "Berend <3 frosthaven" %}
