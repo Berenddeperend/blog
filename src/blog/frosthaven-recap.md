@@ -38,23 +38,30 @@ I only decided to do write-ups after the seventh campaign, so here are some high
 <!-- - A sweet triple kill on three snow-imps by me, using Draining Pincers. -->
 
 - Joost getting the shovel as a random item in our loot. It's way more helpful than it seems!
+ 
+ - Ramon getting the Slippery Sword, a hilarious item:
 
-- Ramon got the Slippery sword, a hilarious item.
-
+<details>
+<summary>(spoiler: Slippery Sword)</summary>
 {% image "frosthaven/slippery-sword.jpg", "Slippery sword" %}
+</details>
 
 - Eels trying to destroy our ship named 'flapselhoeps'. They were stationary in the single water tile they spawned in, but one of them got something like a move 3 + jump and was able to jump to another water tile. It was a pretty funny thing to imagine. He didn't survive for long tho.
 
 - Ramon staying a bit behind while we were chased by wolves. No worries though, the Drifter can catch up pretty easily with its walk bonuses. Unless a wolf would manage to bite his ankle and immobilize him. But that wouldn't happen, right?
 
-- Joost staying extremely far behind to gather some more XP and loot afer we've practically finished the campaign. It turned out fine but it was a little risky. Had he died, we'd make him redo the campaign by himself.
+- Joost staying extremely far behind to gather some more XP and loot after we've practically finished the campaign. It turned out fine but it was a little risky. Had he died, we'd make him redo the campaign by himself.
 
 {% image "frosthaven/leave-no-blinkblade-behind.jpg", "Blinky boy" %}
 
+- Maartje only had one potion while the rest of us had two or three. So we were nice enough to brew her a new potion using two mushrooms.
 
-- Maartje only had one potion while the rest of us had two or three. So we were nice enough to brew her a new potion using two mushrooms. Enjoy your champignonsoep.
-
+<details>
+<summary>(spoiler: combining two mushrooms)</summary>
+<p>Enjoy your champignonsoep</p>
 {% image "frosthaven/champignonsoep.jpg", "champignonsoep" %}
+
+</details>
 
 A typical Frosthaven setup. 
 
