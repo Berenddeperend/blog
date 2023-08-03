@@ -19,27 +19,26 @@ From left to right:
 - 'Sanic' (Joost) as the **Blinkblade**
 - 'Britney Spears' aka 'Stab Papi' (Maartje) as the **Banner Spear**
 
-
-I only decided to do write-ups after the seventh campaign, so here are some highlights from our first seven campaigns, in no particular order:
+I only decided to do write-ups after the seventh campaign, so here are some random highlights that we remember from our first seven campaigns:
 
 - Maartje taking three(!) hours to unbox and sort the game.
 
 {% image "frosthaven/frosthaven-box.jpg", "The box" %}
 
-- In the second campaign we got the help of a few NPC guards. Neat! But the first guard we met got killed so hard it wasn't even funny. We called him Spongebob for soaking up all that damage. Turns out he's even printed on the Frosthaven box!
+- In the second campaign we received help of a few NPC guards. Neat! But the first guard we met got killed so hard it wasn't even funny. We called him Spongebob for soaking up all that damage. Turns out he's even printed on the Frosthaven box!
 
 {% image "frosthaven/spongebob.jpg", "Spongebob" %}
 
-- Maartje dying in like the fourth round, trying to hold of an army of eels and piranha pigs. Her sacrifice will be remembered.
+- Maartje dying in like the fourth round, trying to hold off an army of eels and piranha pigs. Her sacrifice will be remembered.
 
 {% image "frosthaven/heed-the-pigs.jpg", "Heed the pigs!" %}
 {% image "frosthaven/heed-the-pigs-2.jpg", "Heed the pigs!" %}
 
 <!-- - A sweet triple kill on three snow-imps by me, using Draining Pincers. -->
 
-- Joost getting the shovel as a random item in our loot. It's way more helpful than it seems!
+- Joost getting the shovel as a random item in our loot. He has used in every campaign since and it's always a lot of fun.
  
- - Ramon getting the Slippery Sword, a hilarious item:
+- Ramon getting the Slippery Sword, a hilarious item:
 
 <details>
 <summary>(spoiler: Slippery Sword)</summary>
@@ -47,6 +46,8 @@ I only decided to do write-ups after the seventh campaign, so here are some high
 </details>
 
 - Eels trying to destroy our ship named 'flapselhoeps'. They were stationary in the single water tile they spawned in, but one of them got something like a move 3 + jump and was able to jump to another water tile. It was a pretty funny thing to imagine. He didn't survive for long tho.
+
+- An entire campaign of fighting crabs while listening to [Crab Rave](https://www.youtube.com/watch?v=LDU_Txk06tM) remixes on Spotify. 🦀
 
 - Ramon staying a bit behind while we were chased by wolves. No worries though, the Drifter can catch up pretty easily with its walk bonuses. Unless a wolf would manage to bite his ankle and immobilize him. But that wouldn't happen, right?
 
@@ -58,7 +59,7 @@ I only decided to do write-ups after the seventh campaign, so here are some high
 
 <details>
 <summary>(spoiler: combining two mushrooms)</summary>
-<p>Enjoy your champignonsoep</p>
+<p>Enjoy your champignonsoep.</p>
 {% image "frosthaven/champignonsoep.jpg", "champignonsoep" %}
 
 </details>
