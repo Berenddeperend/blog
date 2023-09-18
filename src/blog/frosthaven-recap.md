@@ -1,5 +1,5 @@
 ---
-title: Adventures in Frosthaven, ep. 1-7
+title: Adventures in Frosthaven, episode 1-7
 layout: template.njk
 ---
 
@@ -49,6 +49,8 @@ I only decided to do write-ups after the seventh campaign, so here are some rand
 
 - An entire campaign of fighting crabs while listening to <a href="https://www.youtube.com/watch?v=LDU_Txk06tM" target="_blank">Crab Rave</a> remixes on Spotify. 🦀
 
+- Maartje saying "It's Britney, bitch" after delivering the killing blow to a boss.
+
 - Ramon staying a bit behind while we were chased by wolves. No worries though, the Drifter can catch up pretty easily with its walk bonuses. Unless a wolf would manage to bite his ankle and immobilize him. But that wouldn't happen, right?
 
 - Joost staying extremely far behind to gather some more XP and loot after we've practically finished the campaign. It turned out fine but it was a little risky. Had he died, we'd make him redo the campaign by himself.
@@ -61,7 +63,6 @@ I only decided to do write-ups after the seventh campaign, so here are some rand
 <summary>(spoiler: combining two mushrooms)</summary>
 <p>Enjoy your champignonsoep.</p>
 {% image "frosthaven/champignonsoep.jpg", "champignonsoep" %}
-
 </details>
 
 A typical Frosthaven setup. 

@@ -3,7 +3,7 @@ const path = require("path");
 const { DateTime } = require("luxon");
 const Image = require("@11ty/eleventy-img");
 
-async function imageShortcode(src, alt) {
+async function imageShortcode(src, alt = "") {
   let metadata = await Image(`src/img/${src}`, {
     widths: [1000],
     formats: ["jpg", null],
