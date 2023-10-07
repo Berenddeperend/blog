@@ -33,6 +33,8 @@ It was a really cool campaign full of extremes. Some highlights:
 
 - Speaking of Joost, he had the absolute craziest luck that evening. Due to scenario effects and circumstances he had 4 extra curses and 2 extra blesses in his deck. He somehow managed to only draw 2x modifiers and zero x0 modifiers. This resulted in a few beautiful moves. He exactly one-shotted a few monsters, but also did 16 damage on an enemy who was already wounded, poisoned, and on 1 HP. Oh, *he dea!*
 
+{% image "frosthaven/9/overkill.jpg" %}
+
 - Ramon was less lucky. We took a magical elevator that gives you a random effect (positive or negative) every time you enter. Ramon took trap damage from it twice. That's a 1 in 144 chance. The third time he entered he got wounded. Better take the stairs next time. 
 
 And that was it! Next episode will be in a month because my friends have a life. How dare they.
