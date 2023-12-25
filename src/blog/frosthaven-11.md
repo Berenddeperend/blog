@@ -18,9 +18,9 @@ In the final room there was an altar that keeps some snowy zombies alive. You ca
 
 Some highlights:
 
-- We all wore bathrobes and Ramon wore Maartje's kimono. No pictures were taken, you'll have to believe me when I say we looked exquisite.  
+- We all wore bathrobes and Ramon wore Maartjes kimono. No pictures were taken, you'll have to believe me when I say we looked exquisite.  
 
-- Remember how Maartje's character retired last time? Sike, she didn't! Well she did but she didn't have the energy to get acquainted with a new character so Britney and Bob joined us one last time <3
+- Remember how Maartjes character retired last time? Sike, she didn't! Well she did but she didn't have the energy to get acquainted with a new character so Britney and Bob joined us one last time <3
 
 - I melee'ed an elite Ice Wraith that had retaliate. I bonk'd him pretty hard with my top card (Icebound Quills) but he still had 3 HP left.
 So I had two options: use my bottom card to move into safety, or bonk for 2 damage and hope for a +1 modifier. I took a gamble, attacked and got lucky with the +1 modifier. Had my last attack not been killing blow, 
@@ -30,7 +30,7 @@ I'd suffered 2 retaliate damage again <i>and</i> he'd attack me for 4 damage + w
 
 - Joost stayed behind to loot some more and walked 12 tiles in one round to catch up with us. Sanic!
 
-- Joost did 14 damage in one hit: 3 base damage, two +2 modifiers, then a x2 modifier.
+- Joost managed to turn a 3 damage attack into 14 damage by drawing two +2 rolling modifiers, then a x2 modifier.
 
 {% image "frosthaven/11/11-joost-big-damage.JPG", "Joost does big damage" %}
 
@@ -40,7 +40,7 @@ I'd suffered 2 retaliate damage again <i>and</i> he'd attack me for 4 damage + w
 
 - I got my battle goal of never leaving a room with loot tokens in it. Since this scenario only had two rooms with only 4 enemies in the first room, this wasn't too difficult. Two free checkmarks!
 
-- The outpost event we encountered was hilarious and beautifully written. Even though we correctly predicted the most benefitial option, we went for the funny one:
+- The outpost event we encountered was hilarious and beautifully written. Even though we correctly predicted the most beneficial option, we went for the funny one:
 
 <details>
 <summary>(spoiler: Outpost event on painting snowbirds for a wedding)</summary>
