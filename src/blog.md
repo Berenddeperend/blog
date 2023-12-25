@@ -9,6 +9,7 @@ layout: template.njk
 - [Adventures in Frosthaven, ep. 8](/blog/frosthaven-8)
 - [Adventures in Frosthaven, ep. 9](/blog/frosthaven-9)
 - [Adventures in Frosthaven, ep. 10](/blog/frosthaven-10)
+- [Adventures in Frosthaven, ep. 11](/blog/frosthaven-11)
 
 
 ## Strength
