@@ -22,6 +22,17 @@ url: pen plotting
 {% image "pen-plotting/triangle.JPG", "triangle" %}
 
 
+## My current workflow
+
+I have a frontend written in Vue.js. It loads dynamically loads different .js files that all have a 'draw' method and some relevant settings. The 'draw' method outputs an SVG string, the Vue frontend renders it and makes the settings reactive.
+My frontend also contains a 'print' button. After clicking that, the following things happen:
+
+- The frontend sends the generated SVG to a backend
+- The backend (written in Bun) saves the SVG
+- The backend converts the SVG to gcode using the vpype CLI
+- The backend uploads the gcode to my Raspberry Pi that runs Octopi
+- The Raspberry Pi is hooked up to my Ender 3 printer and plots the drawing
+
 ## How I got here
 
 Inspired by this post by <a href="https://adamfuhrer.com/pen-plotting">Adam Fuhrer</a> I wanted to get into pen plotting as well. I challenged myself to not buy anything that ends up on a landfill eventually, so I didn't take the easy route of just buying a plotter.
