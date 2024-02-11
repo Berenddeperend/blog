@@ -38,14 +38,14 @@
               </button>
               <div class="dropdown-content" style='opacity: 0;'>
 
-                <div class="lift-title"><strong>Snatch</strong> 57/60</div>
+                <div class="lift-title"><strong>Snatch</strong> 60/60</div>
                   <div class="loading-bar" data-target="60">
-                    <div class="loading-bar-inner" data-pr="57"></div>
+                    <div class="loading-bar-inner" data-pr="60"></div>
                   </div>
 
-                  <div class="lift-title"><strong>Clean & jerk</strong> 70/80</div>
+                  <div class="lift-title"><strong>Clean & jerk</strong> 80/80</div>
                   <div class="loading-bar" data-target="80">
-                    <div class="loading-bar-inner" data-pr="70"></div>
+                    <div class="loading-bar-inner" data-pr="80"></div>
                   </div>
 
                 <div class="lift-title"><strong>Bench</strong> 118/114</div>
@@ -57,8 +57,7 @@
                   <div class="loading-bar" data-target="140">
                     <div class="loading-bar-inner" data-pr="135"></div>
                   </div>
-                  
-                
+
                   <div class="lift-title"><strong>Deadlift</strong> 185/200</div>
                   <div class="loading-bar" data-target="200">
                     <div class="loading-bar-inner" data-pr="185"></div>
@@ -66,7 +65,7 @@
 
                   <p class="days-since-pr today hibbem">Last PR: <strong>today! <span style="font-size: 18px; margin-left:5px;">🎉</span></strong></p>
                   <p class="days-since-pr past">
-                    last PR: <strong data-last-pr-date="2024-01-22"></strong> day<span class="last-pr-days-plural">s</span> ago
+                    last PR: <strong data-last-pr-date="2024-02-11"></strong> day<span class="last-pr-days-plural">s</span> ago
                   </p>
                  <div class="que">
                    <a href="/blog/powerlifting">
@@ -98,16 +97,11 @@
 
   <div class="post-header">
     <h1 class="post-title">Pen plotting on a budget</h1> 
-    <p class="post-metadata">Posted on Jan 28, 2024</p>
+    <p class="post-metadata">Posted on Oct 22, 2023</p>
     
   </div>
 
-  <p>Inspired by this post by <a href="https://adamfuhrer.com/pen-plotting">Adam Fuhrer</a> I wanted to get into pen plotting as well. I challenged myself to not buy anything that ends up on a landfill eventually, so I didn't take the easy route of just buying a plotter.</p>
-<p>Instead, I re-used my 3d printer. The obvious first step is to print a pen holder that attaches to the extruder of my printer. Something like this:</p>
-<img alt="plotter" loading="lazy" decoding="async" src="/img/plotter.jpeg" width="1000" height="1777">
-<p>Note how the rubber bands allow the pen to travel a bit on the Z-axis. This makes leveling the bed a lot more forgiving.</p>
-<img alt="waves" loading="lazy" decoding="async" src="/img/waves.jpeg" width="1000" height="1777">
-<img alt="circles" loading="lazy" decoding="async" src="/img/circles.jpeg" width="1000" height="1333">
+  <img alt="circles" loading="lazy" decoding="async" src="/img/circles.jpeg" width="1000" height="1333">
 <img alt="hilbert" loading="lazy" decoding="async" src="/img/hilbert.jpeg" width="1000" height="1333">
 <img alt="nono" loading="lazy" decoding="async" src="/img/nono.jpeg" width="1000" height="1333">
 <img alt="snowflake" loading="lazy" decoding="async" src="/img/snowflake.jpeg" width="1000" height="1333">
@@ -122,6 +116,20 @@ My frontend also contains a 'print' button. After clicking that, the following t
 <li>The backend uploads the gcode to my Raspberry Pi that runs Octopi</li>
 <li>The Raspberry Pi is hooked up to my Ender 3 printer and plots the drawing</li>
 </ul>
+<h2>How I got here</h2>
+<p>Inspired by this post by <a href="https://adamfuhrer.com/pen-plotting">Adam Fuhrer</a> I wanted to get into pen plotting as well. I challenged myself to not buy anything that ends up on a landfill eventually, so I didn't take the easy route of just buying a plotter.
+Instead, I re-used my 3d printer. The obvious first step is to print a pen holder that attaches to the extruder of my printer. Something like this:</p>
+<img alt="plotter" loading="lazy" decoding="async" src="/img/plotter.jpeg" width="1000" height="1777">
+<p>Note how the rubber bands allow the pen to travel a bit on the Z-axis. This makes leveling the bed a lot more forgiving.</p>
+<img alt="waves" loading="lazy" decoding="async" src="/img/waves.jpeg" width="1000" height="1777">
+<p>Next up, generate some cool art. Just like Adam I used P5.js first but it renders to a HTML5 canvas. You need some obscure third party lib to convert your drawing into SVG, which felt a bit too hacky for me. So I used D3.js to render a few SVGs to test with:</p>
+<p>I wrote a script which uses OpenSCAD to transform my SVG into a very flat but definitely 3d .stl file:</p>
+<p><picture><source type="image/png" srcset="/img/stl-1.png 1000w" sizes="1000"><img alt="waves" loading="lazy" decoding="async" src="/img/stl-1.jpeg" width="1000" height="843"></picture></p>
+<p><picture><source type="image/png" srcset="/img/stl-2.png 1000w" sizes="1000"><img alt="waves" loading="lazy" decoding="async" src="/img/stl-2.jpeg" width="1000" height="813"></picture></p>
+<p>Then my script feeds the .stl into Prusaslicer with a profile that doesn't heat my printers bed or hotend. The result is a .gcode file that my printer understands. It definitely feels hacky but for my first experiment it worked beautifully:</p>
+<img alt="waves" loading="lazy" decoding="async" src="/img/waves-first.jpeg" width="1000" height="1333">
+<p>However when multiple lines overlap, it's still very obvious that my printer still thinks it's working with plastic:</p>
+<p>So the workflow I've settled on for now is to use vpype with the gcode plugin, which gives me a lot more control.</p>
 
 
 </article>
