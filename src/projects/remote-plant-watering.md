@@ -2,7 +2,7 @@
 layout: project.njk
 tags: 
     - Woodworking
-    - Arduino
+    - Hardware
     - post
 date: 2019-03-26
 title: Remote plant watering

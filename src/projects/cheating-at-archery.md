@@ -1,7 +1,7 @@
 ---
 layout: project.njk
 tags: 
-    - Arduino
+    - Hardware
     - post
 title: Cheating at archery
 featured-img: gyrobow-finished-side.jpeg

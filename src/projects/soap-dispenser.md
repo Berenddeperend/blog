@@ -1,7 +1,7 @@
 ---
 layout: project.njk
 tags: 
-  - Arduino
+  - Hardware
   - post
 date: 2020-03-21
 featured-img: soapdispenser/soap-finished-thumb.gif

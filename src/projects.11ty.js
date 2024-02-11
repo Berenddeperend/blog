@@ -14,7 +14,6 @@ class Projects {
     <h1>${data.title} <small>(${this.postCount(data)})</small></h1>
 
     <div class="taglist">
-    <span class="tags-label">Tags:</span>
     ${this.renderTags(data)} 
     </div>
 
