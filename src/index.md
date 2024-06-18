@@ -14,3 +14,4 @@ Other interests in which I don't actively partake include retro hardware, birds,
 You can reach me by <a href="mailto:berendswennenhuis@gmail.com">email</a> and find my code on <a href="https://github.com/berenddeperend/" target="_blank">Github</a>.
 
 Quick links to games I wrote: <a href="/tetris" target="_blank">Tetris</a>, <a href="/nonogram" target="_blank">Nonogram With Friends</a>
+ccc

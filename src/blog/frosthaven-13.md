@@ -12,7 +12,7 @@ This week we did advanced triginometry in: **Radiant Forest**.
 
 {% image "frosthaven/13/13-radiant-forest.JPG", "13" %}
 
-We've built a submarine. But it needs an energy source which we set out to find this scenario. The goal: find and dig up three energy thingies.
+We built a submarine. But it needs an energy source which we set out to find this scenario. The goal: find and dig up three energy thingies.
 
 Some highlights:
 
@@ -20,7 +20,7 @@ Some highlights:
 
 - Before starting the scenario our town got attacked by algoxes! Luckily we were well-prepared and had recruited a bunch of guardbobs. What we didn't realise though, is that you have to sacrifice them if you want them to help. Which we gladly did, we threw three Bobs in the meat grinder and the algoxes didn't stand a chance.
 
-- This scenario contained two rooms. In the first one Maartje, Joost and I got stuck in a moshpit with three Shrike Fiends. They all had pull three on three targets so we flew all over the map. The only one who remained save was our Drifter Ramon, who could handle it the best.
+- This scenario contained two rooms. In the first one Maartje, Joost and I got stuck in a moshpit with three Shrike Fiends. They all had pull three on three targets so we flew all over the map. The only one who remained safe was our Drifter Ramon, who could handle it the best.
 
 {% image "frosthaven/13/13-pulls-all-over.JPG", "Enemy pulling us everywhere" %}
 
@@ -30,7 +30,7 @@ Some highlights:
 
 - {% image "frosthaven/13/13-thresh-flail.JPG", "bonk" %}
 
-- Lobsterboy holding things will always be funny.
+- Lobsterboy holding is one of my favorite things.
 
 {% image "frosthaven/13/13-lobster-holds-darkness.JPG", "Hodl the dark" %}
 

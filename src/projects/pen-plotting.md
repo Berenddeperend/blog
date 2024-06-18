@@ -16,8 +16,6 @@ url: pen plotting
 
 {% image "pen-plotting/hilbert.JPG", "hilbert" %}
 
-{% image "pen-plotting/nono.JPG", "nono" %}
-
 {% image "pen-plotting/snowflake.JPG", "snowflake" %}
 
 {% image "pen-plotting/triangle.JPG", "triangle" %}
@@ -47,7 +45,6 @@ Note how the rubber bands allow the pen to travel a bit on the Z-axis. This make
 
 Next up, generate some cool art. Just like Adam I used P5.js first but it renders to a HTML5 canvas. You need some obscure third party lib to convert your drawing into SVG, which felt a bit too hacky for me. So I used D3.js to render a few SVGs to test with:
 
-
 I wrote a script which uses OpenSCAD to transform my SVG into a very flat but definitely 3d .stl file:
 
 {% image "pen-plotting/stl-1.png", "waves" %}
@@ -58,8 +55,8 @@ Then my script feeds the .stl into Prusaslicer with a profile that doesn't heat 
 
 {% image "pen-plotting/waves-first.JPG", "waves" %}
 
-However when multiple lines overlap, it's still very obvious that my printer still thinks it's working with plastic:
+[//]: # (However when multiple lines overlap, it's still very obvious that my printer still thinks it's working with plastic:)
 
 
 
-So the workflow I've settled on for now is to use vpype with the gcode plugin, which gives me a lot more control.
+[//]: # (So the workflow I've settled on for now is to use vpype with the gcode plugin, which gives me a lot more control.)
