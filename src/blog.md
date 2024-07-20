@@ -3,6 +3,18 @@ title: Blog
 layout: template.njk
 ---
 
+## Board game reviews
+
+I like board games. Here are some that I have opinions about.
+
+- [Gloomhaven: Jaws of the Lion](/blog/jaws-of-the-lion) 
+- [Dungeon Mayhem](/blog/dungeon-mayhem)
+- [Mini Rogue](/blog/mini-rogue) 
+- [Frosthaven](/blog/frosthaven) 
+- [Love Letter](/blog/love-letter)
+- [Other](/blog/board-games)
+
+
 ## Frosthaven
 
 - [Adventures in Frosthaven, ep. 1-7](/blog/frosthaven-recap)
