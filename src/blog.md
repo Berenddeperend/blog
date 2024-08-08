@@ -12,6 +12,7 @@ I like board games. Here are some that I have opinions about.
 - [Mini Rogue](/blog/mini-rogue) 
 - [Frosthaven](/blog/frosthaven) 
 - [Love Letter](/blog/love-letter)
+- [Star Realms: Frontiers](/blog/star-realms)
 - [Other](/blog/board-games)
 
 
