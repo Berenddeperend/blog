@@ -5,7 +5,7 @@ layout: template.njk
 
 <div class="post-header">
     <h1 class="post-title">{{ title }}</h1>
-    <p class="post-metadata">Posted on 26-07-2024</p>
+    <p class="post-metadata">Posted on 08-08-2024</p>
 </div>
 
 A good deck building game, pure and simple. 
