@@ -1,6 +1,8 @@
 ---
 title: Indian Summer dish reviews
 layout: template.njk
+date: 2023-06-17
+updated: 2023-06-17
 ---
 
 <div class="post-header">

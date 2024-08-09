@@ -1,6 +1,7 @@
 ---
 title: Adventures in Frosthaven, episode 8
 layout: template.njk
+date: 2023-09-19
 ---
 
 <div class="post-header">

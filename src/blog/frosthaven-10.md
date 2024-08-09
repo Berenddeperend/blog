@@ -1,6 +1,7 @@
 ---
 title: Adventures in Frosthaven, episode 10
 layout: template.njk
+date: 2023-11-30
 ---
 
 <div class="post-header">

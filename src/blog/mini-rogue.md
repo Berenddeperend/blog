@@ -1,6 +1,7 @@
 ---
 title: Mini Rogue
 layout: template.njk
+date: 2024-07-20
 ---
 
 <div class="post-header">

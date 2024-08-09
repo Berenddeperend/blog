@@ -1,6 +1,7 @@
 ---
 title: "Gloomhaven: Jaws of the Lion"
 layout: template.njk
+date: 2024-07-20
 ---
 
 <div class="post-header">

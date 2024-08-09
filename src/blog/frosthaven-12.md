@@ -1,6 +1,7 @@
 ---
 title: Adventures in Frosthaven, episode 12
-layout: template.njk
+layout: blog.njk
+date: 2024-01-20
 ---
 
 <div class="post-header">

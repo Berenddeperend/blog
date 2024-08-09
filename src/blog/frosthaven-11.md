@@ -1,6 +1,7 @@
 ---
 title: Adventures in Frosthaven, episode 11
 layout: template.njk
+date: 2023-12-25
 ---
 
 <div class="post-header">

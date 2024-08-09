@@ -1,6 +1,7 @@
 ---
 title: Adventures in Frosthaven, episode 1-7
 layout: template.njk
+date: 2023-08-03
 ---
 
 <div class="post-header">

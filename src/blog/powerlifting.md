@@ -1,6 +1,7 @@
 ---
 title: Powerlifting
 layout: template.njk
+date: 2022-07-01
 ---
 
 <div class="post-header">

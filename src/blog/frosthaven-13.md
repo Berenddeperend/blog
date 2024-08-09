@@ -1,6 +1,7 @@
 ---
 title: Adventures in Frosthaven, episode 13
 layout: template.njk
+date: 2024-02-11
 ---
 
 <div class="post-header">

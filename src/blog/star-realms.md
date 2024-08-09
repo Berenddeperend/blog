@@ -1,6 +1,7 @@
 ---
 title: "Star Realms: Frontiers"
 layout: template.njk
+date: 2024-08-07
 ---
 
 <div class="post-header">
