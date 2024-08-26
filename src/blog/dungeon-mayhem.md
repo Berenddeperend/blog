@@ -10,6 +10,7 @@ date: 2024-07-20
 </div>
 
 An absolute banger. Robin (a.k.a. Jerry de Ferry) introduced me to the game and I must have played over a hundred games.
+Special shoutout to our trip to Berlin where I first brought this game. Any time we would sit at a bar or beer garden we'd play a few rounds. Good stuff.
 
 {% image "board-games/dungeon-mayhem-1.jpg" %}
 {% image "board-games/dungeon-mayhem-4.jpg" %}

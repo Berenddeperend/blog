@@ -15,7 +15,7 @@ url: night stand
 
 For my final project at CursusHout, I built a night stand with a drawer and a door. It's made out of spruce wood. I haven't applied a finish to the wood yet, I'll do that at some point.
 
-I started working on it in october 2023 and finished in june 2024, spending 3 hours per week in it.
+I started working on it in october 2023 and finished in june 2024, spending 3 hours per week on it.
 
 
 {% image "night-stand/night-stand-1.jpg" %}
