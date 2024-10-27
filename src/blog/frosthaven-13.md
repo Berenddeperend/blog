@@ -9,7 +9,7 @@ date: 2024-02-11
     <p class="post-metadata">Posted on {{ page.date | formatDate }}</p>
 </div>
 
-This week we did advanced triginometry in: **Radiant Forest**.
+This week we did advanced triginometry in the Radiant Forest in campaign 33: **Thawed Wood**.
 
 {% image "frosthaven/13/13-radiant-forest.JPG", "13" %}
 

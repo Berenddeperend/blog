@@ -5,14 +5,17 @@ layout: template.njk
 
 ## Board game reviews
 
-- [Gloomhaven: Jaws of the Lion](/blog/jaws-of-the-lion) 
-- [Dungeon Mayhem](/blog/dungeon-mayhem)
-- [Mini Rogue](/blog/mini-rogue) 
-- [Frosthaven](/blog/frosthaven) 
-- [Love Letter](/blog/love-letter)
-- [Star Realms: Frontiers](/blog/star-realms)
-- [Other](/blog/board-games)
+Sort of sorted by how much I like them.
 
+1. [Gloomhaven: Jaws of the Lion](/blog/jaws-of-the-lion) 
+2. [Dungeon Mayhem](/blog/dungeon-mayhem)
+3. [Mini Rogue](/blog/mini-rogue) 
+4. [Sky Team](/blog/sky-team) 
+5. [Frosthaven](/blog/frosthaven) 
+6. [Love Letter](/blog/love-letter)
+7. [Star Realms: Frontiers](/blog/star-realms)
+
+[Other games](/blog/board-games)
 
 ## Frosthaven
 
