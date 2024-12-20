@@ -9,7 +9,8 @@ Sort of sorted by how much I like them.
 
 1. [Gloomhaven: Jaws of the Lion](/blog/jaws-of-the-lion) 
 2. [Dungeon Mayhem](/blog/dungeon-mayhem)
-3. [Mini Rogue](/blog/mini-rogue) 
+3. [Mini Rogue](/blog/mini-rogue)
+4. [Paleo](/blog/paleo)
 4. [Sky Team](/blog/sky-team) 
 5. [Frosthaven](/blog/frosthaven) 
 6. [Love Letter](/blog/love-letter)

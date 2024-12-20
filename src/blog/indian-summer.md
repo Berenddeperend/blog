@@ -2,7 +2,7 @@
 title: Indian Summer dish reviews
 layout: template.njk
 date: 2023-06-17
-updated: 2023-06-17
+updated: 2024-11-26
 ---
 
 <div class="post-header">
@@ -26,11 +26,11 @@ I can't remember this dish but according to Maartje it's not too spicy but very 
 #### Lamb laal maas rajasthani <small>⭐️⭐️⭐️⭐️⭐️</small>
 I know the meaning of 25% of those words. I also know that this is one of the spicier dishes (about 60% of Pinto Thai's Pad Ki Mau) and that it's a lot of fun to say Lamb Laal. If I were a rapper I'd definitely rhyme it with 'jeugdjournaal'. Educate them kids. Teach them about this dish.
 
-#### Chicken kolhapuri spicy <small>⭐️⭐️⭐️️⭐🌗️</small>
-Another top-tier dish. It has 'spicy' in the name but it's very doable. Describing the taste of a dish is pretty much impossible for me, so I'll leave you with a few random Dutch words that come to mind instead: 'woensdag', 'schroom', 'spierpijn'. 
+#### Chicken kolahpuri spicy <small>⭐️⭐️⭐️️⭐⭐️</small>
+Another top-tier dish. It has 'spicy' in the name but it's very doable. Describing the taste of a dish is pretty much impossible for me, so I'll leave you with a few random Dutch words that come to mind instead: 'woensdag', 'schroom', 'spierpijn'.  
 
-#### Kashmiri lamb rogan josh
-I reallllly can't remember this one but it was good. Note to self: taste the new dish first and form an opinion because after eating multiple sauces the tastes all blend together. 
+#### Kashmiri lamb rogan josh<small>⭐️⭐️🌗️</small>
+Not my favorite. For Indian Summer standards it's a little bland. 
 
 #### Chola Masala (vegan)
 Chickpeas, pretty good! The right amount of spice, according to Maartje.
