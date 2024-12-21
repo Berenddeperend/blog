@@ -44,3 +44,8 @@ High bar, 125kg on my 3rd and last attempt. This was a 5kg improvement on my pre
 </video>
 
 Overall the meet was a great experience where I met a bunch of cool people. I'll definitely join another competition as soon as I've hit my 1000-pounds goal.
+
+## Update: 20 december 2024
+
+I did it! Today I <a href="/blog/1000-pound-club">improved my squat</a> PR from 135kg to 144kg. That brings my best lifts to 144kg squat, 120kg bench and 190kg deadlift, which equals 1000 pounds. It was a goal I had in mind for over two years, so I'm very happy that I've made it.
+

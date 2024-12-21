@@ -32,6 +32,7 @@ Sort of sorted by how much I like them.
 ## Strength
 
 - [Powerlifting](/blog/powerlifting)
+- [1000-Pound Club](/blog/1000-pound-club)
 
 ## Food
 
