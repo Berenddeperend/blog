@@ -16,9 +16,9 @@ Now I ain't judging and I still eat meat myself, but killing a little is better 
 So instead of eating a lot of chicken, I'm trying to switch to tofu for my source of protein. 
 And as they say, tofu is like code: it's better when it's dry and you need to season it for it to not taste like wet tofu.
 
-{% image "tofu-press/tofu-press-1.jpg", "Plant with sensor." %}
-
 Since I can't use abstractions to dry my tofu, I built this press.
+
+{% image "tofu-press/tofu-press-1.jpg", "Plant with sensor." %}
 
 - Made from a plank I found in the shed.
 - The iron is from Hornbach, they have an excellent selection and you can buy them in any quantity.
