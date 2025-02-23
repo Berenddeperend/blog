@@ -6,7 +6,7 @@ date: 2025-02-10
 
 <div class="post-header">
     <h1 class="post-title">{{ title }}</h1>
-    <p class="post-metadata">Posted on 10-02-2024</p>
+    <p class="post-metadata">Posted on 10-02-2025</p>
 </div>
 
 Today I used the `@floating-ui/vue` package to do some intelligent DOM positioning.
