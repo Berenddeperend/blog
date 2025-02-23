@@ -27,6 +27,7 @@ Sort of sorted by how much I like them.
 - [Adventures in Frosthaven, ep. 11](/blog/frosthaven-11)
 - [Adventures in Frosthaven, ep. 12](/blog/frosthaven-12)
 - [Adventures in Frosthaven, ep. 13](/blog/frosthaven-13)
+- [Ending Adventures in Frosthaven](/blog/frosthaven-14)
 
 
 ## Strength
@@ -37,3 +38,8 @@ Sort of sorted by how much I like them.
 ## Food
 
 - [Indian Summer dish reviews](/blog/indian-summer) 
+
+
+## Dev
+
+- [Floating UI with Vue.js](/blog/using-floating-ui-with-vue)

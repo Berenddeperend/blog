@@ -15,6 +15,7 @@ Prehistoric shenanigans. Eat dodo's, get eaten by wolves, and prioritize drawing
 
 {% image "board-games/paleo-1.jpg" %}
 
+- Figuring out how to play the game with Pieter in Café België, just like we did with Mini Rogue. It was such a memorable night.
 - Thematically the best game I've played yet. All cards resolve in a way that feels believable. For instance there's a card that leads you to the forest. You can collect one wood and the card will be shuffled back into the deck. Or if you have the right tools, you can cut down the trees and collect three wood, but the card will be lost.
 - The crafting table is so cool. It's purely cosmetic but I appreciate it a lot.
 
@@ -32,3 +33,10 @@ Prehistoric shenanigans. Eat dodo's, get eaten by wolves, and prioritize drawing
 {% image "board-games/paleo-3.jpg" %}
 
 
+## Update: 10 februari 2025
+
+Hot damn this game is amazing. I'm buzzing with energy every time we complete a campaign. The 'a new beginning' expansion adds some lovely new mechanics.
+Some highlights:
+
+- In the base game you do what the game wants you to do, but with the expansion you now have different ways of getting there. A strategy I'd like to try is to get all of my food through farms instead of hunting.
+- The time Mart, Koen and I scored our last victory point by building the stonehenge, just moments before we were about to lose. It is an alternative win condition that is not always possible or logical to go for, but for us it was the only way and it worked out.

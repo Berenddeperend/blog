@@ -24,3 +24,4 @@ function outsideDropdownClickedChecker(e) {
 document.querySelectorAll(".dropdown-trigger").forEach((dropdown) => {
   dropdown.addEventListener("click", onDropdownTriggerClicked.bind(this, dropdown));
 });
+
