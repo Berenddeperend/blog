@@ -1,100 +1,116 @@
 <html>
-  <head>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+<head>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
 
-    <title>Berend Swennenhuis - Paleo</title>
-    <link rel="stylesheet" href="/css/styles.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    
-  </head>
-  <body>
-    <header class="header">
-      <div class="container">
-        <nav>
-          <div class="left">
-            <a href="/" class="face-container"
-              >
-              <img src="/public/berend.png" class="face berend" alt=""/>
-              <img src="/public/pip.png" class="face pip" alt=""/>
-            </a>
-            <a class="projects" href="/projects">Projects</a>
-            <a  href="/blog">Blog</a>
-          </div>
-          <div class="right">
-            <div class="dropdown" data-dropdown="stronk">
-              <button class="dropdown-trigger">
-                <span class="emoji">💪</span>
-                <span class="emoji">📊</span>
-              </button>
-              <div class="dropdown-content" style='opacity: 0;'>
-
-                <div class="lift-title"><strong>Snatch</strong> 66/80</div>
-<!--                first goal of 60kgs reached-->
-                  <div class="loading-bar" data-target="80">
-                    <div class="loading-bar-inner" data-pr="66"></div>
-                  </div>
-
-                  <div class="lift-title"><strong>Clean & jerk</strong> 85/100</div>
-                  <div class="loading-bar" data-target="100">
-                    <!--                first goal of 80kgs reached-->
-                    <div class="loading-bar-inner" data-pr="85"></div>
-                  </div>
-
-                  <div class="lift-title"><strong>Squat</strong> 144/140</div>
-                  <div class="loading-bar" data-target="140">
-                    <div class="loading-bar-inner" data-pr="144"></div>
-                  </div>
-                <div class="lift-title"><strong>Bench</strong> 120/114</div>
-                <div class="loading-bar" data-target="114">
-                  <div class="loading-bar-inner" data-pr="120"></div>
-                </div>
+  <title>Berend Swennenhuis - Paleo</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-                  <div class="lift-title"><strong>Deadlift</strong> 190/200</div>
-                  <div class="loading-bar" data-target="200">
-                    <div class="loading-bar-inner" data-pr="190"></div>
-                  </div>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 
-                  <p class="days-since-pr today hibbem">Last PR: <strong>today! <span style="font-size: 18px; margin-left:5px;">🎉</span></strong></p>
-                  <p class="days-since-pr past">
-                    last PR: <strong data-last-pr-date="2024-12-29"></strong> day<span class="last-pr-days-plural">s</span> ago
-                  </p>
-                 <div class="que">
-                   <a href="/blog/powerlifting">
-                   What's this?
-                   </a>
-                 </div>
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <nav>
+      <div class="left">
+        <a href="/" class="face-container"
+        >
+          <img src="/public/berend.png" class="face berend" alt="" />
+          <img src="/public/pip.png" class="face pip" alt="" />
+        </a>
+        <a class="projects" href="/projects">Projects</a>
+        <a href="/blog">Blog</a>
+      </div>
+      <div class="right">
+        <div class="dropdown" data-dropdown="stronk">
+          <button class="dropdown-trigger">
+            <span class="emoji">💪</span>
+            <span class="emoji">📊</span>
+          </button>
+          <div class="dropdown-content " style="opacity: 0;">
+
+            <div class="lift-column" data-stronk-category="powerlifting">
+              <h3 class="stronk-header">Powerlifting</h3>
+
+              <div class="lift-title"><strong>Squat</strong> <span>144/160 <small>kg</small></span></div>
+              <div class="loading-bar" data-target="140">
+                <div class="loading-bar-inner" data-pr="144"></div>
+              </div>
+
+              <div class="lift-title"><strong>Bench</strong> <span>120/125 <small>kg</small></span></div>
+              <div class="loading-bar" data-target="114">
+                <div class="loading-bar-inner" data-pr="125"></div>
+              </div>
+              <!--                doel: 5000 pullups doen in dit jaar. -->
+
+
+              <div class="lift-title"><strong>Deadlift</strong> <span>190/200 <small>kg</small></span></div>
+              <div class="loading-bar" data-target="200">
+                <div class="loading-bar-inner" data-pr="190"></div>
+              </div>
+
+<!--              <p class="days-since-pr today hibbem">Last PR: <strong>today! <span-->
+<!--                style="font-size: 18px; margin-left:5px;">🎉</span></strong></p>-->
+<!--              <p class="days-since-pr past">-->
+<!--                last PR: <strong data-last-pr-date="2025-02-15"></strong> day<span class="last-pr-days-plural">s</span>-->
+<!--                ago-->
+<!--              </p>-->
+            </div>
+
+            <div class="lift-column" data-stronk-category="weightlifting">
+              <h3 class="stronk-header">Weightlifting</h3>
+              <div class="lift-title"><strong>Snatch</strong> <span>68/80 <small>kg</small></span></div>
+              <!--                first goal of 60kgs reached-->
+              <div class="loading-bar" data-target="80">
+                <div class="loading-bar-inner" data-pr="68"></div>
+              </div>
+
+              <div class="lift-title"><strong>Clean & jerk</strong> <span>85/100 <small>kg</small></span></div>
+              <div class="loading-bar" data-target="100">
+                <!--                first goal of 80kgs reached-->
+                <div class="loading-bar-inner" data-pr="85"></div>
               </div>
             </div>
 
-
-            <!-- <div class="dropdown" data-dropdown="links">
-              <button class="dropdown-trigger">
-                <span class="underline-on-hover">Links</span>
-                <span class="emoji">🔽</span>
-              </button>
-              <div class="dropdown-content">
-                <a href="/tetris" target="_blank">Tetris</a>
-                <a href="https://github.com/berenddeperend/" target="_blank">Github</a>
+            <div class="lift-column" data-stronk-category="pullups">
+              <h3 class="stronk-header">Pullups</h3>
+              <div class="lift-title"><strong>Pullups</strong> <span><span class="pullups"></span>/5000 <small>reps</small></span></div>
+              <div class="loading-bar" data-target="5000">
+                <div class="loading-bar-inner" data-pr="200"></div>
               </div>
-            </div> -->
+
+              <p>Since 2025</p>
+            </div>
           </div>
-        </nav>
+        </div>
       </div>
-    </header>
-    
-    <div class="container content">
-      <div class="post-header">
+
+
+      <!-- <div class="dropdown" data-dropdown="links">
+        <button class="dropdown-trigger">
+          <span class="underline-on-hover">Links</span>
+          <span class="emoji">🔽</span>
+        </button>
+        <div class="dropdown-content">
+          <a href="/tetris" target="_blank">Tetris</a>
+          <a href="https://github.com/berenddeperend/" target="_blank">Github</a>
+        </div>
+      </div> -->
+    </nav>
+  </div>
+</header>
+
+<div class="container content">
+  <div class="post-header">
     <h1 class="post-title">Paleo</h1>
     <p class="post-metadata">Posted on 22-11-2024</p>
 </div>
@@ -102,6 +118,7 @@
 <p>Prehistoric shenanigans. Eat dodo's, get eaten by wolves, and prioritize drawing a painting over producing offspring.</p>
 <img alt="" loading="lazy" decoding="async" src="/img/paleo-1.jpeg" width="1000" height="750">
 <ul>
+<li>Figuring out how to play the game with Pieter in Café België, just like we did with Mini Rogue. It was such a memorable night.</li>
 <li>Thematically the best game I've played yet. All cards resolve in a way that feels believable. For instance there's a card that leads you to the forest. You can collect one wood and the card will be shuffled back into the deck. Or if you have the right tools, you can cut down the trees and collect three wood, but the card will be lost.</li>
 <li>The crafting table is so cool. It's purely cosmetic but I appreciate it a lot.</li>
 </ul>
@@ -117,12 +134,20 @@
 <li>I'm excited to play the rest of the campaigns. There's also an expansion and a few one-module micro expansions, I'll have to hunt those down later.</li>
 </ul>
 <img alt="" loading="lazy" decoding="async" src="/img/paleo-3.jpeg" width="1000" height="1777">
+<h2>Update: 10 februari 2025</h2>
+<p>Hot damn this game is amazing. I'm buzzing with energy every time we complete a campaign. The 'a new beginning' expansion adds some lovely new mechanics.
+Some highlights:</p>
+<ul>
+<li>In the base game you do what the game wants you to do, but with the expansion you now have different ways of getting there. A strategy I'd like to try is to get all of my food through farms instead of hunting.</li>
+<li>The time Mart, Koen and I scored our last victory point by building the stonehenge, just moments before we were about to lose. It is an alternative win condition that is not always possible or logical to go for, but for us it was the only way and it worked out.</li>
+</ul>
 
-    </div>
-    </div>
+</div>
+</div>
 
-    <script src="/js/app.js?v=1"></script>
-    <script src="/js/1kclub.js?v=2"></script>
-    <script src="/js/dropdown.js?v=1"></script>
-  </body>
+<script src="/js/pullups.js?v=1"></script>
+<script src="/js/app.js?v=1"></script>
+<script src="/js/1kclub.js?v=3"></script>
+<script src="/js/dropdown.js?v=2"></script>
+</body>
 </html>

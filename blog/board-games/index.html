@@ -1,100 +1,116 @@
 <html>
-  <head>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+<head>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
 
-    <title>Berend Swennenhuis - Board games</title>
-    <link rel="stylesheet" href="/css/styles.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    
-  </head>
-  <body>
-    <header class="header">
-      <div class="container">
-        <nav>
-          <div class="left">
-            <a href="/" class="face-container"
-              >
-              <img src="/public/berend.png" class="face berend" alt=""/>
-              <img src="/public/pip.png" class="face pip" alt=""/>
-            </a>
-            <a class="projects" href="/projects">Projects</a>
-            <a  href="/blog">Blog</a>
-          </div>
-          <div class="right">
-            <div class="dropdown" data-dropdown="stronk">
-              <button class="dropdown-trigger">
-                <span class="emoji">💪</span>
-                <span class="emoji">📊</span>
-              </button>
-              <div class="dropdown-content" style='opacity: 0;'>
-
-                <div class="lift-title"><strong>Snatch</strong> 66/80</div>
-<!--                first goal of 60kgs reached-->
-                  <div class="loading-bar" data-target="80">
-                    <div class="loading-bar-inner" data-pr="66"></div>
-                  </div>
-
-                  <div class="lift-title"><strong>Clean & jerk</strong> 85/100</div>
-                  <div class="loading-bar" data-target="100">
-                    <!--                first goal of 80kgs reached-->
-                    <div class="loading-bar-inner" data-pr="85"></div>
-                  </div>
-
-                  <div class="lift-title"><strong>Squat</strong> 144/140</div>
-                  <div class="loading-bar" data-target="140">
-                    <div class="loading-bar-inner" data-pr="144"></div>
-                  </div>
-                <div class="lift-title"><strong>Bench</strong> 120/114</div>
-                <div class="loading-bar" data-target="114">
-                  <div class="loading-bar-inner" data-pr="120"></div>
-                </div>
+  <title>Berend Swennenhuis - Board games</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-                  <div class="lift-title"><strong>Deadlift</strong> 190/200</div>
-                  <div class="loading-bar" data-target="200">
-                    <div class="loading-bar-inner" data-pr="190"></div>
-                  </div>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 
-                  <p class="days-since-pr today hibbem">Last PR: <strong>today! <span style="font-size: 18px; margin-left:5px;">🎉</span></strong></p>
-                  <p class="days-since-pr past">
-                    last PR: <strong data-last-pr-date="2024-12-29"></strong> day<span class="last-pr-days-plural">s</span> ago
-                  </p>
-                 <div class="que">
-                   <a href="/blog/powerlifting">
-                   What's this?
-                   </a>
-                 </div>
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <nav>
+      <div class="left">
+        <a href="/" class="face-container"
+        >
+          <img src="/public/berend.png" class="face berend" alt="" />
+          <img src="/public/pip.png" class="face pip" alt="" />
+        </a>
+        <a class="projects" href="/projects">Projects</a>
+        <a href="/blog">Blog</a>
+      </div>
+      <div class="right">
+        <div class="dropdown" data-dropdown="stronk">
+          <button class="dropdown-trigger">
+            <span class="emoji">💪</span>
+            <span class="emoji">📊</span>
+          </button>
+          <div class="dropdown-content " style="opacity: 0;">
+
+            <div class="lift-column" data-stronk-category="powerlifting">
+              <h3 class="stronk-header">Powerlifting</h3>
+
+              <div class="lift-title"><strong>Squat</strong> <span>144/160 <small>kg</small></span></div>
+              <div class="loading-bar" data-target="140">
+                <div class="loading-bar-inner" data-pr="144"></div>
+              </div>
+
+              <div class="lift-title"><strong>Bench</strong> <span>120/125 <small>kg</small></span></div>
+              <div class="loading-bar" data-target="114">
+                <div class="loading-bar-inner" data-pr="125"></div>
+              </div>
+              <!--                doel: 5000 pullups doen in dit jaar. -->
+
+
+              <div class="lift-title"><strong>Deadlift</strong> <span>190/200 <small>kg</small></span></div>
+              <div class="loading-bar" data-target="200">
+                <div class="loading-bar-inner" data-pr="190"></div>
+              </div>
+
+<!--              <p class="days-since-pr today hibbem">Last PR: <strong>today! <span-->
+<!--                style="font-size: 18px; margin-left:5px;">🎉</span></strong></p>-->
+<!--              <p class="days-since-pr past">-->
+<!--                last PR: <strong data-last-pr-date="2025-02-15"></strong> day<span class="last-pr-days-plural">s</span>-->
+<!--                ago-->
+<!--              </p>-->
+            </div>
+
+            <div class="lift-column" data-stronk-category="weightlifting">
+              <h3 class="stronk-header">Weightlifting</h3>
+              <div class="lift-title"><strong>Snatch</strong> <span>68/80 <small>kg</small></span></div>
+              <!--                first goal of 60kgs reached-->
+              <div class="loading-bar" data-target="80">
+                <div class="loading-bar-inner" data-pr="68"></div>
+              </div>
+
+              <div class="lift-title"><strong>Clean & jerk</strong> <span>85/100 <small>kg</small></span></div>
+              <div class="loading-bar" data-target="100">
+                <!--                first goal of 80kgs reached-->
+                <div class="loading-bar-inner" data-pr="85"></div>
               </div>
             </div>
 
-
-            <!-- <div class="dropdown" data-dropdown="links">
-              <button class="dropdown-trigger">
-                <span class="underline-on-hover">Links</span>
-                <span class="emoji">🔽</span>
-              </button>
-              <div class="dropdown-content">
-                <a href="/tetris" target="_blank">Tetris</a>
-                <a href="https://github.com/berenddeperend/" target="_blank">Github</a>
+            <div class="lift-column" data-stronk-category="pullups">
+              <h3 class="stronk-header">Pullups</h3>
+              <div class="lift-title"><strong>Pullups</strong> <span><span class="pullups"></span>/5000 <small>reps</small></span></div>
+              <div class="loading-bar" data-target="5000">
+                <div class="loading-bar-inner" data-pr="200"></div>
               </div>
-            </div> -->
+
+              <p>Since 2025</p>
+            </div>
           </div>
-        </nav>
+        </div>
       </div>
-    </header>
-    
-    <div class="container content">
-      <div class="post-header">
+
+
+      <!-- <div class="dropdown" data-dropdown="links">
+        <button class="dropdown-trigger">
+          <span class="underline-on-hover">Links</span>
+          <span class="emoji">🔽</span>
+        </button>
+        <div class="dropdown-content">
+          <a href="/tetris" target="_blank">Tetris</a>
+          <a href="https://github.com/berenddeperend/" target="_blank">Github</a>
+        </div>
+      </div> -->
+    </nav>
+  </div>
+</header>
+
+<div class="container content">
+  <div class="post-header">
     <h1 class="post-title">Board games</h1>
     <p class="post-metadata">Posted on 20-07-2024</p>
 </div>
@@ -103,7 +119,8 @@
 <h2>Patchwork</h2>
 <p>I like that it's two players only. Most games can be played by two players but are way more fun with 3 or 4. I don't like the artwork, a pet peeve of mine is colors that are hard to distinguish. Other games that are guilty are Quacks, Pandemic and the HP dails of Gloomhaven: bugs and buttons. The size of the box and the game duration are good.</p>
 <h2>Kwakzalvers (The Quacks of Quedlinburg)</h2>
-<p>Great game with amazing replayability. No two games are ever the same. Some prechosen builds feel broken tho which is a bit weird. The box is a bit cumbersome, which is a bit of a shame since I often bring games with me. Game duration is spot-on. The 6-value pumpkins of the expension make them viable.</p>
+<p>Great game with amazing replayability. No two games are ever the same. Some prechosen builds feel broken tho which is a bit weird. The box is a bit cumbersome, which is a bit of a shame since I often bring games with me. Game duration is spot-on. The 6-value pumpkins of the expension make them viable.
+One drawback is that while there is a rubber banding mechanic, it's rarely ever enough to get you back in the race. And once you're behind too much, it feels like there's no more point in playing. An alternative win condition could be a way to solve this, but I'm not sure what that'd look like.</p>
 <h2>Pandemic legacy</h2>
 <p>It pains me to say that I didn't enjoy this one. I played it for six campaigns before making the decision to quit. Which is a shame because I really liked the group. The unlockables were cool and I'm somewhat curious about the content I didn't get to see, but the game just wasn't fun.
 It never feels like you're winning. If you're playing it right, it just feels like you're not losing as bad.
@@ -111,12 +128,19 @@ It wasn't too engaging to me because all the information was public. Even if it 
 I played it with four players, which might make these problems worse. I suspect the game is better with two or three players.</p>
 <h2>Elfenland</h2>
 <p>Like Ticket To Ride but outdated and more fun. Can be played with up to 5 players, and more players is more fun. Pony on, cowboy! The Elfenland t-shirt is still high on my wish list.</p>
+<h2>General opinions</h2>
+<ul>
+<li>Hard to distinguish colours are bad</li>
+<li>I don't like zero sum games, such as koehandel</li>
+<li>Competitive games are fine, as long as either the games are short (to invite multiple experimentation) or it's exciting until it's over.</li>
+</ul>
 
-    </div>
-    </div>
+</div>
+</div>
 
-    <script src="/js/app.js?v=1"></script>
-    <script src="/js/1kclub.js?v=2"></script>
-    <script src="/js/dropdown.js?v=1"></script>
-  </body>
+<script src="/js/pullups.js?v=1"></script>
+<script src="/js/app.js?v=1"></script>
+<script src="/js/1kclub.js?v=3"></script>
+<script src="/js/dropdown.js?v=2"></script>
+</body>
 </html>
