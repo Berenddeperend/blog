@@ -3,10 +3,9 @@ const fetchPullups = fetch('https://pullup-counter-backend.test.coddin.io/api/be
 }).then(data => {
   const $container = document.querySelector('[data-stronk-category="pullups"]');
 
-
   $container.querySelector('[data-target]').dataset.target = data.count;
 
   $container.querySelector('.pullups').innerHTML = data.count;
 
-  document.querySelector('[data-stronk-category="pullups"] [data-target]').dataset.target = data.count;
+  document.querySelector('[data-stronk-category="pullups"] [data-pr]').dataset.pr = data.count;
 });
