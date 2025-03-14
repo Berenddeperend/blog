@@ -9,3 +9,5 @@ const fetchPullups = fetch('https://pullup-counter-backend.test.coddin.io/api/be
 
   document.querySelector('[data-stronk-category="pullups"] [data-pr]').dataset.pr = data.count;
 });
+
+
