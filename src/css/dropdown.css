@@ -8,7 +8,6 @@
     background: #e8e6e3;
     padding: 15px 20px;
     border-radius: 4px;
-    /*border-bottom-right-radius: 0;*/
     right: 0;
     top: 45px;
     opacity: 0;
@@ -17,22 +16,37 @@
     pointer-events: none;
     z-index: 2;
     color: #12123d;
-    /*width: 180px;*/
-    /*text-transform: uppercase;*/
     font-size: 0.7em;
-
-    gap: 30px;
+    flex-direction: column;
+    gap: 5px;
 }
+
+@media (min-width: 600px) {
+    .dropdown-content {
+        gap: 30px;
+        flex-direction: row;
+    }
+}
+
 
 .stronk-header {
     text-transform: uppercase;
     color: #12123d;
+    margin-bottom: 0;
+    opacity: 0.5;
+    display: none;
+}
+
+@media (min-width: 600px) {
+    .stronk-header {
+        display: block;
+        margin-bottom: 5px;
+    }
 }
 
 .lift-column {
     width: 150px;
     position: relative;
-    /*border: 1px solid red;*/
 }
 
 .dropdown-content strong {
