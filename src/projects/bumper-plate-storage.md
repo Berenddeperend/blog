@@ -42,7 +42,7 @@ It fits together like this:
 
 It's called a 'tusked tenon joint', something I hadn't used before.
 
-Do that four more times and you've got yourself a frame.
+Do that three more times and you've got yourself a frame.
 
 {% image "bumper-platestorage/bumper-plate-storage-9.jpg" %}
 {% image "bumper-platestorage/bumper-plate-storage-10.jpg" %}
