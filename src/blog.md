@@ -11,10 +11,12 @@ Sort of sorted by how much I like them.
 2. [Dungeon Mayhem](/blog/dungeon-mayhem)
 3. [Mini Rogue](/blog/mini-rogue)
 4. [Paleo](/blog/paleo)
-4. [Sky Team](/blog/sky-team) 
-5. [Frosthaven](/blog/frosthaven) 
-6. [Love Letter](/blog/love-letter)
-7. [Star Realms: Frontiers](/blog/star-realms)
+5. [Everdell](/blog/everdell)
+5. [Thunder Road: Vendetta](/blog/thunder-road)
+6. [Sky Team](/blog/sky-team) 
+7. [Frosthaven](/blog/frosthaven) 
+8. [Love Letter](/blog/love-letter)
+9. [Star Realms: Frontiers](/blog/star-realms)
 
 [Other games](/blog/board-games)
 
