@@ -53,7 +53,7 @@ The plates don't touch the ground.
 
 {% image "bumper-platestorage/bumper-plate-storage-11.jpg" %}
 
-Fun fact, I used Pythagoras' theorem to calculate the distance between two pieces of wood! This might seem super obvious for some of you, but I was super surprised to realize that I finally found a real use case for something I learned about in high school.
+Fun fact, I used Pythagoras' theorem to calculate the distance between two pieces of wood! This might seem obvious for some of you, but I was super surprised to realize that I finally found a real use case for something I learned about in high school.
 
 {% image "bumper-platestorage/bumper-plate-storage-13.jpg" %}
 

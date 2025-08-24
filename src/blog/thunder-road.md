@@ -12,7 +12,7 @@ date: 2025-06-09
 {% image "board-games/thunder-road-1.jpg" %}
 {% image "board-games/thunder-road-2.jpg" %}
 
-Super nice! I was dying to try out this game and it didn't disappoint. I've only played one game but here are my thoughts so far:
+Super nice! I was dying to try out this game and it didn't disappoint.
 
 - Once you've learned the rules, it's a very simple game. Just roll the dice and assign the value as movement to your cars.
 - Embrace the chaos, baby! You can make some informed decisions, but in the end the dice decide your fate.
