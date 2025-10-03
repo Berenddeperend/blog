@@ -18,6 +18,8 @@ Sort of sorted by how much I like them.
 8. [Love Letter](/blog/love-letter)
 9. [Star Realms: Frontiers](/blog/star-realms)
 
+[//]: # (10. [Unreliable Wizard]&#40;/archive/unreliable-wizard.md&#41;)
+
 [Other games](/blog/board-games)
 
 ## Frosthaven
