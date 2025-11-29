@@ -5,7 +5,7 @@ layout: template.njk
 
 # Hello.
 
-I'm Berend, a web developer from the Netherlands. I live in Enschede with my bunny Pip. This website showcases some of the projects I've been working on in my spare time.
+I'm Berend, a web developer from Enschede, the Netherlands. This website showcases some of the projects I've been working on in my spare time.
 
 My main hobbies are strength sports (<a href="/blog/powerlifting">powerlifting</a>/weightlifting), board games and woodworking. Some on-again, off-again activities I enjoy include programming small games, 3D-printing, playing guitar and pen plotting.
 
