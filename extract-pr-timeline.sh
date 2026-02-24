@@ -13,7 +13,7 @@ echo "date,commit,lift,pr" > "$OUTPUT_FILE"
 
 declare -A last_pr
 
-git log --reverse --format="%H %aI" -- "$FILE" | while read commit date; do
+while read commit date; do
   content=$(git show "$commit:$FILE" 2>/dev/null)
   if [ $? -ne 0 ]; then
     continue
@@ -57,6 +57,6 @@ git log --reverse --format="%H %aI" -- "$FILE" | while read commit date; do
       last_pr["$lift"]="$pr"
     fi
   done
-done
+done < <(git log --reverse --format="%H %aI" -- "$FILE")
 
 echo "Done. Output written to $OUTPUT_FILE"
