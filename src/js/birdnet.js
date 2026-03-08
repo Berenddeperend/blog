@@ -1,6 +1,6 @@
 document.addEventListener('alpine:init', () => {
   Alpine.data('birdnet', () => ({
-    open: true,
+    open: false,
     offline: true,
     birdnetData: [],
 
@@ -16,10 +16,23 @@ document.addEventListener('alpine:init', () => {
 
       console.log(data);
       this.birdnetData = data;
+      this.$nextTick(() => this.animateBars());
     },
 
     toggle() {
       this.open = !this.open;
+      if (this.open) {
+        this.$nextTick(() => this.animateBars());
+      }
+    },
+
+    animateBars() {
+      this.$root.querySelectorAll('.bird-table tr').forEach((tr, i) => {
+        tr.style.animation = 'none';
+        tr.offsetHeight;
+        tr.style.animation = `bird-fade-in 0.6s ease forwards`;
+        tr.style.animationDelay = `${(i * 15) + 50}ms`;
+      });
     },
 
 
