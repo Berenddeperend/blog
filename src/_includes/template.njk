@@ -32,8 +32,8 @@
         <a href="/blog">Blog</a>
       </div>
       <div class="right">
-        <div class="dropdown" x-data="{ open: false }" @click.outside="open = false">
-          <button @click="open = !open; if(open) setBarWidths()">
+        <div class="dropdown" x-data="stronk" @click.outside="open = false">
+          <button @click="toggle()">
             <span class="emoji">💪</span>
           </button>
           <div class="dropdown-content"
@@ -85,14 +85,46 @@
 
 
 
-        <div class="dropdown" x-data="{ open: false }" @click.outside="open = false">
+        <div class="dropdown" x-data="birdnet" @click.outside="open = false">
           <button @click="open = !open">
 
             <span class="emoji">🐦</span>
           </button>
           <div
-            class="dropdown-content"
-            :class="{ 'open': open }">talk birdy...</div>
+            class="dropdown-content birdnet"
+            :class="{ 'open': open }">
+
+            <div x-show="offline"><p class="offline">Birdnet is offline :(</p></div>
+
+            <div x-show="!offline" class="today">
+              <h3 class="stronk-header">
+                <p>Bird detections today</p>
+<!--                <span>🇳🇱</span>-->
+                </h3>
+              <table class="bird-table">
+                <template x-for="bird in birdnetData">
+                  <tr>
+                    <td class="bird-count" x-text="bird.count"></td>
+                    <td class="bird-name" x-text="bird.Com_Name"></td>
+                  </tr>
+                </template>
+              </table>
+            </div>
+<!--            <div x-show="!offline" class="latest">-->
+<!--              <h3 class="stronk-header">Nu</h3>-->
+
+<!--              <table class="bird-table">-->
+<!--                <template x-for="bird in birdnetData">-->
+<!--                  <tr>-->
+<!--                    <td class="bird-name" x-text="bird.Com_Name"></td>-->
+<!--                    <td class="bird-count" x-text="bird.count + 'x'"></td>-->
+<!--                  </tr>-->
+<!--                </template>-->
+<!--              </table>-->
+<!--            </div>-->
+
+
+          </div>
         </div>
       </div>
     </nav>
@@ -104,7 +136,7 @@
 </div>
 </div>
 
-<script src="/js/pullups.js?v=1"></script>
+<script src="/js/birdnet.js?v=1"></script>
 <script src="/js/app.js?v=1"></script>
 <script src="/js/1kclub.js?v=3"></script>
 </body>
