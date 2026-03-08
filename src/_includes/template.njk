@@ -14,6 +14,7 @@
 
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
@@ -31,13 +32,12 @@
         <a href="/blog">Blog</a>
       </div>
       <div class="right">
-        <div class="dropdown" data-dropdown="stronk">
-          <button class="dropdown-trigger">
+        <div class="dropdown" x-data="{ open: false }" @click.outside="open = false">
+          <button @click="open = !open; if(open) setBarWidths()">
             <span class="emoji">💪</span>
-            <span class="emoji">📊</span>
           </button>
-          <div class="dropdown-content " style="opacity: 0;">
-
+          <div class="dropdown-content"
+            :class="{ 'open': open }">
             <div class="lift-column" data-stronk-category="powerlifting">
               <h3 class="stronk-header">Powerlifting</h3>
 
@@ -80,31 +80,21 @@
                 <div class="loading-bar-inner" data-pr="92.5"></div>
               </div>
             </div>
-
-            <div class="lift-column" data-stronk-category="pullups">
-              <h3 class="stronk-header">Pullups</h3>
-              <div class="lift-title"><strong>Pullups</strong> <span><span class="pullups"></span>/5000 <small>reps</small></span></div>
-              <div class="loading-bar" data-target="5000">
-                <div class="loading-bar-inner" data-pr="1303"></div>
-              </div>
-
-              <p>Since 2025</p>
-            </div>
           </div>
         </div>
-      </div>
 
 
-      <!-- <div class="dropdown" data-dropdown="links">
-        <button class="dropdown-trigger">
-          <span class="underline-on-hover">Links</span>
-          <span class="emoji">🔽</span>
-        </button>
-        <div class="dropdown-content">
-          <a href="/tetris" target="_blank">Tetris</a>
-          <a href="https://github.com/berenddeperend/" target="_blank">Github</a>
+
+        <div class="dropdown" x-data="{ open: false }" @click.outside="open = false">
+          <button @click="open = !open">
+
+            <span class="emoji">🐦</span>
+          </button>
+          <div
+            class="dropdown-content"
+            :class="{ 'open': open }">talk birdy...</div>
         </div>
-      </div> -->
+      </div>
     </nav>
   </div>
 </header>
@@ -117,6 +107,5 @@
 <script src="/js/pullups.js?v=1"></script>
 <script src="/js/app.js?v=1"></script>
 <script src="/js/1kclub.js?v=3"></script>
-<script src="/js/dropdown.js?v=2"></script>
 </body>
 </html>
