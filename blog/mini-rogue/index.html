@@ -14,6 +14,7 @@
 
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
@@ -31,13 +32,12 @@
         <a href="/blog">Blog</a>
       </div>
       <div class="right">
-        <div class="dropdown" data-dropdown="stronk">
-          <button class="dropdown-trigger">
+        <div class="dropdown" x-data="stronk" @click.outside="open = false">
+          <button @click="toggleDropdown()">
             <span class="emoji">💪</span>
-            <span class="emoji">📊</span>
           </button>
-          <div class="dropdown-content " style="opacity: 0;">
-
+          <div class="dropdown-content"
+            :class="{ 'open': open }">
             <div class="lift-column" data-stronk-category="powerlifting">
               <h3 class="stronk-header">Powerlifting</h3>
 
@@ -80,31 +80,43 @@
                 <div class="loading-bar-inner" data-pr="92.5"></div>
               </div>
             </div>
+          </div>
+        </div>
 
-            <div class="lift-column" data-stronk-category="pullups">
-              <h3 class="stronk-header">Pullups</h3>
-              <div class="lift-title"><strong>Pullups</strong> <span><span class="pullups"></span>/5000 <small>reps</small></span></div>
-              <div class="loading-bar" data-target="5000">
-                <div class="loading-bar-inner" data-pr="1303"></div>
+
+
+        <div class="dropdown" x-data="birdnet" @click.outside="open = false">
+          <button @click="toggleDropdown()">
+
+            <span class="emoji">🐦</span>
+          </button>
+          <div
+            class="dropdown-content birdnet"
+            :class="{ 'open': open }">
+
+            <div x-show="offline"><p class="offline">Birdnet is offline :(</p></div>
+
+
+            <div x-show="!offline" class="today">
+              <div class="flex">
+                <h3 class="stronk-header">Birds</h3>
+                <div class="bird-tabs">
+                  <button :class="{ active: sorting === 'time' }" @click="toggleMode('time')">Most recent</button>
+                  <button :class="{ active: sorting === 'quantity' }" @click="toggleMode('quantity')">Last 24h</button>
+                </div>
               </div>
-
-              <p>Since 2025</p>
+              <table class="bird-table">
+                <template x-for="bird in birdList">
+                  <tr>
+                    <td class="bird-name" x-text="bird.col2"></td>
+                    <td class="bird-count" x-text="bird.col1"></td>
+                  </tr>
+                </template>
+              </table>
             </div>
           </div>
         </div>
       </div>
-
-
-      <!-- <div class="dropdown" data-dropdown="links">
-        <button class="dropdown-trigger">
-          <span class="underline-on-hover">Links</span>
-          <span class="emoji">🔽</span>
-        </button>
-        <div class="dropdown-content">
-          <a href="/tetris" target="_blank">Tetris</a>
-          <a href="https://github.com/berenddeperend/" target="_blank">Github</a>
-        </div>
-      </div> -->
     </nav>
   </div>
 </header>
@@ -133,9 +145,8 @@
 </div>
 </div>
 
-<script src="/js/pullups.js?v=1"></script>
+<script src="/js/birdnet.js?v=1"></script>
 <script src="/js/app.js?v=1"></script>
 <script src="/js/1kclub.js?v=3"></script>
-<script src="/js/dropdown.js?v=2"></script>
 </body>
 </html>

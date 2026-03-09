@@ -3,6 +3,7 @@
 @import "nav.css";
 @import "tags.css";
 @import "dropdown.css";
+@import "birdnet.css";
 
 :root {
   --breakpoint: 400px;

@@ -1,68 +1,39 @@
-function arduinoMap(x, in_min, in_max, out_min, out_max) {
-  return ((x - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min;
-}
+document.addEventListener('alpine:init', () => {
+  Alpine.data('stronk', () => ({
+    open: false,
 
-function setBarWidths() {
-  barFuncs.forEach((barFunc) => barFunc());
-}
+    toggleDropdown() {
+      this.open = !this.open;
+      if (this.open) this.animateBars();
+    },
 
-const barFuncs = [];
+    animateBars() {
+      this.$root.querySelectorAll('[data-target]').forEach(el => {
+        const inner = el.firstElementChild;
+        const target = Number(el.dataset.target);
+        const pr = Number(inner.dataset.pr);
+        const category = el.closest('[data-stronk-category]').dataset.stronkCategory;
+        const highest = this.getHighestTarget(category);
+        const width = el.closest('.lift-column').clientWidth;
 
-const getHighestTarget = (category) => {
-  return Math.max(
-    ...[...document.querySelectorAll("[data-stronk-category=" + category + "] [data-target]")].map(
-      (el) => parseInt(el.dataset.target)
-    )
-  );
-}
+        el.style.width = this.map(target, 0, highest, 0, width) + 'px';
+        inner.style.transition = 'unset';
+        inner.style.width = '0';
 
-// const $lastPr = document.querySelector("[data-last-pr-date]");
-// const lastDate = new Date($lastPr.dataset.lastPrDate);
-// const differenceInDays = Math.floor((new Date() - lastDate) / (1000 * 3600 * 24));
+        setTimeout(() => {
+          inner.style.transition = 'width 1s cubic-bezier(0.33, 1, 0.68, 1)';
+          inner.style.width = this.map(pr, 0, highest, 0, width) + 'px';
+        });
+      });
+    },
 
-// if(differenceInDays === 1) {
-//   document.querySelector('.last-pr-days-plural').classList.add('hibbem')
-// }
-//
-// if(differenceInDays === 0) {
-//   document.querySelector('.days-since-pr.past').classList.add('hibbem')
-//   document.querySelector('.days-since-pr.today').classList.remove('hibbem')
-// }
-//
-// $lastPr.innerHTML = differenceInDays
+    getHighestTarget(category) {
+      const els = this.$root.querySelectorAll(`[data-stronk-category="${category}"] [data-target]`);
+      return Math.max(...[...els].map(el => Number(el.dataset.target)));
+    },
 
-const $dropdownContent = document.querySelector(".dropdown-content .lift-column");
-const availableWidth =
-  $dropdownContent.clientWidth -
-  parseInt(window.getComputedStyle($dropdownContent).paddingLeft) -
-  parseInt(window.getComputedStyle($dropdownContent).paddingRight);
-
-[...document.querySelectorAll("[data-target]")].map((el) => {
-  const target = el.dataset.target;
-  const pr = el.firstElementChild.dataset.pr;
-  const category = el.closest("[data-stronk-category]").dataset.stronkCategory;
-
-  const adjustedTarget = arduinoMap(
-    target,
-    0,
-    getHighestTarget(category),
-    0,
-    availableWidth
-  );
-  const adjustedPr = arduinoMap(pr, 0, getHighestTarget(category), 0, availableWidth);
-
-  el.style.width = adjustedTarget + "px";
-
-  barFuncs.push(() => {
-    el.firstElementChild.style.transition = "unset";
-    el.firstElementChild.style.width = "0";
-
-    setTimeout(() => {
-      el.firstElementChild.style.transition =
-        "width 1s cubic-bezier(0.33, 1, 0.68, 1)";
-      el.firstElementChild.style.width = adjustedPr + "px";
-    });
-  });
+    map(x, inMin, inMax, outMin, outMax) {
+      return ((x - inMin) * (outMax - outMin)) / (inMax - inMin) + outMin;
+    }
+  }));
 });
-
-setBarWidths();
