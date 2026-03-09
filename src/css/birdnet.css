@@ -1,10 +1,16 @@
 .dropdown-content.birdnet {
-    min-width: 230px;
+    min-width: 250px;
     display: block;
 }
 
 .bird-time {
 
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .birdnet .offline {
@@ -37,10 +43,12 @@
     /*text-transform: uppercase;*/
     font-size: 0.8em;
     padding: 5px 0;
+
 }
 
 .bird-table tr:last-child td {
     border-bottom: 0;
+
 }
 
 .bird-table .bird-name {
@@ -48,13 +56,47 @@
     font-weight: bold;
 }
 .bird-table .bird-count {
-    padding-right: 10px;
+    /*padding-right: 10px;*/
     text-align: right;
+}
+
+.bird-tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 8px;
+}
+
+.bird-tabs button {
+  flex: 1;
+  padding: 4px 8px;
+  border: 1px solid rgba(0,0,0,0.15);
+  background: rgba(179, 179, 222, 0.5);
+  color: #12123d;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  cursor: pointer;
+    white-space: nowrap;
+}
+
+.bird-tabs button:first-child {
+  border-radius: 4px 0 0 4px;
+    border-right: 0;
+}
+
+.bird-tabs button:last-child {
+  border-radius: 0 4px 4px 0;
+    border-left: 0;
+}
+
+.bird-tabs button.active {
+  background: #12123d;
+  color: #e8e6e3;
+  opacity: 1;
+  border-color: #12123d;
 }
 
 .bird-header {
     color: #12123d;
-
     border-bottom: 1px solid rgba(0,0,0, 0.1);
     margin-bottom: 5px;
     display: flex;

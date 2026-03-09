@@ -2,7 +2,7 @@ document.addEventListener('alpine:init', () => {
   Alpine.data('birdnet', () => ({
     open: false,
     offline: true,
-    sorting: 'quantity',
+    sorting: 'time',
     todaysDetections: [],
     recentDetections: [],
 
@@ -21,9 +21,10 @@ document.addEventListener('alpine:init', () => {
       }
     },
 
-    toggleMode() {
+    toggleMode(mode) {
+      if (this.sorting === mode) return;
       this.animateList();
-      this.sorting = this.sorting === 'quantity' ? 'time' : 'quantity';
+      this.sorting = mode;
     },
 
     get birdList() {
@@ -53,8 +54,5 @@ document.addEventListener('alpine:init', () => {
         });
       })
     },
-
-
-
   }));
 });

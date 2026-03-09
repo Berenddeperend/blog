@@ -96,12 +96,15 @@
 
             <div x-show="offline"><p class="offline">Birdnet is offline :(</p></div>
 
+
             <div x-show="!offline" class="today">
-              <h3 class="stronk-header">
-<!--                <p>Bird detections today</p>-->
-                <p x-on:click="toggleMode">Today</p>
-<!--                <span>🇳🇱</span>-->
-                </h3>
+              <div class="flex">
+                <h3 class="stronk-header">Birds</h3>
+                <div class="bird-tabs">
+                  <button :class="{ active: sorting === 'time' }" @click="toggleMode('time')">Most recent</button>
+                  <button :class="{ active: sorting === 'quantity' }" @click="toggleMode('quantity')">Last 24h</button>
+                </div>
+              </div>
               <table class="bird-table">
                 <template x-for="bird in birdList">
                   <tr>
