@@ -33,7 +33,7 @@
       </div>
       <div class="right">
         <div class="dropdown" x-data="stronk" @click.outside="open = false">
-          <button @click="toggle()">
+          <button @click="toggleDropdown()">
             <span class="emoji">💪</span>
           </button>
           <div class="dropdown-content"
@@ -86,7 +86,7 @@
 
 
         <div class="dropdown" x-data="birdnet" @click.outside="open = false">
-          <button @click="toggle()">
+          <button @click="toggleDropdown()">
 
             <span class="emoji">🐦</span>
           </button>
@@ -98,32 +98,19 @@
 
             <div x-show="!offline" class="today">
               <h3 class="stronk-header">
-                <p>Bird detections today</p>
+<!--                <p>Bird detections today</p>-->
+                <p x-on:click="toggleMode">Today</p>
 <!--                <span>🇳🇱</span>-->
                 </h3>
               <table class="bird-table">
-                <template x-for="bird in birdnetData">
+                <template x-for="bird in birdList">
                   <tr>
-                    <td class="bird-count" x-text="bird.count"></td>
-                    <td class="bird-name" x-text="bird.Com_Name"></td>
+                    <td class="bird-name" x-text="bird.col2"></td>
+                    <td class="bird-count" x-text="bird.col1"></td>
                   </tr>
                 </template>
               </table>
             </div>
-<!--            <div x-show="!offline" class="latest">-->
-<!--              <h3 class="stronk-header">Nu</h3>-->
-
-<!--              <table class="bird-table">-->
-<!--                <template x-for="bird in birdnetData">-->
-<!--                  <tr>-->
-<!--                    <td class="bird-name" x-text="bird.Com_Name"></td>-->
-<!--                    <td class="bird-count" x-text="bird.count + 'x'"></td>-->
-<!--                  </tr>-->
-<!--                </template>-->
-<!--              </table>-->
-<!--            </div>-->
-
-
           </div>
         </div>
       </div>

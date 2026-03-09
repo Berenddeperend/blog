@@ -1,7 +1,10 @@
 .dropdown-content.birdnet {
     min-width: 230px;
-    display: flex;
-    align-items: center;
+    display: block;
+}
+
+.bird-time {
+
 }
 
 .birdnet .offline {
@@ -11,6 +14,7 @@
 
 .bird-table {
     border-spacing: 0;
+    width: 100%;
 }
 
 .bird-table tr {

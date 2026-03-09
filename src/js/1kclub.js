@@ -2,7 +2,7 @@ document.addEventListener('alpine:init', () => {
   Alpine.data('stronk', () => ({
     open: false,
 
-    toggle() {
+    toggleDropdown() {
       this.open = !this.open;
       if (this.open) this.animateBars();
     },
