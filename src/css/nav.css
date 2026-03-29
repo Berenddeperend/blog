@@ -51,11 +51,12 @@ nav .left a:last-child {
 
 .face.berend {
   z-index: 3;
+  top: 3px;
 }
 
 .face.pip {
   top: 28px;
-  left: 35px;
+  left: 39px;
   z-index: 2;
 }
 
