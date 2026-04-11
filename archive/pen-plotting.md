@@ -5,7 +5,7 @@ tags:
 - Woodworking
 date: 2023-10-22
 featured-img: cat-net/thumbnail.jpg
-summary: "Plotjandorie"
+summary: "Plotjandorie."
 title: Pen plotting on a budget
 url: pen plotting
 

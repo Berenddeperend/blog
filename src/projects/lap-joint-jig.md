@@ -5,7 +5,7 @@ tags:
     - post
 date: 2025-10-03
 featured-img: lap-joint-jig/thumbnail.jpg
-summary: First steps into jig making and using power tools
+summary: First steps into jig making and using power tools.
 title: Angled cross lap jig
 url: lap-joint-jig
 
