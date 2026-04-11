@@ -50,7 +50,7 @@ document.addEventListener('alpine:init', () => {
           tr.style.animation = 'none';
           tr.offsetHeight;
           tr.style.animation = `bird-fade-in 0.6s ease forwards`;
-          tr.style.animationDelay = `${(i * 15)}ms`;
+          tr.style.animationDelay = `${(i * 25)}ms`;
         });
       })
     },
