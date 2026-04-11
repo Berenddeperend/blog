@@ -4,7 +4,7 @@ tags:
     - Woodworking
     - Software
     - post
-date: 2025-12-30
+date: 2026-04-11
 featured-img: minitafeltje.nl/thumbnail.jpg
 summary: "Building my first product, webshop, and everything that comes with it."
 title: Minitafeltje.nl
