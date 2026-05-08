@@ -25,3 +25,4 @@ Playing this game in Dutch is a must in my opinion. Some card rules are just com
 - Two player game tends to drag on a bit. I went for one big play. Once I completed it, I had like 10 more turns left. I might have liked a little more sense of urgency. A possible reason could be that this game has moors, which partly replace trees. And trees speed up the game, since for every played tree a card from the pile gets drawn. I bought this game because I wanted a quicker Everdell. While it IS simpler, it's not quicker.
 - In addition to trees, you can now also play moors. They're placed horizontally instead of vertically, which means that your forest will look quite messy. Not a real issue though.
 - The box could be 50% smaller. The game feels big enough to warrant a big box, but I always appreciate games that are as compact as they could be.
+- Counting points takes longer than any other game I've ever played. Not a big problem but still remarkable.
