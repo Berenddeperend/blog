@@ -1,0 +1,3 @@
+- games that tell a story while you're playing them. Paleo is an adventure game so does it by default, but Clank and Thunder Road are less usual suspects.
+- multiple ways of scoring points, with an RNG / asymmetry element to nudge you in a certain direction.
+- test
